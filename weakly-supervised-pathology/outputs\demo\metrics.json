@@ -1,0 +1,11 @@
+{
+  "mean_pool": {
+    "auroc": 0.9419242606717516
+  },
+  "max_pool": {
+    "auroc": 0.995093447522191
+  },
+  "top4_attention": {
+    "auroc": 1.0
+  }
+}
