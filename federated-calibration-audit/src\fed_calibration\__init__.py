@@ -1,0 +1,1 @@
+"""Synthetic federated calibration audit."""
