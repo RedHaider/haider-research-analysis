@@ -1,0 +1,10 @@
+{
+  "backprojection": {
+    "rmse": 0.317662736787633,
+    "correlation": 0.6907732994348773
+  },
+  "physics_smoothed": {
+    "rmse": 0.3176983146803369,
+    "correlation": 0.6879279673589792
+  }
+}
