@@ -1,0 +1,12 @@
+{
+  "naive": {
+    "policy_value": 0.9869778786549717,
+    "regret": 0.014687168368898051,
+    "oracle_agreement": 0.9266666666666666
+  },
+  "propensity_weighted": {
+    "policy_value": 0.9863543079851222,
+    "regret": 0.015310739038747467,
+    "oracle_agreement": 0.9253333333333333
+  }
+}
