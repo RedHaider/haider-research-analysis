@@ -1,0 +1,14 @@
+seed: 27
+data_root: "D:/USA based documents/Haider Heavy Research Projects/datasets/kvasir-seg/extracted/Kvasir-SEG"
+output_root: "D:/USA based documents/Haider Heavy Research Projects/checkpoints/kvasir-robust-segmentation"
+image_size: 352
+folds: 5
+epochs: 60
+batch_size: 8
+learning_rate: 0.0003
+weight_decay: 0.0001
+patience: 12
+num_workers: 2
+threshold: 0.5
+amp: true
+corruption_augmentation: true
