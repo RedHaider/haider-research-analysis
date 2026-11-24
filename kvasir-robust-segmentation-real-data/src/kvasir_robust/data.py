@@ -7,6 +7,7 @@ import numpy as np
 import torch
 from sklearn.model_selection import KFold
 from torch.utils.data import Dataset
+import hashlib
 
 
 def discover_pairs(root: Path):
@@ -15,7 +16,45 @@ def discover_pairs(root: Path):
     keys = sorted(images.keys() & masks.keys())
     if not keys:
         raise FileNotFoundError(f"No matched image/mask pairs under {root}")
-    return [(images[k], masks[k]) for k in keys]
+    pairs = [(images[k], masks[k]) for k in keys]
+    # Fail fast on corrupt exports (for example, binary {0,1} masks saved as
+    # JPEG and later thresholded at 127). Kvasir-SEG contains foreground in
+    # every ground-truth mask.
+    empty, non_binary = [], []
+    for _, mask_path in pairs:
+        mask = cv2.imread(str(mask_path), cv2.IMREAD_GRAYSCALE)
+        if mask is None:
+            raise ValueError(f"Unreadable mask: {mask_path}")
+        foreground = float((mask > 127).mean())
+        if foreground == 0.0:
+            empty.append(mask_path.name)
+        if foreground == 1.0:
+            non_binary.append(mask_path.name)
+    if empty:
+        raise ValueError(f"Found {len(empty)} empty masks after thresholding; first: {empty[:5]}")
+    if non_binary:
+        raise ValueError(f"Found {len(non_binary)} all-foreground masks; first: {non_binary[:5]}")
+    return pairs
+
+
+def file_digest(path: Path, chunk_size: int = 1 << 20) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(chunk_size), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def assert_split_isolation(train_pairs, val_pairs, test_pairs):
+    """Reject filename and byte-identical image leakage between partitions."""
+    groups = {"train": train_pairs, "validation": val_pairs, "test": test_pairs}
+    names = {key: {p[0].name for p in value} for key, value in groups.items()}
+    digests = {key: {file_digest(p[0]) for p in value} for key, value in groups.items()}
+    for left, right in (("train", "validation"), ("train", "test"), ("validation", "test")):
+        if names[left] & names[right]:
+            raise ValueError(f"Filename leakage between {left} and {right}")
+        if digests[left] & digests[right]:
+            raise ValueError(f"Byte-identical image leakage between {left} and {right}")
 
 
 def fold_indices(n: int, folds: int, seed: int, fold: int):
@@ -50,3 +89,4 @@ class SegmentationDataset(Dataset):
         image = torch.from_numpy(sample["image"].transpose(2, 0, 1)).float()
         mask = torch.from_numpy(sample["mask"][None]).float()
         return image, mask, image_path.name
+
