@@ -9,8 +9,8 @@ import torch.nn.functional as F
 import yaml
 from torch.utils.data import DataLoader
 
-from .data import SegmentationDataset, discover_pairs, fold_indices, transforms
-from .metrics import segmentation_metrics, soft_dice_loss
+from .data import SegmentationDataset, assert_split_isolation, discover_pairs, fold_indices, transforms
+from .metrics import metrics_from_statistics, segmentation_statistics, soft_dice_loss
 
 
 def seed_everything(seed):
@@ -24,11 +24,13 @@ def build_model(name):
 
 
 def evaluate(model, loader, device, threshold):
-    model.eval(); rows=[]
+    model.eval(); tp=fp=fn=0; confidence=[]; correctness=[]
     with torch.no_grad():
         for image, mask, _ in loader:
-            rows.append(segmentation_metrics(model(image.to(device)), mask.to(device), threshold))
-    return {k:float(np.mean([r[k] for r in rows])) for k in rows[0]}
+            stats=segmentation_statistics(model(image.to(device)), mask.to(device), threshold)
+            tp += stats["tp"]; fp += stats["fp"]; fn += stats["fn"]
+            confidence.append(stats["confidence"]); correctness.append(stats["correctness"])
+    return metrics_from_statistics(tp, fp, fn, np.concatenate(confidence), np.concatenate(correctness))
 
 
 def main():
@@ -36,10 +38,13 @@ def main():
     parser.add_argument("--model",choices=["baseline","proposed"],required=True);args=parser.parse_args()
     cfg=yaml.safe_load(args.config.read_text()); seed_everything(cfg["seed"]+args.fold)
     pairs=discover_pairs(Path(cfg["data_root"])); train_idx,val_idx,test_idx=fold_indices(len(pairs),cfg["folds"],cfg["seed"],args.fold)
-    pick=lambda idx:[pairs[i] for i in idx]; robust=args.model=="proposed" and cfg["corruption_augmentation"]
-    train=DataLoader(SegmentationDataset(pick(train_idx),transforms(cfg["image_size"],True,robust)),batch_size=cfg["batch_size"],shuffle=True,num_workers=cfg["num_workers"])
-    val=DataLoader(SegmentationDataset(pick(val_idx),transforms(cfg["image_size"],False,False)),batch_size=cfg["batch_size"],num_workers=cfg["num_workers"])
-    test=DataLoader(SegmentationDataset(pick(test_idx),transforms(cfg["image_size"],False,False)),batch_size=cfg["batch_size"],num_workers=cfg["num_workers"])
+    pick=lambda idx:[pairs[i] for i in idx]
+    train_pairs,val_pairs,test_pairs=pick(train_idx),pick(val_idx),pick(test_idx)
+    assert_split_isolation(train_pairs,val_pairs,test_pairs)
+    robust=args.model=="proposed" and cfg["corruption_augmentation"]
+    train=DataLoader(SegmentationDataset(train_pairs,transforms(cfg["image_size"],True,robust)),batch_size=cfg["batch_size"],shuffle=True,num_workers=cfg["num_workers"])
+    val=DataLoader(SegmentationDataset(val_pairs,transforms(cfg["image_size"],False,False)),batch_size=cfg["batch_size"],num_workers=cfg["num_workers"])
+    test=DataLoader(SegmentationDataset(test_pairs,transforms(cfg["image_size"],False,False)),batch_size=cfg["batch_size"],num_workers=cfg["num_workers"])
     device=torch.device("cuda" if torch.cuda.is_available() else "cpu");model=build_model(args.model).to(device)
     optimizer=torch.optim.AdamW(model.parameters(),lr=cfg["learning_rate"],weight_decay=cfg["weight_decay"])
     scaler=torch.amp.GradScaler("cuda",enabled=cfg["amp"] and device.type=="cuda");out=Path(cfg["output_root"])/args.model/f"fold_{args.fold}";out.mkdir(parents=True,exist_ok=True)
@@ -63,3 +68,4 @@ def main():
 
 
 if __name__=="__main__": main()
+
