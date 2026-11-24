@@ -1,0 +1,13 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+[project]
+name="cdc-diabetes-leakage-audit"
+version="0.1.0"
+requires-python=">=3.10"
+dependencies=["numpy","pandas","scikit-learn","ucimlrepo"]
+[project.optional-dependencies]
+dev=["pytest"]
+[tool.pytest.ini_options]
+pythonpath=["src"]
+
