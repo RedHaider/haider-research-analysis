@@ -1,0 +1,274 @@
+{
+  "status": "validated_complete",
+  "professor": "Joyce Yan-Ran Wang",
+  "dataset": "Radiology_mini: ROCOv2-derived real radiology image-caption pairs",
+  "protocol": "200 train rows (160 train/40 validation), 80 official test rows, frozen CLIP ViT-B/32, three contrastive-adapter seeds plus density-aware hubness correction, clean plus three corruptions",
+  "elapsed_minutes": 0.023048007488250734,
+  "records": [
+    {
+      "seed": null,
+      "method": "baseline",
+      "condition": "clean",
+      "mean_recall_at_5": 0.48125,
+      "mean_mrr": 0.36374640541913644,
+      "image_to_text_recall_at_1": 0.2375
+    },
+    {
+      "seed": null,
+      "method": "baseline",
+      "condition": "caption_dropout",
+      "mean_recall_at_5": 0.38749999999999996,
+      "mean_mrr": 0.3031227204306908,
+      "image_to_text_recall_at_1": 0.175
+    },
+    {
+      "seed": null,
+      "method": "baseline",
+      "condition": "image_blur",
+      "mean_recall_at_5": 0.46875,
+      "mean_mrr": 0.33497287326278186,
+      "image_to_text_recall_at_1": 0.225
+    },
+    {
+      "seed": null,
+      "method": "baseline",
+      "condition": "combined",
+      "mean_recall_at_5": 0.39375000000000004,
+      "mean_mrr": 0.26251730203878776,
+      "image_to_text_recall_at_1": 0.125
+    },
+    {
+      "seed": 13,
+      "method": "proposed",
+      "condition": "clean",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.5562499999999999,
+      "mean_mrr": 0.39407363126680495,
+      "image_to_text_recall_at_1": 0.2625
+    },
+    {
+      "seed": 13,
+      "method": "proposed",
+      "condition": "caption_dropout",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.32679058936801053,
+      "image_to_text_recall_at_1": 0.175
+    },
+    {
+      "seed": 13,
+      "method": "proposed",
+      "condition": "image_blur",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.4875,
+      "mean_mrr": 0.34225288612634286,
+      "image_to_text_recall_at_1": 0.2
+    },
+    {
+      "seed": 13,
+      "method": "proposed",
+      "condition": "combined",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.30789768402453177,
+      "image_to_text_recall_at_1": 0.2
+    },
+    {
+      "seed": 31,
+      "method": "proposed",
+      "condition": "clean",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.5562499999999999,
+      "mean_mrr": 0.39407363126680495,
+      "image_to_text_recall_at_1": 0.2625
+    },
+    {
+      "seed": 31,
+      "method": "proposed",
+      "condition": "caption_dropout",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.32679058936801053,
+      "image_to_text_recall_at_1": 0.175
+    },
+    {
+      "seed": 31,
+      "method": "proposed",
+      "condition": "image_blur",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.4875,
+      "mean_mrr": 0.34225288612634286,
+      "image_to_text_recall_at_1": 0.2
+    },
+    {
+      "seed": 31,
+      "method": "proposed",
+      "condition": "combined",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.30789768402453177,
+      "image_to_text_recall_at_1": 0.2
+    },
+    {
+      "seed": 47,
+      "method": "proposed",
+      "condition": "clean",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.5562499999999999,
+      "mean_mrr": 0.39407363126680495,
+      "image_to_text_recall_at_1": 0.2625
+    },
+    {
+      "seed": 47,
+      "method": "proposed",
+      "condition": "caption_dropout",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.32679058936801053,
+      "image_to_text_recall_at_1": 0.175
+    },
+    {
+      "seed": 47,
+      "method": "proposed",
+      "condition": "image_blur",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.4875,
+      "mean_mrr": 0.34225288612634286,
+      "image_to_text_recall_at_1": 0.2
+    },
+    {
+      "seed": 47,
+      "method": "proposed",
+      "condition": "combined",
+      "validation_mean_recall_at_5": 0.625,
+      "mean_recall_at_5": 0.44375,
+      "mean_mrr": 0.30789768402453177,
+      "image_to_text_recall_at_1": 0.2
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "clean": {
+        "mean_recall_at_5": {
+          "mean": 0.48125,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.36374640541913644,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.2375,
+          "std": 0.0
+        }
+      },
+      "caption_dropout": {
+        "mean_recall_at_5": {
+          "mean": 0.38749999999999996,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.3031227204306908,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.175,
+          "std": 0.0
+        }
+      },
+      "image_blur": {
+        "mean_recall_at_5": {
+          "mean": 0.46875,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.33497287326278186,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.225,
+          "std": 0.0
+        }
+      },
+      "combined": {
+        "mean_recall_at_5": {
+          "mean": 0.39375000000000004,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.26251730203878776,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.125,
+          "std": 0.0
+        }
+      }
+    },
+    "proposed": {
+      "clean": {
+        "mean_recall_at_5": {
+          "mean": 0.5562499999999999,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.39407363126680495,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.2625,
+          "std": 0.0
+        }
+      },
+      "caption_dropout": {
+        "mean_recall_at_5": {
+          "mean": 0.4437499999999999,
+          "std": 6.798699777552591e-17
+        },
+        "mean_mrr": {
+          "mean": 0.32679058936801053,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.17499999999999996,
+          "std": 3.3993498887762956e-17
+        }
+      },
+      "image_blur": {
+        "mean_recall_at_5": {
+          "mean": 0.4875,
+          "std": 0.0
+        },
+        "mean_mrr": {
+          "mean": 0.3422528861263429,
+          "std": 6.798699777552591e-17
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.20000000000000004,
+          "std": 3.3993498887762956e-17
+        }
+      },
+      "combined": {
+        "mean_recall_at_5": {
+          "mean": 0.4437499999999999,
+          "std": 6.798699777552591e-17
+        },
+        "mean_mrr": {
+          "mean": 0.30789768402453177,
+          "std": 0.0
+        },
+        "image_to_text_recall_at_1": {
+          "mean": 0.20000000000000004,
+          "std": 3.3993498887762956e-17
+        }
+      }
+    }
+  },
+  "robust_mean_recall_at_5": {
+    "baseline": 0.4166666666666667,
+    "proposed": 0.45833333333333326
+  },
+  "robust_recall_at_5_gain": 0.041666666666666574,
+  "adapter_selection": "No trained adapter exceeded the validation baseline, so identity adapters were retained for all seeds; the verified gain comes from density-aware hubness correction.",
+  "limitations": "Small sampled benchmark; strict paired-caption retrieval; public research figures rather than patient records; not a clinical or professor-model claim."
+}
