@@ -1,0 +1,63 @@
+{
+  "status": "validated_complete",
+  "professor": "Abdullah-Al-Zubaer Imran",
+  "dataset": "Kvasir-SEG real images/masks; 500 training and 200 held-out test images per seed at 64px",
+  "protocol": "3 seeds; balanced logistic baseline; five-member bootstrap Extra-Trees probabilistic ensemble",
+  "elapsed_minutes": 3.6448849360148112,
+  "records": [
+    {
+      "seed": 17,
+      "baseline": {
+        "dice": 0.4152180282023593,
+        "brier": 0.200035808867411,
+        "boundary_uncertainty": 0.21200668026461358
+      },
+      "proposed": {
+        "dice": 0.4898295125955704,
+        "brier": 0.13429108653147726,
+        "boundary_uncertainty": 0.20112136963948793
+      }
+    },
+    {
+      "seed": 29,
+      "baseline": {
+        "dice": 0.42242849969348967,
+        "brier": 0.19481520776090716,
+        "boundary_uncertainty": 0.20827368496619897
+      },
+      "proposed": {
+        "dice": 0.4873232192024461,
+        "brier": 0.1348410482406975,
+        "boundary_uncertainty": 0.19813453950240276
+      }
+    },
+    {
+      "seed": 43,
+      "baseline": {
+        "dice": 0.379780359010352,
+        "brier": 0.20542320602811565,
+        "boundary_uncertainty": 0.20427700016274705
+      },
+      "proposed": {
+        "dice": 0.43298377128333804,
+        "brier": 0.1433698350153866,
+        "boundary_uncertainty": 0.19520600533445248
+      }
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "dice": 0.40580896230206703,
+      "brier": 0.2000914075521446,
+      "boundary_uncertainty": 0.20818578846451988
+    },
+    "proposed": {
+      "dice": 0.4700455010271181,
+      "brier": 0.13750065659585378,
+      "boundary_uncertainty": 0.19815397149211442
+    }
+  },
+  "dice_gain": 0.06423653872505108,
+  "brier_reduction": 0.06259075095629082,
+  "limitations": "Classical low-resolution pixel model; image-level split because patient IDs unavailable; not clinical or professor-model claim."
+}
