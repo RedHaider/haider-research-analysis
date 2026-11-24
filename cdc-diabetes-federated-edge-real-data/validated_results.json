@@ -1,0 +1,219 @@
+{
+  "status": "validated_complete",
+  "professor": "Radu Marculescu",
+  "dataset": "CDC Diabetes Health Indicators via UCI; 253,680 records; 21 features; 8 non-IID clients",
+  "protocol": "5 seeds; 18 rounds; age-sex clients; float32 FedAvg vs dropout-tolerant proximal int8 aggregation",
+  "elapsed_minutes": 0.7032029072443644,
+  "records": [
+    {
+      "seed": 11,
+      "method": "baseline",
+      "communication_bytes": 24640,
+      "mean_clients_per_round": 8.0,
+      "global_auroc": 0.8085080572011982,
+      "worst_client_auroc": 0.6993153808264859,
+      "mean_client_auroc": 0.7984453901684955,
+      "brier": 0.18901764583674058,
+      "ece": 0.2794279985705363
+    },
+    {
+      "seed": 11,
+      "method": "proposed",
+      "communication_bytes": 2652,
+      "mean_clients_per_round": 5.666666666666667,
+      "global_auroc": 0.8077014553337781,
+      "worst_client_auroc": 0.6997078598493089,
+      "mean_client_auroc": 0.7986804487960482,
+      "brier": 0.1842232345794914,
+      "ece": 0.268332797845088
+    },
+    {
+      "seed": 23,
+      "method": "baseline",
+      "communication_bytes": 24640,
+      "mean_clients_per_round": 8.0,
+      "global_auroc": 0.807895946459157,
+      "worst_client_auroc": 0.7131041435690006,
+      "mean_client_auroc": 0.797263548349195,
+      "brier": 0.19016028034502913,
+      "ece": 0.2811287997508641
+    },
+    {
+      "seed": 23,
+      "method": "proposed",
+      "communication_bytes": 3016,
+      "mean_clients_per_round": 6.444444444444445,
+      "global_auroc": 0.8078050887447731,
+      "worst_client_auroc": 0.7125119440678231,
+      "mean_client_auroc": 0.7974551965120904,
+      "brier": 0.18721187261762698,
+      "ece": 0.27259336815268487
+    },
+    {
+      "seed": 37,
+      "method": "baseline",
+      "communication_bytes": 24640,
+      "mean_clients_per_round": 8.0,
+      "global_auroc": 0.8051193626886063,
+      "worst_client_auroc": 0.7157733925329777,
+      "mean_client_auroc": 0.79564865639004,
+      "brier": 0.19040747541052025,
+      "ece": 0.28089339675637964
+    },
+    {
+      "seed": 37,
+      "method": "proposed",
+      "communication_bytes": 2860,
+      "mean_clients_per_round": 6.111111111111111,
+      "global_auroc": 0.804546448405568,
+      "worst_client_auroc": 0.7156746200959704,
+      "mean_client_auroc": 0.7960036029217763,
+      "brier": 0.18362041743114857,
+      "ece": 0.26755747820794756
+    },
+    {
+      "seed": 53,
+      "method": "baseline",
+      "communication_bytes": 24640,
+      "mean_clients_per_round": 8.0,
+      "global_auroc": 0.8050692481861033,
+      "worst_client_auroc": 0.7129311830240204,
+      "mean_client_auroc": 0.7948544254892691,
+      "brier": 0.1904213034729846,
+      "ece": 0.2806165951673162
+    },
+    {
+      "seed": 53,
+      "method": "proposed",
+      "communication_bytes": 2808,
+      "mean_clients_per_round": 6.0,
+      "global_auroc": 0.8053239964252583,
+      "worst_client_auroc": 0.7129720843856007,
+      "mean_client_auroc": 0.7952598277885617,
+      "brier": 0.18758592130551557,
+      "ece": 0.2730815631550943
+    },
+    {
+      "seed": 71,
+      "method": "baseline",
+      "communication_bytes": 24640,
+      "mean_clients_per_round": 8.0,
+      "global_auroc": 0.8079860384377818,
+      "worst_client_auroc": 0.7147469424056615,
+      "mean_client_auroc": 0.7968355600884751,
+      "brier": 0.18927112766383494,
+      "ece": 0.28017639921068466
+    },
+    {
+      "seed": 71,
+      "method": "proposed",
+      "communication_bytes": 2938,
+      "mean_clients_per_round": 6.277777777777778,
+      "global_auroc": 0.8074178337175322,
+      "worst_client_auroc": 0.7143331424603127,
+      "mean_client_auroc": 0.7970458704815087,
+      "brier": 0.1853001284614633,
+      "ece": 0.27025232045418673
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "global_auroc": {
+        "mean": 0.8069157305945692,
+        "std": 0.0016791605775623784,
+        "ci95_low": 0.8054438814535149,
+        "ci95_high": 0.8083875797356236
+      },
+      "worst_client_auroc": {
+        "mean": 0.7111742084716292,
+        "std": 0.00673350436193106,
+        "ci95_low": 0.705272031667442,
+        "ci95_high": 0.7170763852758163
+      },
+      "mean_client_auroc": {
+        "mean": 0.796609516097095,
+        "std": 0.0014011497151613633,
+        "ci95_low": 0.7953813542212709,
+        "ci95_high": 0.797837677972919
+      },
+      "brier": {
+        "mean": 0.1898555665458219,
+        "std": 0.0006635495623163619,
+        "ci95_low": 0.1892739397101323,
+        "ci95_high": 0.1904371933815115
+      },
+      "ece": {
+        "mean": 0.2804486378911562,
+        "std": 0.0006716507225023197,
+        "ci95_low": 0.2798599100754766,
+        "ci95_high": 0.2810373657068358
+      },
+      "communication_bytes": {
+        "mean": 24640.0,
+        "std": 0.0,
+        "ci95_low": 24640.0,
+        "ci95_high": 24640.0
+      }
+    },
+    "proposed": {
+      "global_auroc": {
+        "mean": 0.8065589645253819,
+        "std": 0.0015141940469670402,
+        "ci95_low": 0.8052317149238856,
+        "ci95_high": 0.8078862141268782
+      },
+      "worst_client_auroc": {
+        "mean": 0.7110399301718031,
+        "std": 0.00645448410952209,
+        "ci95_low": 0.7053823254021984,
+        "ci95_high": 0.7166975349414079
+      },
+      "mean_client_auroc": {
+        "mean": 0.7968889892999972,
+        "std": 0.0013221767759278372,
+        "ci95_low": 0.7957300502574927,
+        "ci95_high": 0.7980479283425017
+      },
+      "brier": {
+        "mean": 0.18558831487904914,
+        "std": 0.001763908101810518,
+        "ci95_low": 0.18404218125773847,
+        "ci95_high": 0.18713444850035982
+      },
+      "ece": {
+        "mean": 0.27036350556300026,
+        "std": 0.002468301527575656,
+        "ci95_low": 0.26819994388118695,
+        "ci95_high": 0.27252706724481357
+      },
+      "communication_bytes": {
+        "mean": 2854.8,
+        "std": 138.06954769245823,
+        "ci95_low": 2733.7767054489095,
+        "ci95_high": 2975.823294551091
+      }
+    }
+  },
+  "communication_reduction_fraction": 0.8841396103896104,
+  "paired_improvement": {
+    "global_auroc": {
+      "mean": -0.0003567660691873753,
+      "ci95_low": -0.0007333808728088238,
+      "ci95_high": 1.9848734434073172e-05,
+      "positive_seeds": 1
+    },
+    "worst_client_auroc": {
+      "mean": -0.00013427829982606276,
+      "ci95_low": -0.0004729802605662405,
+      "ci95_high": 0.00020442366091411493,
+      "positive_seeds": 2
+    },
+    "brier_reduction": {
+      "mean": 0.0042672516667727365,
+      "ci95_low": 0.002846779869440284,
+      "ci95_high": 0.005687723464105189,
+      "positive_seeds": 5
+    }
+  },
+  "limitations": "Simulated federated clients and dropout; survey outcomes; no secure aggregation or real network; portfolio benchmark, not a clinical or professor-system claim."
+}
