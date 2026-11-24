@@ -1,0 +1,34 @@
+{
+  "status": "validated_complete",
+  "protocol": "single deterministic held-out fold; 680 train, 120 validation, 200 test; 256px; max 20 epochs; patience 5",
+  "validated_masks": 1000,
+  "results": [
+    {
+      "model": "baseline",
+      "fold": 0,
+      "dice": 0.8427374263253189,
+      "iou": 0.7282162626666702,
+      "precision": 0.8883299053225168,
+      "recall": 0.8015964396063749,
+      "ece": 0.02886803386140855
+    },
+    {
+      "model": "proposed",
+      "fold": 0,
+      "dice": 0.8713635966324105,
+      "iou": 0.7720498772080363,
+      "precision": 0.8935814458528939,
+      "recall": 0.8502237845466303,
+      "ece": 0.023267692185054326
+    }
+  ],
+  "improvement": {
+    "dice_absolute": 0.0286261703070916,
+    "iou_absolute": 0.0438336145413661,
+    "precision_absolute": 0.0052515405303771,
+    "recall_absolute": 0.0486273449402554,
+    "ece_reduction": 0.005600341676354224
+  },
+  "interpretation": "The proposed model outperformed the baseline on Dice, IoU, precision, recall, and calibration for this single deterministic held-out split. This is pilot evidence and must not be described as five-fold validation."
+}
+
