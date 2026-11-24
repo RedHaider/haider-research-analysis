@@ -1,0 +1,211 @@
+{
+  "status": "validated_complete",
+  "professor": "Su-In Lee",
+  "dataset": "CDC Diabetes Health Indicators; 25,000-record stratified sample per seed; sex excluded from disease inputs",
+  "protocol": "3 seeds; MLP 48/16 representation; linear and nonlinear probes; projection, moment matching and quantile matching",
+  "elapsed_minutes": 0.1259952147801717,
+  "records": [
+    {
+      "seed": 17,
+      "method": "original",
+      "disease_auroc": 0.8231660483509317,
+      "disease_brier": 0.17900217322261502,
+      "linear_probe_auroc": 0.5655390307485548,
+      "nonlinear_probe_auroc": 0.5980344753107123,
+      "strongest_probe_auroc": 0.5980344753107123
+    },
+    {
+      "seed": 17,
+      "method": "projection",
+      "disease_auroc": 0.8231171266663948,
+      "disease_brier": 0.1790330978462216,
+      "linear_probe_auroc": 0.5589139841966353,
+      "nonlinear_probe_auroc": 0.5931626434435235,
+      "strongest_probe_auroc": 0.5931626434435235
+    },
+    {
+      "seed": 17,
+      "method": "moment_matching",
+      "disease_auroc": 0.8227519188789523,
+      "disease_brier": 0.17906408229596218,
+      "linear_probe_auroc": 0.4930039838034017,
+      "nonlinear_probe_auroc": 1.0,
+      "strongest_probe_auroc": 1.0
+    },
+    {
+      "seed": 17,
+      "method": "quantile_matching",
+      "disease_auroc": 0.8201787865198522,
+      "disease_brier": 0.17661702922026287,
+      "linear_probe_auroc": 0.5701651638974539,
+      "nonlinear_probe_auroc": 0.6600631371251848,
+      "strongest_probe_auroc": 0.6600631371251848
+    },
+    {
+      "seed": 29,
+      "method": "original",
+      "disease_auroc": 0.8213054677394847,
+      "disease_brier": 0.18098580711554677,
+      "linear_probe_auroc": 0.5893574492853041,
+      "nonlinear_probe_auroc": 0.6281907896921187,
+      "strongest_probe_auroc": 0.6281907896921187
+    },
+    {
+      "seed": 29,
+      "method": "projection",
+      "disease_auroc": 0.8212030286970154,
+      "disease_brier": 0.18099623576664586,
+      "linear_probe_auroc": 0.5837693990225892,
+      "nonlinear_probe_auroc": 0.6252617188097728,
+      "strongest_probe_auroc": 0.6252617188097728
+    },
+    {
+      "seed": 29,
+      "method": "moment_matching",
+      "disease_auroc": 0.8204812114788061,
+      "disease_brier": 0.1812041379895715,
+      "linear_probe_auroc": 0.5023641306936832,
+      "nonlinear_probe_auroc": 1.0,
+      "strongest_probe_auroc": 1.0
+    },
+    {
+      "seed": 29,
+      "method": "quantile_matching",
+      "disease_auroc": 0.8136888061997116,
+      "disease_brier": 0.18136375457523154,
+      "linear_probe_auroc": 0.541922575116763,
+      "nonlinear_probe_auroc": 0.7039924533171885,
+      "strongest_probe_auroc": 0.7039924533171885
+    },
+    {
+      "seed": 43,
+      "method": "original",
+      "disease_auroc": 0.789385921673418,
+      "disease_brier": 0.18633563262888675,
+      "linear_probe_auroc": 0.5737966928122524,
+      "nonlinear_probe_auroc": 0.6086101820691887,
+      "strongest_probe_auroc": 0.6086101820691887
+    },
+    {
+      "seed": 43,
+      "method": "projection",
+      "disease_auroc": 0.7895478079749758,
+      "disease_brier": 0.1863117661656955,
+      "linear_probe_auroc": 0.5740906615382977,
+      "nonlinear_probe_auroc": 0.6085896726231855,
+      "strongest_probe_auroc": 0.6085896726231855
+    },
+    {
+      "seed": 43,
+      "method": "moment_matching",
+      "disease_auroc": 0.789722147068961,
+      "disease_brier": 0.18616839553400594,
+      "linear_probe_auroc": 0.513614314182836,
+      "nonlinear_probe_auroc": 0.9999999999999999,
+      "strongest_probe_auroc": 0.9999999999999999
+    },
+    {
+      "seed": 43,
+      "method": "quantile_matching",
+      "disease_auroc": 0.7831965873418847,
+      "disease_brier": 0.18733008963204176,
+      "linear_probe_auroc": 0.555078369111882,
+      "nonlinear_probe_auroc": 0.7065186071768956,
+      "strongest_probe_auroc": 0.7065186071768956
+    }
+  ],
+  "summary": {
+    "original": {
+      "disease_auroc": {
+        "mean": 0.8112858125879449,
+        "std": 0.018988663897284912
+      },
+      "disease_brier": {
+        "mean": 0.18210787098901618,
+        "std": 0.0037933068974138778
+      },
+      "linear_probe_auroc": {
+        "mean": 0.5762310576153704,
+        "std": 0.012094373253456962
+      },
+      "nonlinear_probe_auroc": {
+        "mean": 0.6116118156906732,
+        "std": 0.015300594026565592
+      },
+      "strongest_probe_auroc": {
+        "mean": 0.6116118156906732,
+        "std": 0.015300594026565592
+      }
+    },
+    "projection": {
+      "disease_auroc": {
+        "mean": 0.8112893211127954,
+        "std": 0.018853010048811313
+      },
+      "disease_brier": {
+        "mean": 0.18211369992618764,
+        "std": 0.003765806386037871
+      },
+      "linear_probe_auroc": {
+        "mean": 0.572258014919174,
+        "std": 0.012528641457296995
+      },
+      "nonlinear_probe_auroc": {
+        "mean": 0.6090046782921607,
+        "std": 0.016053561353201292
+      },
+      "strongest_probe_auroc": {
+        "mean": 0.6090046782921607,
+        "std": 0.016053561353201292
+      }
+    },
+    "moment_matching": {
+      "disease_auroc": {
+        "mean": 0.8109850924755732,
+        "std": 0.018449218507776824
+      },
+      "disease_brier": {
+        "mean": 0.1821455386065132,
+        "std": 0.0036445154667314288
+      },
+      "linear_probe_auroc": {
+        "mean": 0.502994142893307,
+        "std": 0.010319598641231833
+      },
+      "nonlinear_probe_auroc": {
+        "mean": 1.0,
+        "std": 7.850462293418876e-17
+      },
+      "strongest_probe_auroc": {
+        "mean": 1.0,
+        "std": 7.850462293418876e-17
+      }
+    },
+    "quantile_matching": {
+      "disease_auroc": {
+        "mean": 0.8056880600204828,
+        "std": 0.019746638158887917
+      },
+      "disease_brier": {
+        "mean": 0.18177029114251206,
+        "std": 0.005368088098383647
+      },
+      "linear_probe_auroc": {
+        "mean": 0.5557220360420329,
+        "std": 0.01413229229801481
+      },
+      "nonlinear_probe_auroc": {
+        "mean": 0.690191399206423,
+        "std": 0.02612239451806741
+      },
+      "strongest_probe_auroc": {
+        "mean": 0.690191399206423,
+        "std": 0.02612239451806741
+      }
+    }
+  },
+  "probe_reduction": 0.0026071373985125934,
+  "disease_auroc_change": 3.50852485053732e-06,
+  "interpretation": "Projection produced only a small multi-probe leakage reduction. Moment matching fooled the linear probe but made nonlinear leakage perfect; quantile matching also increased nonlinear leakage. This is a negative-result audit, not a mitigation-success claim.",
+  "limitations": "Observational survey data; group-conditioned transform requires sex at deployment; representation leakage reduction does not prove outcome fairness or clinical utility."
+}
