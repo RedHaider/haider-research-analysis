@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "cosine": {
+        "auroc": 0.8611792452830189,
+        "average_precision": 0.08654591620068684,
+        "recall_at_5": 0.55
+      },
+      "learned": {
+        "auroc": 0.6404026631289308,
+        "average_precision": 0.00998161071709987,
+        "recall_at_5": 0.0375
+      }
+    },
+    "37": {
+      "cosine": {
+        "auroc": 0.8616791961477986,
+        "average_precision": 0.1009199332937004,
+        "recall_at_5": 0.5625
+      },
+      "learned": {
+        "auroc": 0.7113561320754717,
+        "average_precision": 0.014356463423664994,
+        "recall_at_5": 0.1125
+      }
+    },
+    "61": {
+      "cosine": {
+        "auroc": 0.8620378832547169,
+        "average_precision": 0.09877464037795523,
+        "recall_at_5": 0.49375
+      },
+      "learned": {
+        "auroc": 0.5741497150157232,
+        "average_precision": 0.0073718333006382196,
+        "recall_at_5": 0.03125
+      }
+    }
+  },
+  "means": {
+    "cosine": {
+      "auroc": 0.8616321082285116,
+      "average_precision": 0.09541349662411415,
+      "recall_at_5": 0.5354166666666668
+    },
+    "learned": {
+      "auroc": 0.6419695034067087,
+      "average_precision": 0.01056996914713436,
+      "recall_at_5": 0.06041666666666667
+    }
+  }
+}

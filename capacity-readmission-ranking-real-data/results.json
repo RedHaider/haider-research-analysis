@@ -1,0 +1,65 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "prior_inpatient_visits": {
+        "auroc": 0.6174456353036563,
+        "average_precision": 0.19497576713058057,
+        "recall_at_budget": 0.2271186440677966,
+        "precision_at_budget": 0.26907630522088355
+      },
+      "learned_priority": {
+        "auroc": 0.6459734759275704,
+        "average_precision": 0.2220832896040424,
+        "recall_at_budget": 0.2223728813559322,
+        "precision_at_budget": 0.26345381526104417
+      }
+    },
+    "37": {
+      "prior_inpatient_visits": {
+        "auroc": 0.5977067025852532,
+        "average_precision": 0.1695204777764991,
+        "recall_at_budget": 0.20443173695496783,
+        "precision_at_budget": 0.23120452708164915
+      },
+      "learned_priority": {
+        "auroc": 0.6284680978808835,
+        "average_precision": 0.19455446660264983,
+        "recall_at_budget": 0.2008577555396712,
+        "precision_at_budget": 0.22716248989490703
+      }
+    },
+    "61": {
+      "prior_inpatient_visits": {
+        "auroc": 0.6041776568241474,
+        "average_precision": 0.1846866543622534,
+        "recall_at_budget": 0.21392016376663256,
+        "precision_at_budget": 0.2520096463022508
+      },
+      "learned_priority": {
+        "auroc": 0.6369931249242071,
+        "average_precision": 0.21018762261535515,
+        "recall_at_budget": 0.21596724667349027,
+        "precision_at_budget": 0.25442122186495175
+      }
+    }
+  },
+  "means": {
+    "prior_inpatient_visits": {
+      "auroc": 0.606443331571019,
+      "average_precision": 0.183060966423111,
+      "recall_at_budget": 0.21515684826313233,
+      "precision_at_budget": 0.25076349286826116
+    },
+    "learned_priority": {
+      "auroc": 0.6371448995775537,
+      "average_precision": 0.20894179294068246,
+      "recall_at_budget": 0.2130659611896979,
+      "precision_at_budget": 0.248345842340301
+    }
+  }
+}

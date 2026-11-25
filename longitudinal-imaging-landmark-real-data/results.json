@@ -1,0 +1,73 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "latest_visit": {
+        "auroc": 0.765625,
+        "average_precision": 0.2573934837092732,
+        "brier": 0.09479077092060322,
+        "subjects": 36,
+        "events": 4
+      },
+      "longitudinal": {
+        "auroc": 0.75,
+        "average_precision": 0.23203781512605043,
+        "brier": 0.0963608613063774,
+        "subjects": 36,
+        "events": 4
+      }
+    },
+    "37": {
+      "latest_visit": {
+        "auroc": 0.7734375,
+        "average_precision": 0.2961309523809524,
+        "brier": 0.09494930745151803,
+        "subjects": 36,
+        "events": 4
+      },
+      "longitudinal": {
+        "auroc": 0.65625,
+        "average_precision": 0.19830780632411066,
+        "brier": 0.09721154978424135,
+        "subjects": 36,
+        "events": 4
+      }
+    },
+    "61": {
+      "latest_visit": {
+        "auroc": 0.796875,
+        "average_precision": 0.3138888888888889,
+        "brier": 0.09394598466454346,
+        "subjects": 36,
+        "events": 4
+      },
+      "longitudinal": {
+        "auroc": 0.8046875,
+        "average_precision": 0.3015151515151515,
+        "brier": 0.0950407373499136,
+        "subjects": 36,
+        "events": 4
+      }
+    }
+  },
+  "means": {
+    "latest_visit": {
+      "auroc": 0.7786458333333334,
+      "average_precision": 0.28913777499303817,
+      "brier": 0.09456202101222157,
+      "subjects": 36.0,
+      "events": 4.0
+    },
+    "longitudinal": {
+      "auroc": 0.7369791666666666,
+      "average_precision": 0.24395359098843752,
+      "brier": 0.09620438281351078,
+      "subjects": 36.0,
+      "events": 4.0
+    }
+  }
+}
