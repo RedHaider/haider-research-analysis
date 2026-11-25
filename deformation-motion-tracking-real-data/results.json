@@ -1,0 +1,91 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "stationary": {
+        "mean_error_px": 8.394810064659518,
+        "median_error_px": 7.747965101994243,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "median_flow": {
+        "mean_error_px": 3.7195903677495,
+        "median_error_px": 1.0638865976784277,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "learned_fusion": {
+        "mean_error_px": 4.038956702380155,
+        "median_error_px": 2.3795019320723227,
+        "test_sequences": 118,
+        "test_pairs": 354
+      }
+    },
+    "37": {
+      "stationary": {
+        "mean_error_px": 8.026415439087117,
+        "median_error_px": 7.063202464958721,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "median_flow": {
+        "mean_error_px": 3.459340130213134,
+        "median_error_px": 0.7837028079592795,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "learned_fusion": {
+        "mean_error_px": 3.9386930464758163,
+        "median_error_px": 2.519902104403581,
+        "test_sequences": 118,
+        "test_pairs": 354
+      }
+    },
+    "61": {
+      "stationary": {
+        "mean_error_px": 8.621627142148762,
+        "median_error_px": 8.360261078461868,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "median_flow": {
+        "mean_error_px": 3.4951750492569285,
+        "median_error_px": 0.9741947307676546,
+        "test_sequences": 118,
+        "test_pairs": 354
+      },
+      "learned_fusion": {
+        "mean_error_px": 3.7711705727661853,
+        "median_error_px": 2.176679344619,
+        "test_sequences": 118,
+        "test_pairs": 354
+      }
+    }
+  },
+  "means": {
+    "stationary": {
+      "mean_error_px": 8.347617548631797,
+      "median_error_px": 7.7238095484716105,
+      "test_sequences": 118.0,
+      "test_pairs": 354.0
+    },
+    "median_flow": {
+      "mean_error_px": 3.558035182406521,
+      "median_error_px": 0.9405947121351206,
+      "test_sequences": 118.0,
+      "test_pairs": 354.0
+    },
+    "learned_fusion": {
+      "mean_error_px": 3.9162734405407185,
+      "median_error_px": 2.3586944603649678,
+      "test_sequences": 118.0,
+      "test_pairs": 354.0
+    }
+  },
+  "samples": 1260,
+  "sequences": 420
+}

@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "last_values": {
+        "auroc": 0.7053805714285715,
+        "average_precision": 0.41072166792415693,
+        "brier": 0.15835748288328458
+      },
+      "temporal_summaries": {
+        "auroc": 0.7500708571428572,
+        "average_precision": 0.4619445174931581,
+        "brier": 0.14881731115768554
+      }
+    },
+    "37": {
+      "last_values": {
+        "auroc": 0.678679652755845,
+        "average_precision": 0.39383138343726437,
+        "brier": 0.17720077275571405
+      },
+      "temporal_summaries": {
+        "auroc": 0.7096311597852344,
+        "average_precision": 0.428100348499584,
+        "brier": 0.17121290810692066
+      }
+    },
+    "61": {
+      "last_values": {
+        "auroc": 0.7179902755267424,
+        "average_precision": 0.42453743374791986,
+        "brier": 0.1623663526002751
+      },
+      "temporal_summaries": {
+        "auroc": 0.7331703731257362,
+        "average_precision": 0.4421510723257898,
+        "brier": 0.16233809713389125
+      }
+    }
+  },
+  "means": {
+    "last_values": {
+      "auroc": 0.7006834999037196,
+      "average_precision": 0.4096968283697804,
+      "brier": 0.16597486941309125
+    },
+    "temporal_summaries": {
+      "auroc": 0.730957463351276,
+      "average_precision": 0.444065312772844,
+      "brier": 0.16078943879949914
+    }
+  }
+}
