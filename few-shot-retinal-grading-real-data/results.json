@@ -1,0 +1,113 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "prototype_5": {
+        "auroc": 0.6846717171717172,
+        "average_precision": 0.6258253141300664
+      },
+      "shrinkage_5": {
+        "auroc": 0.69385101010101,
+        "average_precision": 0.6481927683235071
+      },
+      "prototype_20": {
+        "auroc": 0.7626515151515152,
+        "average_precision": 0.645785324334885
+      },
+      "shrinkage_20": {
+        "auroc": 0.7758080808080808,
+        "average_precision": 0.6780395074832848
+      },
+      "prototype_40": {
+        "auroc": 0.7328282828282828,
+        "average_precision": 0.6351869575433543
+      },
+      "shrinkage_40": {
+        "auroc": 0.7432070707070707,
+        "average_precision": 0.6402623098409326
+      }
+    },
+    "37": {
+      "prototype_5": {
+        "auroc": 0.6746212121212121,
+        "average_precision": 0.6077846033882883
+      },
+      "shrinkage_5": {
+        "auroc": 0.6613888888888888,
+        "average_precision": 0.5886061498022541
+      },
+      "prototype_20": {
+        "auroc": 0.7270959595959596,
+        "average_precision": 0.6659488380861058
+      },
+      "shrinkage_20": {
+        "auroc": 0.6895959595959595,
+        "average_precision": 0.6480897828374492
+      },
+      "prototype_40": {
+        "auroc": 0.7742424242424243,
+        "average_precision": 0.6703781728051802
+      },
+      "shrinkage_40": {
+        "auroc": 0.758888888888889,
+        "average_precision": 0.6446547887824314
+      }
+    },
+    "61": {
+      "prototype_5": {
+        "auroc": 0.6065404040404041,
+        "average_precision": 0.5269705945662925
+      },
+      "shrinkage_5": {
+        "auroc": 0.5342550505050505,
+        "average_precision": 0.48195649464742574
+      },
+      "prototype_20": {
+        "auroc": 0.6937626262626262,
+        "average_precision": 0.6042198872898108
+      },
+      "shrinkage_20": {
+        "auroc": 0.6536868686868686,
+        "average_precision": 0.5648292305805401
+      },
+      "prototype_40": {
+        "auroc": 0.7901767676767676,
+        "average_precision": 0.7147058840102847
+      },
+      "shrinkage_40": {
+        "auroc": 0.7916666666666667,
+        "average_precision": 0.7115599709273895
+      }
+    }
+  },
+  "means": {
+    "prototype_5": {
+      "auroc": 0.6552777777777777,
+      "average_precision": 0.5868601706948824
+    },
+    "shrinkage_5": {
+      "auroc": 0.6298316498316497,
+      "average_precision": 0.5729184709243956
+    },
+    "prototype_20": {
+      "auroc": 0.7278367003367002,
+      "average_precision": 0.6386513499036005
+    },
+    "shrinkage_20": {
+      "auroc": 0.7063636363636364,
+      "average_precision": 0.6303195069670914
+    },
+    "prototype_40": {
+      "auroc": 0.7657491582491582,
+      "average_precision": 0.6734236714529397
+    },
+    "shrinkage_40": {
+      "auroc": 0.7645875420875422,
+      "average_precision": 0.6654923565169178
+    }
+  }
+}

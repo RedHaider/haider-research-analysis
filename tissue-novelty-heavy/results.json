@@ -1,0 +1,49 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "pooled": {
+        "auroc": 0.33906844365536387,
+        "average_precision": 0.08218666774695851
+      },
+      "class_conditional": {
+        "auroc": 0.9184858997270665,
+        "average_precision": 0.6365855305812825
+      }
+    },
+    "37": {
+      "pooled": {
+        "auroc": 0.3621392417152135,
+        "average_precision": 0.08487839821154472
+      },
+      "class_conditional": {
+        "auroc": 0.9264521058160633,
+        "average_precision": 0.6452889829592247
+      }
+    },
+    "61": {
+      "pooled": {
+        "auroc": 0.34026709241027187,
+        "average_precision": 0.08254484159366246
+      },
+      "class_conditional": {
+        "auroc": 0.7552359907601297,
+        "average_precision": 0.29334164690139386
+      }
+    }
+  },
+  "means": {
+    "pooled": {
+      "auroc": 0.34715825926028304,
+      "average_precision": 0.08320330251738857
+    },
+    "class_conditional": {
+      "auroc": 0.86672466543442,
+      "average_precision": 0.5250720534806337
+    }
+  }
+}

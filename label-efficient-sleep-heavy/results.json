@@ -1,0 +1,65 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "labeled_only": {
+        "auroc": 0.7258936386814634,
+        "average_precision": 0.8675488486028512,
+        "balanced_accuracy": 0.6355699505944656,
+        "test_subjects": 10
+      },
+      "pseudo_labels": {
+        "auroc": 0.7258936386814634,
+        "average_precision": 0.8675488486028512,
+        "balanced_accuracy": 0.6355699505944656,
+        "test_subjects": 10
+      }
+    },
+    "37": {
+      "labeled_only": {
+        "auroc": 0.7657345808885991,
+        "average_precision": 0.886956011508389,
+        "balanced_accuracy": 0.6591929413856457,
+        "test_subjects": 10
+      },
+      "pseudo_labels": {
+        "auroc": 0.7657345808885991,
+        "average_precision": 0.886956011508389,
+        "balanced_accuracy": 0.6591929413856457,
+        "test_subjects": 10
+      }
+    },
+    "61": {
+      "labeled_only": {
+        "auroc": 0.8565534279396375,
+        "average_precision": 0.9177355294173063,
+        "balanced_accuracy": 0.7422061072678287,
+        "test_subjects": 10
+      },
+      "pseudo_labels": {
+        "auroc": 0.8565534279396375,
+        "average_precision": 0.9177355294173063,
+        "balanced_accuracy": 0.7422061072678287,
+        "test_subjects": 10
+      }
+    }
+  },
+  "means": {
+    "labeled_only": {
+      "auroc": 0.7827272158365667,
+      "average_precision": 0.8907467965095156,
+      "balanced_accuracy": 0.6789896664159799,
+      "test_subjects": 10.0
+    },
+    "pseudo_labels": {
+      "auroc": 0.7827272158365667,
+      "average_precision": 0.8907467965095156,
+      "balanced_accuracy": 0.6789896664159799,
+      "test_subjects": 10.0
+    }
+  }
+}

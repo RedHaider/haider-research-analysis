@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "standard_intact": {
+        "auroc": 0.7043623228674631,
+        "average_precision": 0.6263981690870708
+      },
+      "standard_missing": {
+        "auroc": 0.5887746596276744,
+        "average_precision": 0.5796145567202533
+      },
+      "dropout_intact": {
+        "auroc": 0.6457349263684357,
+        "average_precision": 0.6330330659856407
+      },
+      "dropout_missing": {
+        "auroc": 0.6287857738260629,
+        "average_precision": 0.589567155892062
+      }
+    },
+    "37": {
+      "standard_intact": {
+        "auroc": 0.5734926368435677,
+        "average_precision": 0.5423883898093771
+      },
+      "standard_missing": {
+        "auroc": 0.5582106140594609,
+        "average_precision": 0.5507190293128917
+      },
+      "dropout_intact": {
+        "auroc": 0.5315365379272019,
+        "average_precision": 0.5414007689332655
+      },
+      "dropout_missing": {
+        "auroc": 0.5365379272020006,
+        "average_precision": 0.5498843848486232
+      }
+    },
+    "61": {
+      "standard_intact": {
+        "auroc": 0.685761957730812,
+        "average_precision": 0.7025483413754
+      },
+      "standard_missing": {
+        "auroc": 0.5962180200222469,
+        "average_precision": 0.5656267389575635
+      },
+      "dropout_intact": {
+        "auroc": 0.6045606229143492,
+        "average_precision": 0.6418832372023293
+      },
+      "dropout_missing": {
+        "auroc": 0.624860956618465,
+        "average_precision": 0.6718870305667807
+      }
+    }
+  },
+  "means": {
+    "standard_intact": {
+      "auroc": 0.6545389724806142,
+      "average_precision": 0.623778300090616
+    },
+    "standard_missing": {
+      "auroc": 0.581067764569794,
+      "average_precision": 0.5653201083302362
+    },
+    "dropout_intact": {
+      "auroc": 0.5939440290699957,
+      "average_precision": 0.6054390240404118
+    },
+    "dropout_missing": {
+      "auroc": 0.5967282192155094,
+      "average_precision": 0.6037795237691553
+    }
+  }
+}

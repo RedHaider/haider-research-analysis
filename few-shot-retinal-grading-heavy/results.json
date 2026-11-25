@@ -1,0 +1,113 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "prototype_5": {
+        "auroc": 0.7933148773381081,
+        "average_precision": 0.8587182475083028
+      },
+      "shrinkage_5": {
+        "auroc": 0.8608003911437652,
+        "average_precision": 0.9088061425561754
+      },
+      "prototype_20": {
+        "auroc": 0.890142780688598,
+        "average_precision": 0.9282101600381206
+      },
+      "shrinkage_20": {
+        "auroc": 0.9693031430251534,
+        "average_precision": 0.9814750534637132
+      },
+      "prototype_40": {
+        "auroc": 0.930274659566174,
+        "average_precision": 0.954824675723636
+      },
+      "shrinkage_40": {
+        "auroc": 0.9739876181855422,
+        "average_precision": 0.9839232723281248
+      }
+    },
+    "37": {
+      "prototype_5": {
+        "auroc": 0.7323910848800186,
+        "average_precision": 0.7840729003349887
+      },
+      "shrinkage_5": {
+        "auroc": 0.7869780746032979,
+        "average_precision": 0.835369255134528
+      },
+      "prototype_20": {
+        "auroc": 0.8775141725557194,
+        "average_precision": 0.9183649367801253
+      },
+      "shrinkage_20": {
+        "auroc": 0.9656752349149647,
+        "average_precision": 0.9781580149621406
+      },
+      "prototype_40": {
+        "auroc": 0.9193911625378582,
+        "average_precision": 0.9455816078555159
+      },
+      "shrinkage_40": {
+        "auroc": 0.9737969506355,
+        "average_precision": 0.9827505080274708
+      }
+    },
+    "61": {
+      "prototype_5": {
+        "auroc": 0.7225924241525451,
+        "average_precision": 0.7897992394731519
+      },
+      "shrinkage_5": {
+        "auroc": 0.7671814340985639,
+        "average_precision": 0.833280149759717
+      },
+      "prototype_20": {
+        "auroc": 0.7776020142500281,
+        "average_precision": 0.8478767367554378
+      },
+      "shrinkage_20": {
+        "auroc": 0.8491355730000858,
+        "average_precision": 0.9029620749530247
+      },
+      "prototype_40": {
+        "auroc": 0.9260145400378332,
+        "average_precision": 0.9511517628122915
+      },
+      "shrinkage_40": {
+        "auroc": 0.9582451769389464,
+        "average_precision": 0.9730301068782223
+      }
+    }
+  },
+  "means": {
+    "prototype_5": {
+      "auroc": 0.7494327954568907,
+      "average_precision": 0.8108634624388144
+    },
+    "shrinkage_5": {
+      "auroc": 0.8049866332818757,
+      "average_precision": 0.8591518491501401
+    },
+    "prototype_20": {
+      "auroc": 0.8484196558314485,
+      "average_precision": 0.898150611191228
+    },
+    "shrinkage_20": {
+      "auroc": 0.9280379836467345,
+      "average_precision": 0.9541983811262927
+    },
+    "prototype_40": {
+      "auroc": 0.9252267873806218,
+      "average_precision": 0.9505193487971478
+    },
+    "shrinkage_40": {
+      "auroc": 0.9686765819199962,
+      "average_precision": 0.9799012957446059
+    }
+  }
+}
