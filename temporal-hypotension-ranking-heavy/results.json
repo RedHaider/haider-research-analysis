@@ -1,0 +1,73 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "snapshot": {
+        "auroc": 0.9054044913419913,
+        "average_precision": 0.3903325071432572,
+        "recall_top_10pct": 0.5625,
+        "eligible_stays": 2654,
+        "events": 192
+      },
+      "temporal": {
+        "auroc": 0.9219426406926408,
+        "average_precision": 0.4753100935484832,
+        "recall_top_10pct": 0.5833333333333334,
+        "eligible_stays": 2654,
+        "events": 192
+      }
+    },
+    "37": {
+      "snapshot": {
+        "auroc": 0.8870548219287715,
+        "average_precision": 0.3794102446129542,
+        "recall_top_10pct": 0.4897959183673469,
+        "eligible_stays": 2642,
+        "events": 196
+      },
+      "temporal": {
+        "auroc": 0.8992263572095505,
+        "average_precision": 0.44971990214084967,
+        "recall_top_10pct": 0.5510204081632653,
+        "eligible_stays": 2642,
+        "events": 196
+      }
+    },
+    "61": {
+      "snapshot": {
+        "auroc": 0.9011264080100125,
+        "average_precision": 0.5056680560671336,
+        "recall_top_10pct": 0.5294117647058824,
+        "eligible_stays": 2646,
+        "events": 203
+      },
+      "temporal": {
+        "auroc": 0.9438079650845608,
+        "average_precision": 0.611796791686351,
+        "recall_top_10pct": 0.6274509803921569,
+        "eligible_stays": 2646,
+        "events": 203
+      }
+    }
+  },
+  "means": {
+    "snapshot": {
+      "auroc": 0.8978619070935917,
+      "average_precision": 0.425136935941115,
+      "recall_top_10pct": 0.5272358943577431,
+      "eligible_stays": 2647.3333333333335,
+      "events": 197.0
+    },
+    "temporal": {
+      "auroc": 0.9216589876622506,
+      "average_precision": 0.5122755957918946,
+      "recall_top_10pct": 0.5872682406295852,
+      "eligible_stays": 2647.3333333333335,
+      "events": 197.0
+    }
+  }
+}
