@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "complete_training_available": {
+        "concordance": 0.7233195828691297,
+        "comparable_pairs": 199266
+      },
+      "complete_training_missing": {
+        "concordance": 0.6003934439392571,
+        "comparable_pairs": 199266
+      },
+      "view_dropout_available": {
+        "concordance": 0.7242580269589393,
+        "comparable_pairs": 199266
+      },
+      "view_dropout_missing": {
+        "concordance": 0.6000772836309255,
+        "comparable_pairs": 199266
+      }
+    },
+    "37": {
+      "complete_training_available": {
+        "concordance": 0.7377736119534652,
+        "comparable_pairs": 199507
+      },
+      "complete_training_missing": {
+        "concordance": 0.6310405148691525,
+        "comparable_pairs": 199507
+      },
+      "view_dropout_available": {
+        "concordance": 0.7370317833459478,
+        "comparable_pairs": 199507
+      },
+      "view_dropout_missing": {
+        "concordance": 0.6320530106713048,
+        "comparable_pairs": 199507
+      }
+    },
+    "61": {
+      "complete_training_available": {
+        "concordance": 0.7222671272723529,
+        "comparable_pairs": 194237
+      },
+      "complete_training_missing": {
+        "concordance": 0.6122417459083491,
+        "comparable_pairs": 194237
+      },
+      "view_dropout_available": {
+        "concordance": 0.7232195719662062,
+        "comparable_pairs": 194237
+      },
+      "view_dropout_missing": {
+        "concordance": 0.6129110313688947,
+        "comparable_pairs": 194237
+      }
+    }
+  },
+  "means": {
+    "complete_training_available": {
+      "concordance": 0.7277867740316492,
+      "comparable_pairs": 197670.0
+    },
+    "complete_training_missing": {
+      "concordance": 0.6145585682389195,
+      "comparable_pairs": 197670.0
+    },
+    "view_dropout_available": {
+      "concordance": 0.7281697940903644,
+      "comparable_pairs": 197670.0
+    },
+    "view_dropout_missing": {
+      "concordance": 0.6150137752237083,
+      "comparable_pairs": 197670.0
+    }
+  }
+}

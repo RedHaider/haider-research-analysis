@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "clean_training_clean": {
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      "clean_training_shifted": {
+        "auroc": 0.7279101293390815,
+        "balanced_accuracy": 0.5115894039735099
+      },
+      "augmented_training_clean": {
+        "auroc": 0.999599982221432,
+        "balanced_accuracy": 0.9884105960264901
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.7866405173563271,
+        "balanced_accuracy": 0.73588826170052
+      }
+    },
+    "37": {
+      "clean_training_clean": {
+        "auroc": 1.0,
+        "balanced_accuracy": 0.9983108108108107
+      },
+      "clean_training_shifted": {
+        "auroc": 0.7731596728307255,
+        "balanced_accuracy": 0.5168918918918919
+      },
+      "augmented_training_clean": {
+        "auroc": 0.999955547652916,
+        "balanced_accuracy": 0.9949324324324325
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.8366542940967283,
+        "balanced_accuracy": 0.746399359886202
+      }
+    },
+    "61": {
+      "clean_training_clean": {
+        "auroc": 1.0,
+        "balanced_accuracy": 0.9983552631578947
+      },
+      "clean_training_shifted": {
+        "auroc": 0.7112042140825036,
+        "balanced_accuracy": 0.5148026315789473
+      },
+      "augmented_training_clean": {
+        "auroc": 0.999977773826458,
+        "balanced_accuracy": 0.9950657894736843
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.8074213193456614,
+        "balanced_accuracy": 0.7494221194879089
+      }
+    }
+  },
+  "means": {
+    "clean_training_clean": {
+      "auroc": 1.0,
+      "balanced_accuracy": 0.9988886913229017
+    },
+    "clean_training_shifted": {
+      "auroc": 0.7374246720841034,
+      "balanced_accuracy": 0.5144279758147831
+    },
+    "augmented_training_clean": {
+      "auroc": 0.9998444345669353,
+      "balanced_accuracy": 0.9928029393108689
+    },
+    "augmented_training_shifted": {
+      "auroc": 0.8102387102662391,
+      "balanced_accuracy": 0.743903247024877
+    }
+  }
+}

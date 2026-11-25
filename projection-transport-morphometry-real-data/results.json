@@ -1,0 +1,65 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "pixels": {
+        "auroc": 0.9255314486083717,
+        "balanced_accuracy": 0.8076923076923077
+      },
+      "transport": {
+        "auroc": 0.9261889108042954,
+        "balanced_accuracy": 0.8239316239316239
+      },
+      "combined": {
+        "auroc": 0.9341332456717072,
+        "balanced_accuracy": 0.8106837606837607
+      }
+    },
+    "37": {
+      "pixels": {
+        "auroc": 0.930221345605961,
+        "balanced_accuracy": 0.802991452991453
+      },
+      "transport": {
+        "auroc": 0.9284242822704362,
+        "balanced_accuracy": 0.8196581196581196
+      },
+      "combined": {
+        "auroc": 0.9392724085031777,
+        "balanced_accuracy": 0.8094017094017094
+      }
+    },
+    "61": {
+      "pixels": {
+        "auroc": 0.9270216962524654,
+        "balanced_accuracy": 0.7987179487179488
+      },
+      "transport": {
+        "auroc": 0.9279750164365549,
+        "balanced_accuracy": 0.8239316239316239
+      },
+      "combined": {
+        "auroc": 0.9374643874643875,
+        "balanced_accuracy": 0.8192307692307692
+      }
+    }
+  },
+  "means": {
+    "pixels": {
+      "auroc": 0.927591496822266,
+      "balanced_accuracy": 0.8031339031339032
+    },
+    "transport": {
+      "auroc": 0.9275294031704289,
+      "balanced_accuracy": 0.8225071225071225
+    },
+    "combined": {
+      "auroc": 0.9369566805464241,
+      "balanced_accuracy": 0.8131054131054132
+    }
+  }
+}

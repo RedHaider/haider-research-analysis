@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "uniform": {
+        "small_dice": 0.6170398214625811,
+        "large_dice": 0.912343947549393,
+        "all_dice": 0.7617388432451189
+      },
+      "balanced_foreground": {
+        "small_dice": 0.5041445203164034,
+        "large_dice": 0.8090299827962781,
+        "all_dice": 0.6535383969315421
+      }
+    },
+    "37": {
+      "uniform": {
+        "small_dice": 0.6640798481194835,
+        "large_dice": 0.9124496270417946,
+        "all_dice": 0.8056506221052007
+      },
+      "balanced_foreground": {
+        "small_dice": 0.5206592551180227,
+        "large_dice": 0.8106285496924986,
+        "all_dice": 0.6859417530254741
+      }
+    },
+    "61": {
+      "uniform": {
+        "small_dice": 0.6261531515255252,
+        "large_dice": 0.9136952361379546,
+        "all_dice": 0.7713619042548019
+      },
+      "balanced_foreground": {
+        "small_dice": 0.5490654970973777,
+        "large_dice": 0.8188832266571553,
+        "all_dice": 0.6853234505250654
+      }
+    }
+  },
+  "means": {
+    "uniform": {
+      "small_dice": 0.6357576070358633,
+      "large_dice": 0.9128296035763808,
+      "all_dice": 0.7795837898683738
+    },
+    "balanced_foreground": {
+      "small_dice": 0.5246230908439347,
+      "large_dice": 0.812847253048644,
+      "all_dice": 0.6749345334940271
+    }
+  }
+}

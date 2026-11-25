@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "clean_training_clean": {
+        "auroc": 0.8588137009189641,
+        "balanced_accuracy": 0.7192982456140351
+      },
+      "clean_training_shifted": {
+        "auroc": 0.764828738512949,
+        "balanced_accuracy": 0.6146616541353384
+      },
+      "augmented_training_clean": {
+        "auroc": 0.8633040935672515,
+        "balanced_accuracy": 0.699874686716792
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.7791353383458647,
+        "balanced_accuracy": 0.6416040100250626
+      }
+    },
+    "37": {
+      "clean_training_clean": {
+        "auroc": 0.8622598162071846,
+        "balanced_accuracy": 0.7149122807017544
+      },
+      "clean_training_shifted": {
+        "auroc": 0.781015037593985,
+        "balanced_accuracy": 0.6296992481203008
+      },
+      "augmented_training_clean": {
+        "auroc": 0.8686299081035922,
+        "balanced_accuracy": 0.7030075187969924
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.7861319966583125,
+        "balanced_accuracy": 0.6146616541353384
+      }
+    },
+    "61": {
+      "clean_training_clean": {
+        "auroc": 0.8654970760233918,
+        "balanced_accuracy": 0.7192982456140351
+      },
+      "clean_training_shifted": {
+        "auroc": 0.7634711779448621,
+        "balanced_accuracy": 0.6177944862155389
+      },
+      "augmented_training_clean": {
+        "auroc": 0.8622598162071846,
+        "balanced_accuracy": 0.7431077694235589
+      },
+      "augmented_training_shifted": {
+        "auroc": 0.7801796157059315,
+        "balanced_accuracy": 0.650375939849624
+      }
+    }
+  },
+  "means": {
+    "clean_training_clean": {
+      "auroc": 0.8621901977165134,
+      "balanced_accuracy": 0.7178362573099415
+    },
+    "clean_training_shifted": {
+      "auroc": 0.7697716513505987,
+      "balanced_accuracy": 0.620718462823726
+    },
+    "augmented_training_clean": {
+      "auroc": 0.8647312726260094,
+      "balanced_accuracy": 0.7153299916457811
+    },
+    "augmented_training_shifted": {
+      "auroc": 0.781815650236703,
+      "balanced_accuracy": 0.635547201336675
+    }
+  }
+}
