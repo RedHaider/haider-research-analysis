@@ -1,0 +1,137 @@
+{
+  "data": "synthetic 16x16 images",
+  "runs": {
+    "17": {
+      "baseline_clean": {
+        "auroc": 0.9207947748443539,
+        "aurc": 0.051426877083332156,
+        "risk_at_80_percent": 0.09895833333333333
+      },
+      "baseline_shifted": {
+        "auroc": 0.7252764959675067,
+        "aurc": 0.25842779818533773,
+        "risk_at_80_percent": 0.31145833333333334
+      },
+      "augmented_clean": {
+        "auroc": 0.9250675786426485,
+        "aurc": 0.06332424616765724,
+        "risk_at_80_percent": 0.125
+      },
+      "augmented_shifted": {
+        "auroc": 0.7695686357309746,
+        "aurc": 0.2016453178127848,
+        "risk_at_80_percent": 0.2635416666666667
+      }
+    },
+    "29": {
+      "baseline_clean": {
+        "auroc": 0.9131458073408006,
+        "aurc": 0.059668216042216254,
+        "risk_at_80_percent": 0.11041666666666666
+      },
+      "baseline_shifted": {
+        "auroc": 0.7276834713889947,
+        "aurc": 0.2486075872021117,
+        "risk_at_80_percent": 0.31875
+      },
+      "augmented_clean": {
+        "auroc": 0.9125317120476605,
+        "aurc": 0.07367447155416003,
+        "risk_at_80_percent": 0.13125
+      },
+      "augmented_shifted": {
+        "auroc": 0.7733849432725999,
+        "aurc": 0.19781713888275101,
+        "risk_at_80_percent": 0.2604166666666667
+      }
+    },
+    "43": {
+      "baseline_clean": {
+        "auroc": 0.902129182322419,
+        "aurc": 0.06822102220409687,
+        "risk_at_80_percent": 0.11458333333333333
+      },
+      "baseline_shifted": {
+        "auroc": 0.6868290391841116,
+        "aurc": 0.2723512497602347,
+        "risk_at_80_percent": 0.32395833333333335
+      },
+      "augmented_clean": {
+        "auroc": 0.9081985820361425,
+        "aurc": 0.08290103873810503,
+        "risk_at_80_percent": 0.15
+      },
+      "augmented_shifted": {
+        "auroc": 0.7574840087672214,
+        "aurc": 0.19236660447587126,
+        "risk_at_80_percent": 0.2635416666666667
+      }
+    },
+    "59": {
+      "baseline_clean": {
+        "auroc": 0.9032766164316967,
+        "aurc": 0.07112131974692254,
+        "risk_at_80_percent": 0.11666666666666667
+      },
+      "baseline_shifted": {
+        "auroc": 0.7354427390791027,
+        "aurc": 0.25072078358491,
+        "risk_at_80_percent": 0.3020833333333333
+      },
+      "augmented_clean": {
+        "auroc": 0.9123578026251822,
+        "aurc": 0.07360644908294081,
+        "risk_at_80_percent": 0.128125
+      },
+      "augmented_shifted": {
+        "auroc": 0.7570886867143551,
+        "aurc": 0.1996025962624546,
+        "risk_at_80_percent": 0.2760416666666667
+      }
+    },
+    "71": {
+      "baseline_clean": {
+        "auroc": 0.9271846685824447,
+        "aurc": 0.050119079407562724,
+        "risk_at_80_percent": 0.090625
+      },
+      "baseline_shifted": {
+        "auroc": 0.733605770701948,
+        "aurc": 0.24335997718660732,
+        "risk_at_80_percent": 0.29375
+      },
+      "augmented_clean": {
+        "auroc": 0.93169407267902,
+        "aurc": 0.06401139493561055,
+        "risk_at_80_percent": 0.125
+      },
+      "augmented_shifted": {
+        "auroc": 0.7837878438038116,
+        "aurc": 0.17013522359021702,
+        "risk_at_80_percent": 0.25833333333333336
+      }
+    }
+  },
+  "means": {
+    "baseline_clean": {
+      "auroc": 0.913306209904343,
+      "aurc": 0.060111302896826105,
+      "risk_at_80_percent": 0.10624999999999998
+    },
+    "baseline_shifted": {
+      "auroc": 0.7217675032643327,
+      "aurc": 0.2546934791838403,
+      "risk_at_80_percent": 0.30999999999999994
+    },
+    "augmented_clean": {
+      "auroc": 0.9179699496061309,
+      "aurc": 0.07150352009569473,
+      "risk_at_80_percent": 0.13187500000000002
+    },
+    "augmented_shifted": {
+      "auroc": 0.7682628236577925,
+      "aurc": 0.19231337620481576,
+      "risk_at_80_percent": 0.26437499999999997
+    }
+  }
+}

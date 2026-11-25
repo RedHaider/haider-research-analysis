@@ -1,0 +1,399 @@
+{
+  "embedding_sha256": "2df434a8756d8e0e5fab173bb8f6a4578296d630b6ba9d67bc495792a8f0665d",
+  "training_pairs": 200,
+  "test_pairs": 80,
+  "runs": {
+    "17": {
+      "validation_weight": 0.3,
+      "validation_ridge": 0.5,
+      "test": {
+        "cosine_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "ridge_clean": {
+          "pair_auroc": 0.8625237341772153,
+          "average_precision": 0.10350766871860623,
+          "recall_at_5": 0.5062500000000001
+        },
+        "blend_clean": {
+          "pair_auroc": 0.8776226265822785,
+          "average_precision": 0.10635654294709919,
+          "recall_at_5": 0.55
+        },
+        "cosine_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "ridge_blur": {
+          "pair_auroc": 0.8416475474683545,
+          "average_precision": 0.09188016559039788,
+          "recall_at_5": 0.48124999999999996
+        },
+        "blend_blur": {
+          "pair_auroc": 0.8591218354430381,
+          "average_precision": 0.10186164803393183,
+          "recall_at_5": 0.53125
+        },
+        "cosine_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "ridge_dropout": {
+          "pair_auroc": 0.808251582278481,
+          "average_precision": 0.07671751346617998,
+          "recall_at_5": 0.35625
+        },
+        "blend_dropout": {
+          "pair_auroc": 0.831659414556962,
+          "average_precision": 0.0857972205399213,
+          "recall_at_5": 0.43125
+        },
+        "cosine_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        },
+        "ridge_both": {
+          "pair_auroc": 0.7886095727848101,
+          "average_precision": 0.06928570125711098,
+          "recall_at_5": 0.36250000000000004
+        },
+        "blend_both": {
+          "pair_auroc": 0.8128362341772152,
+          "average_precision": 0.0796596837733734,
+          "recall_at_5": 0.4125
+        }
+      }
+    },
+    "29": {
+      "validation_weight": 0.0,
+      "validation_ridge": 0.05,
+      "test": {
+        "cosine_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "ridge_clean": {
+          "pair_auroc": 0.8582377373417722,
+          "average_precision": 0.09212535168840937,
+          "recall_at_5": 0.45
+        },
+        "blend_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "cosine_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "ridge_blur": {
+          "pair_auroc": 0.8304371044303797,
+          "average_precision": 0.08101379119662837,
+          "recall_at_5": 0.4125
+        },
+        "blend_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "cosine_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "ridge_dropout": {
+          "pair_auroc": 0.8040209651898733,
+          "average_precision": 0.07009768132420352,
+          "recall_at_5": 0.32499999999999996
+        },
+        "blend_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "cosine_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        },
+        "ridge_both": {
+          "pair_auroc": 0.774113924050633,
+          "average_precision": 0.05770503132566571,
+          "recall_at_5": 0.31875
+        },
+        "blend_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        }
+      }
+    },
+    "43": {
+      "validation_weight": 0.3,
+      "validation_ridge": 0.05,
+      "test": {
+        "cosine_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "ridge_clean": {
+          "pair_auroc": 0.8582377373417722,
+          "average_precision": 0.09212535168840937,
+          "recall_at_5": 0.45
+        },
+        "blend_clean": {
+          "pair_auroc": 0.8753935917721518,
+          "average_precision": 0.10254706142978215,
+          "recall_at_5": 0.5249999999999999
+        },
+        "cosine_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "ridge_blur": {
+          "pair_auroc": 0.8304371044303797,
+          "average_precision": 0.08101379119662837,
+          "recall_at_5": 0.4125
+        },
+        "blend_blur": {
+          "pair_auroc": 0.8583049841772151,
+          "average_precision": 0.09465102007550462,
+          "recall_at_5": 0.48124999999999996
+        },
+        "cosine_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "ridge_dropout": {
+          "pair_auroc": 0.8040209651898733,
+          "average_precision": 0.07009768132420352,
+          "recall_at_5": 0.32499999999999996
+        },
+        "blend_dropout": {
+          "pair_auroc": 0.8325850474683545,
+          "average_precision": 0.07985012474489586,
+          "recall_at_5": 0.40625
+        },
+        "cosine_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        },
+        "ridge_both": {
+          "pair_auroc": 0.774113924050633,
+          "average_precision": 0.05770503132566571,
+          "recall_at_5": 0.31875
+        },
+        "blend_both": {
+          "pair_auroc": 0.8122982594936711,
+          "average_precision": 0.07261656077160565,
+          "recall_at_5": 0.38749999999999996
+        }
+      }
+    },
+    "59": {
+      "validation_weight": 0.1,
+      "validation_ridge": 5.0,
+      "test": {
+        "cosine_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "ridge_clean": {
+          "pair_auroc": 0.8540090981012658,
+          "average_precision": 0.09538324658443714,
+          "recall_at_5": 0.48125
+        },
+        "blend_clean": {
+          "pair_auroc": 0.8807258702531646,
+          "average_precision": 0.10966563862483886,
+          "recall_at_5": 0.53125
+        },
+        "cosine_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "ridge_blur": {
+          "pair_auroc": 0.8353243670886076,
+          "average_precision": 0.08637523470083001,
+          "recall_at_5": 0.4375
+        },
+        "blend_blur": {
+          "pair_auroc": 0.8619303797468354,
+          "average_precision": 0.10554659649007266,
+          "recall_at_5": 0.51875
+        },
+        "cosine_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "ridge_dropout": {
+          "pair_auroc": 0.7806606012658227,
+          "average_precision": 0.07788133869607933,
+          "recall_at_5": 0.3375
+        },
+        "blend_dropout": {
+          "pair_auroc": 0.8326503164556962,
+          "average_precision": 0.08650399937222891,
+          "recall_at_5": 0.4375
+        },
+        "cosine_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        },
+        "ridge_both": {
+          "pair_auroc": 0.7660858386075949,
+          "average_precision": 0.06541021532990768,
+          "recall_at_5": 0.31875
+        },
+        "blend_both": {
+          "pair_auroc": 0.8115882120253165,
+          "average_precision": 0.08611026928455952,
+          "recall_at_5": 0.4375
+        }
+      }
+    },
+    "71": {
+      "validation_weight": 0.3,
+      "validation_ridge": 0.05,
+      "test": {
+        "cosine_clean": {
+          "pair_auroc": 0.8551206487341773,
+          "average_precision": 0.11839002336900564,
+          "recall_at_5": 0.48125
+        },
+        "ridge_clean": {
+          "pair_auroc": 0.8582377373417722,
+          "average_precision": 0.09212535168840937,
+          "recall_at_5": 0.45
+        },
+        "blend_clean": {
+          "pair_auroc": 0.8753935917721518,
+          "average_precision": 0.10254706142978215,
+          "recall_at_5": 0.5249999999999999
+        },
+        "cosine_blur": {
+          "pair_auroc": 0.8287084651898735,
+          "average_precision": 0.09686553158242922,
+          "recall_at_5": 0.46875
+        },
+        "ridge_blur": {
+          "pair_auroc": 0.8304371044303797,
+          "average_precision": 0.08101379119662837,
+          "recall_at_5": 0.4125
+        },
+        "blend_blur": {
+          "pair_auroc": 0.8583049841772151,
+          "average_precision": 0.09465102007550462,
+          "recall_at_5": 0.48124999999999996
+        },
+        "cosine_dropout": {
+          "pair_auroc": 0.8112064873417721,
+          "average_precision": 0.07936485445811156,
+          "recall_at_5": 0.38749999999999996
+        },
+        "ridge_dropout": {
+          "pair_auroc": 0.8040209651898733,
+          "average_precision": 0.07009768132420352,
+          "recall_at_5": 0.32499999999999996
+        },
+        "blend_dropout": {
+          "pair_auroc": 0.8325850474683545,
+          "average_precision": 0.07985012474489586,
+          "recall_at_5": 0.40625
+        },
+        "cosine_both": {
+          "pair_auroc": 0.7768275316455696,
+          "average_precision": 0.08023561118911378,
+          "recall_at_5": 0.39375000000000004
+        },
+        "ridge_both": {
+          "pair_auroc": 0.774113924050633,
+          "average_precision": 0.05770503132566571,
+          "recall_at_5": 0.31875
+        },
+        "blend_both": {
+          "pair_auroc": 0.8122982594936711,
+          "average_precision": 0.07261656077160565,
+          "recall_at_5": 0.38749999999999996
+        }
+      }
+    }
+  },
+  "means": {
+    "cosine_clean": {
+      "pair_auroc": 0.8551206487341773,
+      "average_precision": 0.11839002336900564,
+      "recall_at_5": 0.48125
+    },
+    "ridge_clean": {
+      "pair_auroc": 0.8582492088607594,
+      "average_precision": 0.09505339407365429,
+      "recall_at_5": 0.46749999999999997
+    },
+    "blend_clean": {
+      "pair_auroc": 0.8728512658227847,
+      "average_precision": 0.1079012655601016,
+      "recall_at_5": 0.5225
+    },
+    "cosine_blur": {
+      "pair_auroc": 0.8287084651898734,
+      "average_precision": 0.09686553158242922,
+      "recall_at_5": 0.46875
+    },
+    "ridge_blur": {
+      "pair_auroc": 0.8336566455696202,
+      "average_precision": 0.08425935477622261,
+      "recall_at_5": 0.43125
+    },
+    "blend_blur": {
+      "pair_auroc": 0.8532741297468354,
+      "average_precision": 0.09871516325148859,
+      "recall_at_5": 0.49625
+    },
+    "cosine_dropout": {
+      "pair_auroc": 0.8112064873417723,
+      "average_precision": 0.07936485445811156,
+      "recall_at_5": 0.38749999999999996
+    },
+    "ridge_dropout": {
+      "pair_auroc": 0.8001950158227846,
+      "average_precision": 0.07297837922697398,
+      "recall_at_5": 0.33375
+    },
+    "blend_dropout": {
+      "pair_auroc": 0.8281372626582278,
+      "average_precision": 0.08227326477201069,
+      "recall_at_5": 0.41375
+    },
+    "cosine_both": {
+      "pair_auroc": 0.7768275316455696,
+      "average_precision": 0.08023561118911378,
+      "recall_at_5": 0.39375000000000004
+    },
+    "ridge_both": {
+      "pair_auroc": 0.7754074367088608,
+      "average_precision": 0.061562202112803166,
+      "recall_at_5": 0.3275
+    },
+    "blend_both": {
+      "pair_auroc": 0.8051696993670886,
+      "average_precision": 0.0782477371580516,
+      "recall_at_5": 0.40374999999999994
+    }
+  }
+}

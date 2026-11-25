@@ -1,0 +1,306 @@
+{
+  "runs": {
+    "17": {
+      "structural_clean": {
+        "auroc": 0.6176673918789777,
+        "brier": 0.2401358546178941,
+        "C": 0.01
+      },
+      "structural_shifted": {
+        "auroc": 0.6223084117850388,
+        "brier": 0.24158112992302544,
+        "C": 0.01
+      },
+      "functional_clean": {
+        "auroc": 0.7551900124031639,
+        "brier": 0.20039311978719557,
+        "C": 0.01
+      },
+      "functional_shifted": {
+        "auroc": 0.7247819279803177,
+        "brier": 0.22024454004461197,
+        "C": 0.01
+      },
+      "edge_concat_clean": {
+        "auroc": 0.7755637339623025,
+        "brier": 0.19374883632786374,
+        "C": 0.01
+      },
+      "edge_concat_shifted": {
+        "auroc": 0.7414245338647039,
+        "brier": 0.21286795188052526,
+        "C": 0.01
+      },
+      "pooled_clean": {
+        "auroc": 0.8118887375205872,
+        "brier": 0.17408920961467952,
+        "C": 0.1
+      },
+      "pooled_shifted": {
+        "auroc": 0.8050009149874952,
+        "brier": 0.18098085626620644,
+        "C": 0.1
+      },
+      "pooled_interactions_clean": {
+        "auroc": 0.8145117016734105,
+        "brier": 0.1730419306399243,
+        "C": 0.01
+      },
+      "pooled_interactions_shifted": {
+        "auroc": 0.8083914519834896,
+        "brier": 0.18287574990701325,
+        "C": 0.01
+      }
+    },
+    "29": {
+      "structural_clean": {
+        "auroc": 0.6293570622885073,
+        "brier": 0.2391639893965664,
+        "C": 0.01
+      },
+      "structural_shifted": {
+        "auroc": 0.6315678656473243,
+        "brier": 0.24019136289038395,
+        "C": 0.01
+      },
+      "functional_clean": {
+        "auroc": 0.7147010903622009,
+        "brier": 0.22098600399331556,
+        "C": 0.01
+      },
+      "functional_shifted": {
+        "auroc": 0.6943225968166435,
+        "brier": 0.23851477597360782,
+        "C": 0.01
+      },
+      "edge_concat_clean": {
+        "auroc": 0.7422634415340268,
+        "brier": 0.216893066158977,
+        "C": 0.01
+      },
+      "edge_concat_shifted": {
+        "auroc": 0.7332096753979196,
+        "brier": 0.22510979325721672,
+        "C": 0.01
+      },
+      "pooled_clean": {
+        "auroc": 0.8069131470109037,
+        "brier": 0.1779593389970516,
+        "C": 0.1
+      },
+      "pooled_shifted": {
+        "auroc": 0.7978192755984458,
+        "brier": 0.1947286245056817,
+        "C": 0.1
+      },
+      "pooled_interactions_clean": {
+        "auroc": 0.806597317959644,
+        "brier": 0.17798780415898655,
+        "C": 0.01
+      },
+      "pooled_interactions_shifted": {
+        "auroc": 0.8021957638801855,
+        "brier": 0.19362894771404862,
+        "C": 0.01
+      }
+    },
+    "43": {
+      "structural_clean": {
+        "auroc": 0.6056227598566308,
+        "brier": 0.2468014638871293,
+        "C": 0.01
+      },
+      "structural_shifted": {
+        "auroc": 0.6214463180188986,
+        "brier": 0.24152429133892572,
+        "C": 0.01
+      },
+      "functional_clean": {
+        "auroc": 0.7321195829260345,
+        "brier": 0.21171080638739523,
+        "C": 0.01
+      },
+      "functional_shifted": {
+        "auroc": 0.7133431085043989,
+        "brier": 0.22542335595075166,
+        "C": 0.01
+      },
+      "edge_concat_clean": {
+        "auroc": 0.751563009123493,
+        "brier": 0.207581799982002,
+        "C": 0.01
+      },
+      "edge_concat_shifted": {
+        "auroc": 0.7476631231671554,
+        "brier": 0.21025644061352328,
+        "C": 0.01
+      },
+      "pooled_clean": {
+        "auroc": 0.7979441593352884,
+        "brier": 0.18015305262082348,
+        "C": 0.1
+      },
+      "pooled_shifted": {
+        "auroc": 0.8254266454871294,
+        "brier": 0.17476825759209647,
+        "C": 0.1
+      },
+      "pooled_interactions_clean": {
+        "auroc": 0.8015080237862495,
+        "brier": 0.17912303781222155,
+        "C": 0.01
+      },
+      "pooled_interactions_shifted": {
+        "auroc": 0.8258746741609645,
+        "brier": 0.17647485253037531,
+        "C": 0.01
+      }
+    },
+    "59": {
+      "structural_clean": {
+        "auroc": 0.6127825062329637,
+        "brier": 0.24457210374449131,
+        "C": 0.01
+      },
+      "structural_shifted": {
+        "auroc": 0.5873449344843455,
+        "brier": 0.254165952892908,
+        "C": 0.01
+      },
+      "functional_clean": {
+        "auroc": 0.7455180819160611,
+        "brier": 0.20636647471428837,
+        "C": 0.01
+      },
+      "functional_shifted": {
+        "auroc": 0.7536449562301822,
+        "brier": 0.2046088850365268,
+        "C": 0.01
+      },
+      "edge_concat_clean": {
+        "auroc": 0.7718912303592108,
+        "brier": 0.19712669021179102,
+        "C": 0.01
+      },
+      "edge_concat_shifted": {
+        "auroc": 0.774965990522861,
+        "brier": 0.19406633247439503,
+        "C": 0.01
+      },
+      "pooled_clean": {
+        "auroc": 0.8195601272384304,
+        "brier": 0.17180730693892307,
+        "C": 0.01
+      },
+      "pooled_shifted": {
+        "auroc": 0.822867517282883,
+        "brier": 0.17318939825421653,
+        "C": 0.01
+      },
+      "pooled_interactions_clean": {
+        "auroc": 0.8258512483627408,
+        "brier": 0.16746116989644963,
+        "C": 1.0
+      },
+      "pooled_interactions_shifted": {
+        "auroc": 0.8224932866050702,
+        "brier": 0.1762161732286243,
+        "C": 1.0
+      }
+    },
+    "71": {
+      "structural_clean": {
+        "auroc": 0.64986744072563,
+        "brier": 0.23556842115955376,
+        "C": 0.01
+      },
+      "structural_shifted": {
+        "auroc": 0.5781093576283209,
+        "brier": 0.2562303179406652,
+        "C": 0.01
+      },
+      "functional_clean": {
+        "auroc": 0.7271542768602318,
+        "brier": 0.21189107962118145,
+        "C": 0.01
+      },
+      "functional_shifted": {
+        "auroc": 0.7174701552980949,
+        "brier": 0.22441768336780793,
+        "C": 0.01
+      },
+      "edge_concat_clean": {
+        "auroc": 0.7689494363086643,
+        "brier": 0.19916534965085253,
+        "C": 0.01
+      },
+      "edge_concat_shifted": {
+        "auroc": 0.7254639574602951,
+        "brier": 0.22074301867402374,
+        "C": 0.01
+      },
+      "pooled_clean": {
+        "auroc": 0.8076607689947127,
+        "brier": 0.17579196156999652,
+        "C": 1.0
+      },
+      "pooled_shifted": {
+        "auroc": 0.8088681399946674,
+        "brier": 0.17899404226600002,
+        "C": 1.0
+      },
+      "pooled_interactions_clean": {
+        "auroc": 0.8116350318695637,
+        "brier": 0.17421732691040165,
+        "C": 0.1
+      },
+      "pooled_interactions_shifted": {
+        "auroc": 0.8080431031446984,
+        "brier": 0.1823868450944398,
+        "C": 0.1
+      }
+    }
+  },
+  "means": {
+    "structural_clean": {
+      "auroc": 0.6230594321965419,
+      "brier": 0.241248366561127
+    },
+    "structural_shifted": {
+      "auroc": 0.6081553775127857,
+      "brier": 0.2467386109971817
+    },
+    "functional_clean": {
+      "auroc": 0.7349366088935384,
+      "brier": 0.21026949690067523
+    },
+    "functional_shifted": {
+      "auroc": 0.7207125489659274,
+      "brier": 0.22264184807466125
+    },
+    "edge_concat_clean": {
+      "auroc": 0.7620461702575395,
+      "brier": 0.20290314846629726
+    },
+    "edge_concat_shifted": {
+      "auroc": 0.744545456082587,
+      "brier": 0.2126087073799368
+    },
+    "pooled_clean": {
+      "auroc": 0.8087933880199845,
+      "brier": 0.17596017394829483
+    },
+    "pooled_shifted": {
+      "auroc": 0.8119964986701242,
+      "brier": 0.18053223577684024
+    },
+    "pooled_interactions_clean": {
+      "auroc": 0.8120206647303216,
+      "brier": 0.17436625388359675
+    },
+    "pooled_interactions_shifted": {
+      "auroc": 0.8133996559548816,
+      "brier": 0.18231651369490026
+    }
+  }
+}
