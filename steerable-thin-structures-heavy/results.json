@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "intensity": {
+        "dice": 0.358279824256897,
+        "test_images": 72,
+        "mask_prevalence": 0.04984676092863083
+      },
+      "oriented": {
+        "dice": 0.4299205243587494,
+        "test_images": 72,
+        "mask_prevalence": 0.04984676092863083
+      }
+    },
+    "37": {
+      "intensity": {
+        "dice": 0.39570581912994385,
+        "test_images": 72,
+        "mask_prevalence": 0.049461450427770615
+      },
+      "oriented": {
+        "dice": 0.4434112310409546,
+        "test_images": 72,
+        "mask_prevalence": 0.049461450427770615
+      }
+    },
+    "61": {
+      "intensity": {
+        "dice": 0.35283026099205017,
+        "test_images": 72,
+        "mask_prevalence": 0.044780150055885315
+      },
+      "oriented": {
+        "dice": 0.40308019518852234,
+        "test_images": 72,
+        "mask_prevalence": 0.044780150055885315
+      }
+    }
+  },
+  "means": {
+    "intensity": {
+      "dice": 0.3689386347929637,
+      "test_images": 72.0,
+      "mask_prevalence": 0.04802945380409559
+    },
+    "oriented": {
+      "dice": 0.42547065019607544,
+      "test_images": 72.0,
+      "mask_prevalence": 0.04802945380409559
+    }
+  }
+}
