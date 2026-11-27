@@ -1,0 +1,20 @@
+[
+  {
+    "prof": "Courosh Mehanian",
+    "i": 0,
+    "real": false,
+    "title": "Contrastive pretraining for ultrasound classification",
+    "folder": "professor-aligned/ultrasound-contrastive-transfer-heavy-aligned",
+    "ref": "https://arxiv.org/abs/2310.10689",
+    "data": "Synthetic ultrasound-like echo phantoms"
+  },
+  {
+    "prof": "Courosh Mehanian",
+    "i": 0,
+    "real": true,
+    "title": "Contrastive pretraining for ultrasound classification",
+    "folder": "real-data-projects/ultrasound-contrastive-transfer-heavy-real-data",
+    "ref": "https://arxiv.org/abs/2310.10689",
+    "data": "BreastMNIST+ 64-pixel ultrasound"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "record": {
+    "prof": "Luciano Prevedello",
+    "id": "calibrated-radiograph",
+    "title": "Confidence and deferral for radiograph classification",
+    "ref": "https://medicine.osu.edu/departments/radiology/our-people/faculty/medical-imaging-informatics",
+    "data": "PneumoniaMNIST",
+    "url": "https://medmnist.com/",
+    "real": false,
+    "i": 9,
+    "folder": "professor-aligned/calibrated-radiograph-aligned"
+  },
+  "samples": 1350,
+  "runs": {
+    "13": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9903536977491961,
+          "auroc": 1.0,
+          "brier": 0.03111705503768013,
+          "parameters": 3286,
+          "epoch": 5
+        },
+        "compact_calibrated": {
+          "accuracy": 0.9903536977491961,
+          "auroc": 1.0,
+          "brier": 0.01139712027283866,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        },
+        "residual": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 1.1009284603286606e-08,
+          "parameters": 99218,
+          "epoch": 5
+        },
+        "residual_calibrated": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 7.435293748884388e-16,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 0.011668493460560203,
+          "parameters": 3286,
+          "epoch": 5
+        },
+        "compact_calibrated": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 0.001765612826674885,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        },
+        "residual": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 2.9803016644784817e-08,
+          "parameters": 99218,
+          "epoch": 6
+        },
+        "residual_calibrated": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 2.7834305703880007e-15,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9935691318327974,
+          "auroc": 0.9998331247392575,
+          "brier": 0.021386928638492158,
+          "parameters": 3286,
+          "epoch": 6
+        },
+        "compact_calibrated": {
+          "accuracy": 0.9935691318327974,
+          "auroc": 0.9998331247392575,
+          "brier": 0.005963973966969256,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        },
+        "residual": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 5.924258838403463e-08,
+          "parameters": 99218,
+          "epoch": 3
+        },
+        "residual_calibrated": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "brier": 7.00080047796993e-14,
+          "temperature": 0.45,
+          "error_at_80pct": 0.0
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9946409431939979,
+      "auroc": 0.9999443749130857,
+      "brier": 0.021390825712244165,
+      "parameters": 3286.0,
+      "epoch": 5.333333333333333
+    },
+    "compact_calibrated": {
+      "accuracy": 0.9946409431939979,
+      "auroc": 0.9999443749130857,
+      "brier": 0.006375569022160934,
+      "temperature": 0.45,
+      "error_at_80pct": 0.0
+    },
+    "residual": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "brier": 3.335162987736868e-08,
+      "parameters": 99218.0,
+      "epoch": 4.666666666666667
+    },
+    "residual_calibrated": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "brier": 2.451165490832525e-14,
+      "temperature": 0.45,
+      "error_at_80pct": 0.0
+    }
+  }
+}

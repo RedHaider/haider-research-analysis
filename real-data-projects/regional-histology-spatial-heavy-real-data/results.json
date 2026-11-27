@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Fusheng Wang",
+    "id": "regional-histology-spatial",
+    "title": "Spatial histology information retrieval analogue",
+    "ref": "https://www3.cs.stonybrook.edu/~fuswang/index.html",
+    "data": "PathMNIST",
+    "mode": "spatial",
+    "i": 11,
+    "real": true,
+    "folder": "real-data-projects/regional-histology-spatial-heavy-real-data"
+  },
+  "input_shape": [
+    5,
+    32,
+    32
+  ],
+  "observations": 1860,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1092,
+        308,
+        460
+      ],
+      "elapsed_seconds": 43.0185974999913,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.45,
+          "training_records": 1092,
+          "parameters": 32729,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.45217391304347826
+        },
+        "heavy": {
+          "accuracy": 0.4,
+          "training_records": 1092,
+          "parameters": 1529073,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.39565217391304347
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1092,
+        308,
+        460
+      ],
+      "elapsed_seconds": 53.42870980000589,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5652173913043478,
+          "training_records": 1092,
+          "parameters": 32729,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.5782608695652174
+        },
+        "heavy": {
+          "accuracy": 0.5391304347826087,
+          "training_records": 1092,
+          "parameters": 1529073,
+          "best_epoch": 6,
+          "epochs_ran": 10
+        },
+        "heavy_stress": {
+          "accuracy": 0.5347826086956522
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.5076086956521739,
+      "training_records": 1092.0,
+      "parameters": 32729.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.5152173913043478
+    },
+    "heavy": {
+      "accuracy": 0.46956521739130436,
+      "training_records": 1092.0,
+      "parameters": 1529073.0,
+      "best_epoch": 4.0,
+      "epochs_ran": 8.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.4652173913043478
+    }
+  }
+}

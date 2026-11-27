@@ -1,0 +1,138 @@
+{
+  "study": {
+    "prof": "Ping Zhang",
+    "id": "history-mask-readmission",
+    "title": "Readmission prediction with missing prior utilization",
+    "ref": "https://cancer.osu.edu/find-a-researcher/search-researcher-directory/ping-zhang-100003433",
+    "data": "UCI Diabetes 130-US Hospitals",
+    "mode": "diabetes",
+    "i": 0,
+    "real": true,
+    "folder": "real-data-projects/history-mask-readmission-heavy-real-data"
+  },
+  "input_shape": [
+    13
+  ],
+  "observations": 18365,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        3600,
+        1400,
+        4242
+      ],
+      "elapsed_seconds": 13.748944999999367,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.884016973125884,
+          "auroc": 0.6158243902439025,
+          "average_precision": 0.19550724993131674,
+          "brier": 0.10023765777016962,
+          "training_records": 3600,
+          "parameters": 3234,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.884016973125884,
+          "auroc": 0.5437848238482386,
+          "average_precision": 0.12375209734953038,
+          "brier": 0.10382931420470545
+        },
+        "heavy": {
+          "accuracy": 0.884016973125884,
+          "auroc": 0.6289311653116532,
+          "average_precision": 0.20679011327580687,
+          "brier": 0.10004662779664988,
+          "training_records": 3600,
+          "parameters": 671746,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.884016973125884,
+          "auroc": 0.5681349593495935,
+          "average_precision": 0.14124879627346104,
+          "brier": 0.10195795736688706
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        3600,
+        1400,
+        4224
+      ],
+      "elapsed_seconds": 9.289725200040266,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.8877840909090909,
+          "auroc": 0.6105760098927813,
+          "average_precision": 0.18742237306507178,
+          "brier": 0.09701140664802518,
+          "training_records": 3600,
+          "parameters": 3234,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.8880208333333334,
+          "auroc": 0.5363432330659674,
+          "average_precision": 0.12774892773303773,
+          "brier": 0.10065634027634487
+        },
+        "heavy": {
+          "accuracy": 0.8880208333333334,
+          "auroc": 0.6153854391471647,
+          "average_precision": 0.1927268680886218,
+          "brier": 0.09706356172436041,
+          "training_records": 3600,
+          "parameters": 671746,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.8880208333333334,
+          "auroc": 0.553927832070715,
+          "average_precision": 0.12951516097930668,
+          "brier": 0.09965774726575093
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.8859005320174875,
+      "auroc": 0.6132002000683419,
+      "average_precision": 0.19146481149819428,
+      "brier": 0.09862453220909739,
+      "training_records": 3600.0,
+      "parameters": 3234.0,
+      "best_epoch": 3.0,
+      "epochs_ran": 7.0
+    },
+    "compact_stress": {
+      "accuracy": 0.8860189032296086,
+      "auroc": 0.540064028457103,
+      "average_precision": 0.12575051254128405,
+      "brier": 0.10224282724052516
+    },
+    "heavy": {
+      "accuracy": 0.8860189032296086,
+      "auroc": 0.6221583022294089,
+      "average_precision": 0.19975849068221435,
+      "brier": 0.09855509476050514,
+      "training_records": 3600.0,
+      "parameters": 671746.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.8860189032296086,
+      "auroc": 0.5610313957101543,
+      "average_precision": 0.13538197862638385,
+      "brier": 0.100807852316319
+    }
+  }
+}

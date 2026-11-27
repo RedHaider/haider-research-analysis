@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Neal Bangerter",
+    "id": "mri-accelerated-denoising",
+    "title": "MRI restoration after simulated low-SNR acquisition",
+    "ref": "https://www.boisestate.edu/coen-ece/directory/bangerter/",
+    "data": "Public 2D brain MRI images with synthetic magnitude noise",
+    "mode": "mri_noise",
+    "i": 18,
+    "real": true,
+    "folder": "real-data-projects/mri-accelerated-denoising-heavy-real-data"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 228,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 33.47232110000914,
+      "metrics": {
+        "compact": {
+          "psnr": 17.676809310913086,
+          "mae": 0.08814612776041031,
+          "training_records": 136,
+          "parameters": 44608,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 20.615880966186523,
+          "mae": 0.06149981543421745,
+          "training_records": 136,
+          "parameters": 1548792,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 18.286616834396686,
+          "mae": 0.0995709776774252
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 26.076769699982833,
+      "metrics": {
+        "compact": {
+          "psnr": 17.83907699584961,
+          "mae": 0.0860547423362732,
+          "training_records": 136,
+          "parameters": 44608,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 20.79088592529297,
+          "mae": 0.06039924547076225,
+          "training_records": 136,
+          "parameters": 1548792,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 18.267938282989963,
+          "mae": 0.10009577042163637
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 17.757943153381348,
+      "mae": 0.08710043504834175,
+      "training_records": 136.0,
+      "parameters": 44608.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "psnr": 18.277277558693324,
+      "mae": 0.09983337404953078
+    },
+    "heavy": {
+      "psnr": 20.703383445739746,
+      "mae": 0.06094953045248985,
+      "training_records": 136.0,
+      "parameters": 1548792.0,
+      "best_epoch": 12.0,
+      "epochs_ran": 12.0
+    }
+  }
+}

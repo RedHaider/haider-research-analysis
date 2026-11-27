@@ -1,0 +1,113 @@
+{
+  "study": {
+    "prof": "Chuan Zhou",
+    "slug": "image-caption-interaction",
+    "title": "Multimodal radiology pair verification",
+    "ref": "https://midas.umich.edu/directory/chuan-zhou/",
+    "data": "ROCO-derived radiology image\u00e2\u20ac\u201ccaption embeddings",
+    "real": true,
+    "i": 1,
+    "folder": "real-data-projects/image-caption-interaction-heavy-real-data"
+  },
+  "input_shape": [
+    2048
+  ],
+  "observations": 1120,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        600,
+        200,
+        320
+      ],
+      "elapsed_seconds": 13.484263200021815,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.778125,
+          "auroc": 0.7552083333333333,
+          "average_precision": 0.47719238784690887,
+          "brier": 0.16171698920178942,
+          "parameters": 133474,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.778125,
+          "auroc": 0.7445833333333333,
+          "average_precision": 0.5195277785665302,
+          "brier": 0.16190138040707713,
+          "parameters": 2234626,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "fixed_reference": {
+          "accuracy": 0.25,
+          "auroc": 0.7020312500000001,
+          "average_precision": 0.515226468035437,
+          "brier": 0.3421632574497463
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        600,
+        200,
+        320
+      ],
+      "elapsed_seconds": 9.538309899973683,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.75,
+          "auroc": 0.7246354166666666,
+          "average_precision": 0.4250161943928436,
+          "brier": 0.17019454078454,
+          "parameters": 133474,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7625,
+          "auroc": 0.7415104166666667,
+          "average_precision": 0.4678632276997245,
+          "brier": 0.16204884066623806,
+          "parameters": 2234626,
+          "best_epoch": 6,
+          "epochs_ran": 10
+        },
+        "fixed_reference": {
+          "accuracy": 0.25,
+          "auroc": 0.7020312500000001,
+          "average_precision": 0.515226468035437,
+          "brier": 0.3421632574497463
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7640625,
+      "auroc": 0.739921875,
+      "average_precision": 0.45110429111987627,
+      "brier": 0.16595576499316472,
+      "parameters": 133474.0,
+      "best_epoch": 6.0,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "accuracy": 0.25,
+      "auroc": 0.7020312500000001,
+      "average_precision": 0.515226468035437,
+      "brier": 0.3421632574497463
+    },
+    "heavy": {
+      "accuracy": 0.7703125,
+      "auroc": 0.743046875,
+      "average_precision": 0.4936955031331274,
+      "brier": 0.16197511053665758,
+      "parameters": 2234626.0,
+      "best_epoch": 5.0,
+      "epochs_ran": 9.0
+    }
+  }
+}

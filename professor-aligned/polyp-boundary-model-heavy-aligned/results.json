@@ -1,0 +1,85 @@
+{
+  "study": {
+    "prof": "Mingchen Gao",
+    "slug": "polyp-boundary-model",
+    "title": "Medical image segmentation with boundary evaluation",
+    "ref": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/gao-mingchen.html",
+    "data": "Kvasir-SEG",
+    "real": false,
+    "i": 5,
+    "folder": "professor-aligned/polyp-boundary-model-heavy-aligned"
+  },
+  "input_shape": [
+    3,
+    64,
+    64
+  ],
+  "observations": 450,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        269,
+        77,
+        104
+      ],
+      "elapsed_seconds": 89.77032940002391,
+      "metrics": {
+        "compact": {
+          "dice": 0.7678072134844377,
+          "boundary_dice": 0.3961961984956025,
+          "parameters": 45120,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.865758735986086,
+          "boundary_dice": 0.6039259527685064,
+          "parameters": 1550072,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        269,
+        77,
+        104
+      ],
+      "elapsed_seconds": 62.04966449999483,
+      "metrics": {
+        "compact": {
+          "dice": 0.5806594636066843,
+          "boundary_dice": 0.36127005219798397,
+          "parameters": 45120,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.8524248939393199,
+          "boundary_dice": 0.5880997884224566,
+          "parameters": 1550072,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.674233338545561,
+      "boundary_dice": 0.37873312534679326,
+      "parameters": 45120.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "dice": 0.8590918149627029,
+      "boundary_dice": 0.5960128705954815,
+      "parameters": 1550072.0,
+      "best_epoch": 11.5,
+      "epochs_ran": 12.0
+    }
+  }
+}

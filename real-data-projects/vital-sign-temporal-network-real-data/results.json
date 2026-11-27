@@ -1,0 +1,104 @@
+{
+  "runs": {
+    "13": {
+      "sizes": [
+        2402,
+        678,
+        920
+      ],
+      "groups": [
+        2402,
+        678,
+        920
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.7128021597244489,
+          "average_precision": 0.26373193437837283,
+          "accuracy": 0.866304347826087,
+          "parameters": 1562,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "auroc": 0.681957819174795,
+          "average_precision": 0.21081369688056698,
+          "accuracy": 0.8684782608695653,
+          "parameters": 88706,
+          "selected_epoch": 1
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2402,
+        678,
+        920
+      ],
+      "groups": [
+        2402,
+        678,
+        920
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.6712582008228622,
+          "average_precision": 0.25733175233807465,
+          "accuracy": 0.85,
+          "parameters": 1562,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "auroc": 0.617044738500315,
+          "average_precision": 0.21627965953419243,
+          "accuracy": 0.8489130434782609,
+          "parameters": 88706,
+          "selected_epoch": 2
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        2402,
+        678,
+        920
+      ],
+      "groups": [
+        2402,
+        678,
+        920
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.6612832759082921,
+          "average_precision": 0.21249328147631674,
+          "accuracy": 0.8608695652173913,
+          "parameters": 1562,
+          "selected_epoch": 3
+        },
+        "medium": {
+          "auroc": 0.6076744347687938,
+          "average_precision": 0.18056204327156372,
+          "accuracy": 0.8619565217391304,
+          "parameters": 88706,
+          "selected_epoch": 3
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "auroc": 0.6817812121518677,
+      "average_precision": 0.2445189893975881,
+      "accuracy": 0.8590579710144928,
+      "parameters": 1562.0,
+      "selected_epoch": 5.666666666666667
+    },
+    "medium": {
+      "auroc": 0.6355589974813013,
+      "average_precision": 0.20255179989544106,
+      "accuracy": 0.8597826086956522,
+      "parameters": 88706.0,
+      "selected_epoch": 2.0
+    }
+  }
+}

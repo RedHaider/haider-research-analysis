@@ -1,0 +1,132 @@
+{
+  "runs": {
+    "13": {
+      "sizes": [
+        3122,
+        762,
+        916
+      ],
+      "groups": [
+        120,
+        34,
+        46
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.9714882221235787,
+          "average_precision": 0.9409562149577281,
+          "accuracy": 0.8908296943231441,
+          "parameters": 3038,
+          "selected_epoch": 6
+        },
+        "medium": {
+          "auroc": 0.9939708199392203,
+          "average_precision": 0.9924169606267951,
+          "accuracy": 0.9639737991266376,
+          "parameters": 261002,
+          "selected_epoch": 6
+        },
+        "cascade": {
+          "auroc": 0.972536987263601,
+          "average_precision": 0.9606560728065432,
+          "accuracy": 0.9563318777292577,
+          "medium_fraction": 0.26965065502183405,
+          "threshold": 0.8
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        3094,
+        739,
+        967
+      ],
+      "groups": [
+        120,
+        34,
+        46
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.9477341468502294,
+          "average_precision": 0.8955641636752986,
+          "accuracy": 0.8821096173733195,
+          "parameters": 3038,
+          "selected_epoch": 6
+        },
+        "medium": {
+          "auroc": 0.988688117090808,
+          "average_precision": 0.9866698283306643,
+          "accuracy": 0.9503619441571872,
+          "parameters": 261002,
+          "selected_epoch": 7
+        },
+        "cascade": {
+          "auroc": 0.9613927131136142,
+          "average_precision": 0.9360257087620756,
+          "accuracy": 0.9420889348500517,
+          "medium_fraction": 0.4364012409513961,
+          "threshold": 0.8
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        2878,
+        996,
+        926
+      ],
+      "groups": [
+        120,
+        34,
+        46
+      ],
+      "metrics": {
+        "compact": {
+          "auroc": 0.9451506156708468,
+          "average_precision": 0.9231557108904529,
+          "accuracy": 0.8131749460043196,
+          "parameters": 3038,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "auroc": 0.9758039700236233,
+          "average_precision": 0.9761958194718356,
+          "accuracy": 0.9406047516198704,
+          "parameters": 261002,
+          "selected_epoch": 6
+        },
+        "cascade": {
+          "auroc": 0.9546377696666715,
+          "average_precision": 0.9546986875221676,
+          "accuracy": 0.9125269978401728,
+          "medium_fraction": 0.2505399568034557,
+          "threshold": 0.8
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "auroc": 0.9547909948815515,
+      "average_precision": 0.9198920298411598,
+      "accuracy": 0.8620380859002611,
+      "parameters": 3038.0,
+      "selected_epoch": 6.333333333333333
+    },
+    "medium": {
+      "auroc": 0.9861543023512173,
+      "average_precision": 0.985094202809765,
+      "accuracy": 0.9516468316345651,
+      "parameters": 261002.0,
+      "selected_epoch": 6.333333333333333
+    },
+    "cascade": {
+      "auroc": 0.9628558233479622,
+      "average_precision": 0.9504601563635955,
+      "accuracy": 0.9369826034731608,
+      "medium_fraction": 0.31886395092556197,
+      "threshold": 0.8000000000000002
+    }
+  }
+}

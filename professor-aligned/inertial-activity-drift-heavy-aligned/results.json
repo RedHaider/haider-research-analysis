@@ -1,0 +1,96 @@
+{
+  "study": {
+    "prof": "Diane J. Cook",
+    "slug": "inertial-activity-drift",
+    "title": "Activity recognition under simulated sensor drift",
+    "ref": "https://eecs.wsu.edu/~cook/",
+    "data": "UCI HAR inertial activity dataset",
+    "real": false,
+    "i": 9,
+    "folder": "professor-aligned/inertial-activity-drift-heavy-aligned"
+  },
+  "input_shape": [
+    6,
+    64
+  ],
+  "observations": 1632,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        952,
+        272,
+        408
+      ],
+      "elapsed_seconds": 34.45393720001448,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9828431372549019,
+          "parameters": 19206,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.42892156862745096
+        },
+        "heavy": {
+          "accuracy": 0.9485294117647058,
+          "parameters": 1258366,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "accuracy": 0.4215686274509804
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        952,
+        272,
+        408
+      ],
+      "elapsed_seconds": 38.25221289996989,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9901960784313726,
+          "parameters": 19206,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.46568627450980393
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "parameters": 1258366,
+          "best_epoch": 6,
+          "epochs_ran": 10
+        },
+        "heavy_stress": {
+          "accuracy": 0.5171568627450981
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9865196078431373,
+      "parameters": 19206.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.4473039215686274
+    },
+    "heavy": {
+      "accuracy": 0.9742647058823529,
+      "parameters": 1258366.0,
+      "best_epoch": 4.5,
+      "epochs_ran": 8.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.4693627450980392
+    }
+  }
+}

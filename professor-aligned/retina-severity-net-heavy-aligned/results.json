@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Jianjun Hu",
+    "id": "retina-severity-net",
+    "title": "Retinal severity classification",
+    "ref": "https://www.hrs.sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/jianjunhu.php",
+    "data": "RetinaMNIST",
+    "mode": "retina",
+    "i": 16,
+    "real": false,
+    "folder": "professor-aligned/retina-severity-net-heavy-aligned"
+  },
+  "input_shape": [
+    3,
+    32,
+    32
+  ],
+  "observations": 1400,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 30.23430609999923,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999999,
+          "brier": 1.6009359765599713e-07,
+          "training_records": 840,
+          "parameters": 31874,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.0960874513701514e-09,
+          "training_records": 840,
+          "parameters": 1525322,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 32.44689570000628,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999999,
+          "brier": 5.175377263851852e-08,
+          "training_records": 840,
+          "parameters": 31874,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.0956883182735421e-08,
+          "training_records": 840,
+          "parameters": 1525322,
+          "best_epoch": 6,
+          "epochs_ran": 10
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999999,
+      "brier": 1.0592368514725783e-07,
+      "training_records": 840.0,
+      "parameters": 31874.0,
+      "best_epoch": 7.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 6.026485317052786e-09,
+      "training_records": 840.0,
+      "parameters": 1525322.0,
+      "best_epoch": 4.0,
+      "epochs_ran": 8.0
+    }
+  }
+}

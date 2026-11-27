@@ -1,0 +1,100 @@
+{
+  "record": {
+    "prof": "Jiaqi Gong",
+    "id": "activity-temporal",
+    "title": "Human activity recognition",
+    "ref": "https://eng.ua.edu/eng-directory/dr-jiaqi-jackey-gong/",
+    "data": "UCI HAR",
+    "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "real": true,
+    "i": 5,
+    "folder": "real-data-projects/activity-temporal-real-data"
+  },
+  "samples": 3200,
+  "runs": {
+    "13": {
+      "sizes": [
+        1663,
+        537,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.624,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.63,
+          "parameters": 37614,
+          "epoch": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1699,
+        501,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.612,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.644,
+          "parameters": 37614,
+          "epoch": 4
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        1679,
+        521,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.616,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.677,
+          "parameters": 37614,
+          "epoch": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.6173333333333333,
+      "parameters": 2118.0,
+      "epoch": 6.0
+    },
+    "residual": {
+      "accuracy": 0.6503333333333333,
+      "parameters": 37614.0,
+      "epoch": 4.666666666666667
+    }
+  }
+}

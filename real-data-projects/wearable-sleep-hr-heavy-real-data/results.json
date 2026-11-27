@@ -1,0 +1,103 @@
+{
+  "study": {
+    "prof": "Guy C. Hembroff",
+    "id": "wearable-sleep-hr",
+    "title": "Sleep and wake from wearable heart rate",
+    "ref": "https://www.mtu.edu/data-science/about/faculty/hembroff/",
+    "data": "PhysioNet Sleep Accel",
+    "mode": "sleep",
+    "i": 8,
+    "real": true,
+    "folder": "real-data-projects/wearable-sleep-hr-heavy-real-data"
+  },
+  "input_shape": [
+    3,
+    8
+  ],
+  "observations": 5336,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        3021,
+        1056,
+        1259
+      ],
+      "elapsed_seconds": 69.58250790002057,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.8760921366163622,
+          "auroc": 0.6573807854137448,
+          "average_precision": 0.9238342062781311,
+          "brier": 0.10590303564096303,
+          "training_records": 3021,
+          "parameters": 18770,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.8617950754567116,
+          "auroc": 0.6036524076671341,
+          "average_precision": 0.9065135590610751,
+          "brier": 0.11608605756659635,
+          "training_records": 3021,
+          "parameters": 1256354,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        3036,
+        942,
+        1358
+      ],
+      "elapsed_seconds": 33.03065279999282,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.8792341678939617,
+          "auroc": 0.6201893614413532,
+          "average_precision": 0.9134976461374205,
+          "brier": 0.1038166083860796,
+          "training_records": 3036,
+          "parameters": 18770,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy": {
+          "accuracy": 0.8814432989690721,
+          "auroc": 0.6175082730726805,
+          "average_precision": 0.9152302265166398,
+          "brier": 0.10520694425339228,
+          "training_records": 3036,
+          "parameters": 1256354,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.8776631522551619,
+      "auroc": 0.638785073427549,
+      "average_precision": 0.9186659262077758,
+      "brier": 0.10485982201352131,
+      "training_records": 3028.5,
+      "parameters": 18770.0,
+      "best_epoch": 3.0,
+      "epochs_ran": 6.5
+    },
+    "heavy": {
+      "accuracy": 0.8716191872128919,
+      "auroc": 0.6105803403699073,
+      "average_precision": 0.9108718927888575,
+      "brier": 0.11064650090999431,
+      "training_records": 3028.5,
+      "parameters": 1256354.0,
+      "best_epoch": 6.5,
+      "epochs_ran": 9.0
+    }
+  }
+}

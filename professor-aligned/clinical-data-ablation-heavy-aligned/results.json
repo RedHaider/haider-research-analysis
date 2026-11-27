@@ -1,0 +1,139 @@
+{
+  "study": {
+    "prof": "May Dongmei Wang",
+    "id": "clinical-data-ablation",
+    "title": "Clinical forecasting with partial data",
+    "ref": "https://bme.gatech.edu/bio/may-dongmei-wang",
+    "data": "PhysioNet 2012",
+    "mode": "icu",
+    "i": 4,
+    "real": false,
+    "folder": "professor-aligned/clinical-data-ablation-heavy-aligned"
+  },
+  "input_shape": [
+    16,
+    24
+  ],
+  "observations": 2250,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 21.47319950000383,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7857142857142857,
+          "auroc": 0.8253789014944334,
+          "average_precision": 0.7213729498649064,
+          "brier": 0.1487372233928983,
+          "training_records": 1350,
+          "parameters": 19810,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.696911196911197,
+          "auroc": 0.7304903223529826,
+          "average_precision": 0.5313831212976878,
+          "brier": 0.22435952012927077
+        },
+        "heavy": {
+          "accuracy": 0.7953667953667953,
+          "auroc": 0.8386470702401327,
+          "average_precision": 0.7143258876856838,
+          "brier": 0.1432948859874787,
+          "training_records": 1350,
+          "parameters": 1258954,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.7142857142857143,
+          "auroc": 0.7834924219701114,
+          "average_precision": 0.6321723868366799,
+          "brier": 0.17747212878048058
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 14.16742069995962,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7953667953667953,
+          "auroc": 0.8190283916261981,
+          "average_precision": 0.6920515799297998,
+          "brier": 0.1460363429320536,
+          "training_records": 1350,
+          "parameters": 19810,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7123552123552124,
+          "auroc": 0.7510776450046379,
+          "average_precision": 0.5868733821211822,
+          "brier": 0.26877534906186773
+        },
+        "heavy": {
+          "accuracy": 0.7915057915057915,
+          "auroc": 0.8387624815845474,
+          "average_precision": 0.7292261327341744,
+          "brier": 0.16845493897572955,
+          "training_records": 1350,
+          "parameters": 1258954,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy_stress": {
+          "accuracy": 0.7123552123552124,
+          "auroc": 0.7985667776140848,
+          "average_precision": 0.6266470841811338,
+          "brier": 0.1997187708209923
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7905405405405406,
+      "auroc": 0.8222036465603157,
+      "average_precision": 0.7067122648973532,
+      "brier": 0.14738678316247594,
+      "training_records": 1350.0,
+      "parameters": 19810.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "compact_stress": {
+      "accuracy": 0.7046332046332047,
+      "auroc": 0.7407839836788103,
+      "average_precision": 0.559128251709435,
+      "brier": 0.24656743459556923
+    },
+    "heavy": {
+      "accuracy": 0.7934362934362934,
+      "auroc": 0.83870477591234,
+      "average_precision": 0.7217760102099291,
+      "brier": 0.15587491248160412,
+      "training_records": 1350.0,
+      "parameters": 1258954.0,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.7133204633204633,
+      "auroc": 0.7910295997920981,
+      "average_precision": 0.6294097355089068,
+      "brier": 0.18859544980073645
+    }
+  }
+}

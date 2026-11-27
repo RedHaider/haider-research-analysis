@@ -1,0 +1,89 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "fp32": {
+        "auroc": 0.9393381547227702,
+        "average_precision": 0.9286309173223799,
+        "parameter_payload_bytes": 31044,
+        "disagreement": 0.0
+      },
+      "int8_weights": {
+        "auroc": 0.9392833662064431,
+        "average_precision": 0.92875132447442,
+        "parameter_payload_bytes": 8216,
+        "disagreement": 0.0
+      },
+      "int4_weights": {
+        "auroc": 0.9408557966250274,
+        "average_precision": 0.9322768922023843,
+        "parameter_payload_bytes": 4368,
+        "disagreement": 0.01282051282051282
+      }
+    },
+    "37": {
+      "fp32": {
+        "auroc": 0.9334429103659874,
+        "average_precision": 0.9300109160860386,
+        "parameter_payload_bytes": 31044,
+        "disagreement": 0.0
+      },
+      "int8_weights": {
+        "auroc": 0.9334264738110892,
+        "average_precision": 0.9301058477491682,
+        "parameter_payload_bytes": 8216,
+        "disagreement": 0.0
+      },
+      "int4_weights": {
+        "auroc": 0.9339469647161955,
+        "average_precision": 0.9303960710615033,
+        "parameter_payload_bytes": 4368,
+        "disagreement": 0.0016025641025641025
+      }
+    },
+    "61": {
+      "fp32": {
+        "auroc": 0.9151764190225729,
+        "average_precision": 0.9090830034398856,
+        "parameter_payload_bytes": 31044,
+        "disagreement": 0.0
+      },
+      "int8_weights": {
+        "auroc": 0.9152969537584923,
+        "average_precision": 0.9092301474663993,
+        "parameter_payload_bytes": 8216,
+        "disagreement": 0.004807692307692308
+      },
+      "int4_weights": {
+        "auroc": 0.9144696471619549,
+        "average_precision": 0.9083292530841627,
+        "parameter_payload_bytes": 4368,
+        "disagreement": 0.00641025641025641
+      }
+    }
+  },
+  "means": {
+    "fp32": {
+      "auroc": 0.9293191613704433,
+      "average_precision": 0.9225749456161013,
+      "parameter_payload_bytes": 31044.0,
+      "disagreement": 0.0
+    },
+    "int8_weights": {
+      "auroc": 0.9293355979253416,
+      "average_precision": 0.922695773229996,
+      "parameter_payload_bytes": 8216.0,
+      "disagreement": 0.0016025641025641027
+    },
+    "int4_weights": {
+      "auroc": 0.9297574695010592,
+      "average_precision": 0.9236674054493501,
+      "parameter_payload_bytes": 4368.0,
+      "disagreement": 0.006944444444444444
+    }
+  }
+}

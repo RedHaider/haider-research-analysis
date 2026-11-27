@@ -1,0 +1,96 @@
+{
+  "study": {
+    "prof": "Shamim Nemati",
+    "slug": "icu-pressure-trajectory",
+    "title": "Forecasting observed hypotension from early ICU vitals",
+    "ref": "https://profiles.ucsd.edu/shamim.nemati",
+    "data": "PhysioNet 2012 ICU records",
+    "real": false,
+    "i": 3,
+    "folder": "professor-aligned/icu-pressure-trajectory-heavy-aligned"
+  },
+  "input_shape": [
+    16,
+    24
+  ],
+  "observations": 2250,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 26.47482989996206,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7606177606177607,
+          "auroc": 0.7972580336482419,
+          "average_precision": 0.6422369564712532,
+          "brier": 0.16380585197531486,
+          "parameters": 19810,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.7432432432432432,
+          "auroc": 0.8030342571811333,
+          "average_precision": 0.63405644671235,
+          "brier": 0.17516117697551573,
+          "parameters": 1258954,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 18.891132100019604,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7451737451737451,
+          "auroc": 0.7860885733603786,
+          "average_precision": 0.6437013952441597,
+          "brier": 0.1723768507048812,
+          "parameters": 19810,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.7258687258687259,
+          "auroc": 0.7839334009465855,
+          "average_precision": 0.6349410087923039,
+          "brier": 0.1771507698260954,
+          "parameters": 1258954,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.752895752895753,
+      "auroc": 0.7916733035043102,
+      "average_precision": 0.6429691758577065,
+      "brier": 0.16809135134009803,
+      "parameters": 19810.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy": {
+      "accuracy": 0.7345559845559846,
+      "auroc": 0.7934838290638594,
+      "average_precision": 0.6344987277523269,
+      "brier": 0.17615597340080558,
+      "parameters": 1258954.0,
+      "best_epoch": 1.0,
+      "epochs_ran": 5.0
+    }
+  }
+}

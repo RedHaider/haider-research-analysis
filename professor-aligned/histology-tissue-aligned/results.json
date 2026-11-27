@@ -1,0 +1,100 @@
+{
+  "record": {
+    "prof": "Peter Sadowski",
+    "id": "histology-tissue",
+    "title": "Convolutional histology tissue classification",
+    "ref": "https://www2.hawaii.edu/~psadow/",
+    "data": "PathMNIST",
+    "url": "https://medmnist.com/",
+    "real": false,
+    "i": 6,
+    "folder": "professor-aligned/histology-tissue-aligned"
+  },
+  "samples": 1350,
+  "runs": {
+    "13": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.2604501607717042,
+          "parameters": 3789,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.7363344051446945,
+          "parameters": 100329,
+          "epoch": 4
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.2765273311897106,
+          "parameters": 3789,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.977491961414791,
+          "parameters": 100329,
+          "epoch": 6
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        810,
+        229,
+        311
+      ],
+      "groups": [
+        810,
+        229,
+        311
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.3408360128617363,
+          "parameters": 3789,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.9871382636655949,
+          "parameters": 100329,
+          "epoch": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.292604501607717,
+      "parameters": 3789.0,
+      "epoch": 6.0
+    },
+    "residual": {
+      "accuracy": 0.9003215434083601,
+      "parameters": 100329.0,
+      "epoch": 5.333333333333333
+    }
+  }
+}

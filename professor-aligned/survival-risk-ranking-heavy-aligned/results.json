@@ -1,0 +1,102 @@
+{
+  "study": {
+    "prof": "John W. Sheppard",
+    "id": "survival-risk-ranking",
+    "title": "Horizon risk prediction with censored follow-up",
+    "ref": "https://www.cs.montana.edu/directory/1524592/john-sheppard",
+    "data": "NCCTG lung cancer survival data",
+    "mode": "survival",
+    "i": 9,
+    "real": false,
+    "folder": "professor-aligned/survival-risk-ranking-heavy-aligned"
+  },
+  "input_shape": [
+    14
+  ],
+  "observations": 950,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        570,
+        161,
+        219
+      ],
+      "elapsed_seconds": 3.739156399969943,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7077625570776256,
+          "auroc": 0.7097870817677581,
+          "average_precision": 0.5718473440813727,
+          "brier": 0.20604489529189535,
+          "training_records": 570,
+          "parameters": 3298,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.6894977168949772,
+          "auroc": 0.7232957595276436,
+          "average_precision": 0.6180898321037048,
+          "brier": 0.20593659204521808,
+          "training_records": 570,
+          "parameters": 672514,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        570,
+        161,
+        219
+      ],
+      "elapsed_seconds": 1.1924312000046484,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6301369863013698,
+          "auroc": 0.6490958408679928,
+          "average_precision": 0.5049615480618881,
+          "brier": 0.22657166510384275,
+          "training_records": 570,
+          "parameters": 3298,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.6164383561643836,
+          "auroc": 0.6512658227848102,
+          "average_precision": 0.47285381585323727,
+          "brier": 0.24043712198651693,
+          "training_records": 570,
+          "parameters": 672514,
+          "best_epoch": 5,
+          "epochs_ran": 9
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.6689497716894977,
+      "auroc": 0.6794414613178754,
+      "average_precision": 0.5384044460716304,
+      "brier": 0.21630828019786905,
+      "training_records": 570.0,
+      "parameters": 3298.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.6529680365296804,
+      "auroc": 0.6872807911562269,
+      "average_precision": 0.545471823978471,
+      "brier": 0.2231868570158675,
+      "training_records": 570.0,
+      "parameters": 672514.0,
+      "best_epoch": 4.0,
+      "epochs_ran": 8.0
+    }
+  }
+}

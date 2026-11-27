@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Jianjun Hu",
+    "id": "retina-severity-net",
+    "title": "Retinal severity classification",
+    "ref": "https://www.hrs.sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/jianjunhu.php",
+    "data": "RetinaMNIST",
+    "mode": "retina",
+    "i": 16,
+    "real": true,
+    "folder": "real-data-projects/retina-severity-net-heavy-real-data"
+  },
+  "input_shape": [
+    3,
+    32,
+    32
+  ],
+  "observations": 1480,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        842,
+        238,
+        400
+      ],
+      "elapsed_seconds": 33.120739299978595,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7475,
+          "auroc": 0.797070707070707,
+          "average_precision": 0.725331299632469,
+          "brier": 0.18015570302077039,
+          "training_records": 842,
+          "parameters": 31874,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7225,
+          "auroc": 0.7912626262626262,
+          "average_precision": 0.6979480280612167,
+          "brier": 0.18345766724122092,
+          "training_records": 842,
+          "parameters": 1525322,
+          "best_epoch": 5,
+          "epochs_ran": 9
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        842,
+        238,
+        400
+      ],
+      "elapsed_seconds": 32.335408900049515,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.715,
+          "auroc": 0.7772979797979798,
+          "average_precision": 0.6615815656068763,
+          "brier": 0.1944106495442221,
+          "training_records": 842,
+          "parameters": 31874,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.6975,
+          "auroc": 0.7693939393939394,
+          "average_precision": 0.6701425805943114,
+          "brier": 0.1954483130269424,
+          "training_records": 842,
+          "parameters": 1525322,
+          "best_epoch": 7,
+          "epochs_ran": 11
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.73125,
+      "auroc": 0.7871843434343434,
+      "average_precision": 0.6934564326196726,
+      "brier": 0.18728317628249624,
+      "training_records": 842.0,
+      "parameters": 31874.0,
+      "best_epoch": 7.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.71,
+      "auroc": 0.7803282828282828,
+      "average_precision": 0.6840453043277641,
+      "brier": 0.18945299013408168,
+      "training_records": 842.0,
+      "parameters": 1525322.0,
+      "best_epoch": 6.0,
+      "epochs_ran": 10.0
+    }
+  }
+}

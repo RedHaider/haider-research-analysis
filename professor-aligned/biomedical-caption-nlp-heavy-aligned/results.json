@@ -1,0 +1,102 @@
+{
+  "study": {
+    "prof": "Meliha Yetisgen",
+    "id": "biomedical-caption-nlp",
+    "title": "Radiology caption negation detection",
+    "ref": "https://bime.uw.edu/faculty/meliha-yetisgen/",
+    "data": "ROCO-derived public radiology captions",
+    "mode": "text",
+    "i": 2,
+    "real": false,
+    "folder": "professor-aligned/biomedical-caption-nlp-heavy-aligned"
+  },
+  "input_shape": [
+    1024
+  ],
+  "observations": 1100,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        663,
+        208,
+        229
+      ],
+      "elapsed_seconds": 11.621442099974956,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9737991266375546,
+          "auroc": 0.9944717444717445,
+          "average_precision": 0.9774095469747643,
+          "brier": 0.023555888873416794,
+          "training_records": 663,
+          "parameters": 67938,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.9737991266375546,
+          "auroc": 0.9974201474201475,
+          "average_precision": 0.9843761652621373,
+          "brier": 0.016253118351396596,
+          "training_records": 663,
+          "parameters": 1448194,
+          "best_epoch": 8,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        696,
+        212,
+        192
+      ],
+      "elapsed_seconds": 3.8986819999990985,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.90625,
+          "auroc": 0.9636956521739131,
+          "average_precision": 0.9650050222435247,
+          "brier": 0.06286597204262812,
+          "training_records": 696,
+          "parameters": 67938,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.90625,
+          "auroc": 0.9686956521739131,
+          "average_precision": 0.9683034281714926,
+          "brier": 0.06221124031842032,
+          "training_records": 696,
+          "parameters": 1448194,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9400245633187774,
+      "auroc": 0.9790836983228288,
+      "average_precision": 0.9712072846091445,
+      "brier": 0.043210930458022455,
+      "training_records": 679.5,
+      "parameters": 67938.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.9400245633187774,
+      "auroc": 0.9830578997970303,
+      "average_precision": 0.976339796716815,
+      "brier": 0.039232179334908454,
+      "training_records": 679.5,
+      "parameters": 1448194.0,
+      "best_epoch": 6.0,
+      "epochs_ran": 10.0
+    }
+  }
+}

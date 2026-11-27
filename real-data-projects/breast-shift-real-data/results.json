@@ -1,0 +1,156 @@
+{
+  "record": {
+    "prof": "Shandong Wu",
+    "id": "breast-shift",
+    "title": "Breast imaging under acquisition shift",
+    "ref": "https://www.sci.pitt.edu/people/shandong-wu",
+    "data": "BreastMNIST",
+    "url": "https://medmnist.com/",
+    "real": true,
+    "i": 3,
+    "folder": "real-data-projects/breast-shift-real-data"
+  },
+  "samples": 702,
+  "runs": {
+    "13": {
+      "sizes": [
+        425,
+        121,
+        156
+      ],
+      "groups": [
+        425,
+        121,
+        156
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.7337092731829574,
+          "brier": 0.17728457293554375,
+          "parameters": 3286,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.6741854636591479,
+          "brier": 0.18929640151895852
+        },
+        "residual": {
+          "accuracy": 0.7884615384615384,
+          "auroc": 0.7577276524644946,
+          "brier": 0.1665783639690354,
+          "parameters": 99218,
+          "epoch": 4
+        },
+        "residual_stress": {
+          "accuracy": 0.75,
+          "auroc": 0.6267752715121135,
+          "brier": 0.19394930172651464
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        425,
+        121,
+        156
+      ],
+      "groups": [
+        425,
+        121,
+        156
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.7619047619047619,
+          "brier": 0.17082613020345186,
+          "parameters": 3286,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.6929824561403508,
+          "brier": 0.18940492609104842
+        },
+        "residual": {
+          "accuracy": 0.8205128205128205,
+          "auroc": 0.8302005012531328,
+          "brier": 0.1351510373964293,
+          "parameters": 99218,
+          "epoch": 5
+        },
+        "residual_stress": {
+          "accuracy": 0.5384615384615384,
+          "auroc": 0.6271929824561404,
+          "brier": 0.26911912344845884
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        425,
+        121,
+        156
+      ],
+      "groups": [
+        425,
+        121,
+        156
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.7690058479532164,
+          "brier": 0.17237006837945595,
+          "parameters": 3286,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.717000835421888,
+          "brier": 0.19716666684731624
+        },
+        "residual": {
+          "accuracy": 0.8205128205128205,
+          "auroc": 0.824561403508772,
+          "brier": 0.14891988489592897,
+          "parameters": 99218,
+          "epoch": 4
+        },
+        "residual_stress": {
+          "accuracy": 0.7307692307692307,
+          "auroc": 0.7573099415204678,
+          "brier": 0.18171267482050837
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7307692307692307,
+      "auroc": 0.7548732943469786,
+      "brier": 0.17349359050615054,
+      "parameters": 3286.0,
+      "epoch": 6.0
+    },
+    "compact_stress": {
+      "accuracy": 0.7307692307692307,
+      "auroc": 0.694722918407129,
+      "brier": 0.19195599815244105
+    },
+    "residual": {
+      "accuracy": 0.80982905982906,
+      "auroc": 0.8041631857421331,
+      "brier": 0.1502164287537979,
+      "parameters": 99218.0,
+      "epoch": 4.333333333333333
+    },
+    "residual_stress": {
+      "accuracy": 0.673076923076923,
+      "auroc": 0.6704260651629074,
+      "brier": 0.21492703333182728
+    }
+  }
+}

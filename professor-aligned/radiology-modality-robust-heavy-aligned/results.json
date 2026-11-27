@@ -1,0 +1,156 @@
+{
+  "study": {
+    "prof": "Safwan Wshah",
+    "id": "radiology-modality-robust",
+    "title": "Robust image\u00e2\u20ac\u201ctext matching with degraded images",
+    "ref": "https://www.uvm.edu/cems/cs/profile/safwan-wshah",
+    "data": "ROCO-derived feature pairs",
+    "mode": "pair",
+    "i": 12,
+    "real": false,
+    "folder": "professor-aligned/radiology-modality-robust-heavy-aligned"
+  },
+  "input_shape": [
+    2048
+  ],
+  "observations": 3520,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        2240,
+        640,
+        640
+      ],
+      "elapsed_seconds": 20.439393599983305,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.984375,
+          "auroc": 0.99953125,
+          "average_precision": 0.9986019914028239,
+          "brier": 0.009317047170506697,
+          "training_records": 2240,
+          "parameters": 133474,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.9875,
+          "auroc": 0.9992447916666666,
+          "average_precision": 0.9979132697039971,
+          "brier": 0.009161496195063647
+        },
+        "heavy": {
+          "accuracy": 0.9890625,
+          "auroc": 0.99921875,
+          "average_precision": 0.9976026680862007,
+          "brier": 0.010089838487690803,
+          "training_records": 2240,
+          "parameters": 2234626,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy_stress": {
+          "accuracy": 0.9890625,
+          "auroc": 0.9985937500000001,
+          "average_precision": 0.9960431465022526,
+          "brier": 0.010713067533268675
+        },
+        "fixed_reference": {
+          "accuracy": 0.2734375,
+          "auroc": 0.9999348958333334,
+          "average_precision": 0.9998058915785194,
+          "brier": 0.24118118439196304
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2240,
+        640,
+        640
+      ],
+      "elapsed_seconds": 13.090981500048656,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9890625,
+          "auroc": 0.9994921875,
+          "average_precision": 0.9985690887210968,
+          "brier": 0.0076172170461391185,
+          "training_records": 2240,
+          "parameters": 133474,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.9875,
+          "auroc": 0.9993489583333333,
+          "average_precision": 0.9981796503156658,
+          "brier": 0.009214204935743786
+        },
+        "heavy": {
+          "accuracy": 0.98125,
+          "auroc": 0.9986979166666667,
+          "average_precision": 0.9964237961968512,
+          "brier": 0.013166790596895878,
+          "training_records": 2240,
+          "parameters": 2234626,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "accuracy": 0.98125,
+          "auroc": 0.9974479166666668,
+          "average_precision": 0.9934703018020855,
+          "brier": 0.015491403308325654
+        },
+        "fixed_reference": {
+          "accuracy": 0.2734375,
+          "auroc": 0.9999348958333334,
+          "average_precision": 0.9998058915785194,
+          "brier": 0.24118118439196304
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.98671875,
+      "auroc": 0.99951171875,
+      "average_precision": 0.9985855400619603,
+      "brier": 0.008467132108322908,
+      "training_records": 2240.0,
+      "parameters": 133474.0,
+      "best_epoch": 3.0,
+      "epochs_ran": 7.0
+    },
+    "compact_stress": {
+      "accuracy": 0.9875,
+      "auroc": 0.999296875,
+      "average_precision": 0.9980464600098314,
+      "brier": 0.009187850565403718
+    },
+    "fixed_reference": {
+      "accuracy": 0.2734375,
+      "auroc": 0.9999348958333334,
+      "average_precision": 0.9998058915785194,
+      "brier": 0.24118118439196304
+    },
+    "heavy": {
+      "accuracy": 0.98515625,
+      "auroc": 0.9989583333333334,
+      "average_precision": 0.9970132321415259,
+      "brier": 0.01162831454229334,
+      "training_records": 2240.0,
+      "parameters": 2234626.0,
+      "best_epoch": 3.5,
+      "epochs_ran": 7.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.98515625,
+      "auroc": 0.9980208333333334,
+      "average_precision": 0.9947567241521691,
+      "brier": 0.013102235420797165
+    }
+  }
+}

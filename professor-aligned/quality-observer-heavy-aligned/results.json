@@ -1,0 +1,86 @@
+{
+  "study": {
+    "prof": "Weimin Zhou",
+    "id": "quality-observer",
+    "title": "Observer model for known image degradation",
+    "ref": "https://medicine.arizona.edu/radiology/basic-research",
+    "data": "PneumoniaMNIST+ 64-pixel X-rays with injected artifacts",
+    "mode": "quality",
+    "i": 17,
+    "real": false,
+    "folder": "professor-aligned/quality-observer-heavy-aligned"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 900,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        540,
+        153,
+        207
+      ],
+      "elapsed_seconds": 88.60852670000168,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "training_records": 540,
+          "parameters": 31411,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "training_records": 540,
+          "parameters": 1524395,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        540,
+        153,
+        207
+      ],
+      "elapsed_seconds": 67.47064539999701,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "training_records": 540,
+          "parameters": 31411,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.9951690821256038,
+          "training_records": 540,
+          "parameters": 1524395,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "training_records": 540.0,
+      "parameters": 31411.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.9975845410628019,
+      "training_records": 540.0,
+      "parameters": 1524395.0,
+      "best_epoch": 12.0,
+      "epochs_ran": 12.0
+    }
+  }
+}

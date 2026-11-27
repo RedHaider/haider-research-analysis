@@ -1,0 +1,128 @@
+{
+  "study": {
+    "prof": "Ulugbek S. Kamilov",
+    "id": "frequency-consistent-inverse",
+    "title": "Data-consistent MRI inverse imaging",
+    "ref": "https://cig.ece.wisc.edu/publications/",
+    "data": "Public 2D brain MRI images with simulated k-space sampling",
+    "mode": "mri_freq",
+    "i": 13,
+    "real": true,
+    "folder": "real-data-projects/frequency-consistent-inverse-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    64,
+    64
+  ],
+  "observations": 228,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 35.5579247000278,
+      "metrics": {
+        "compact_consistent": {
+          "psnr": 18.850725173950195,
+          "mae": 0.08050013333559036
+        },
+        "compact": {
+          "psnr": 16.107410430908203,
+          "mae": 0.10436733812093735,
+          "training_records": 136,
+          "parameters": 44864,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy_consistent": {
+          "psnr": 20.63711929321289,
+          "mae": 0.06312933564186096
+        },
+        "heavy": {
+          "psnr": 19.11873435974121,
+          "mae": 0.069227434694767,
+          "training_records": 136,
+          "parameters": 1549432,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 20.711755752563477,
+          "mae": 0.061390798538923264
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 25.22370349999983,
+      "metrics": {
+        "compact_consistent": {
+          "psnr": 20.395278930664062,
+          "mae": 0.06714911013841629
+        },
+        "compact": {
+          "psnr": 17.804576873779297,
+          "mae": 0.08723701536655426,
+          "training_records": 136,
+          "parameters": 44864,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy_consistent": {
+          "psnr": 21.065143585205078,
+          "mae": 0.05983201786875725
+        },
+        "heavy": {
+          "psnr": 19.601837158203125,
+          "mae": 0.06899858266115189,
+          "training_records": 136,
+          "parameters": 1549432,
+          "best_epoch": 10,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 21.26506996154785,
+          "mae": 0.05672231689095497
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 16.95599365234375,
+      "mae": 0.0958021767437458,
+      "training_records": 136.0,
+      "parameters": 44864.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "compact_consistent": {
+      "psnr": 19.62300205230713,
+      "mae": 0.07382462173700333
+    },
+    "fixed_reference": {
+      "psnr": 20.988412857055664,
+      "mae": 0.05905655771493912
+    },
+    "heavy": {
+      "psnr": 19.360285758972168,
+      "mae": 0.06911300867795944,
+      "training_records": 136.0,
+      "parameters": 1549432.0,
+      "best_epoch": 10.5,
+      "epochs_ran": 12.0
+    },
+    "heavy_consistent": {
+      "psnr": 20.851131439208984,
+      "mae": 0.061480676755309105
+    }
+  }
+}

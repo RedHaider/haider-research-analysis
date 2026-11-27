@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Khan Iftekharuddin",
+    "id": "brain-tumor-image-classifier",
+    "title": "MRI brain tumor image classification",
+    "ref": "https://www.odu.edu/directory/khan-iftekharuddin",
+    "data": "Public Brain MRI Images for Brain Tumor Detection",
+    "mode": "mri_class",
+    "i": 5,
+    "real": true,
+    "folder": "real-data-projects/brain-tumor-image-classifier-heavy-real-data"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 228,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 18.68180779996328,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6226415094339622,
+          "auroc": 0.7414860681114551,
+          "average_precision": 0.8366262728820802,
+          "brier": 0.24849833291248313,
+          "training_records": 136,
+          "parameters": 31362,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy": {
+          "accuracy": 0.4528301886792453,
+          "auroc": 0.7554179566563468,
+          "average_precision": 0.8491113899626167,
+          "brier": 0.2519072825895956,
+          "training_records": 136,
+          "parameters": 1524042,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 8.735257000022102,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5849056603773585,
+          "auroc": 0.7724637681159421,
+          "average_precision": 0.7783666136856046,
+          "brier": 0.22074944385482378,
+          "training_records": 136,
+          "parameters": 31362,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.4339622641509434,
+          "auroc": 0.7246376811594203,
+          "average_precision": 0.7466155105985564,
+          "brier": 0.25029781183106375,
+          "training_records": 136,
+          "parameters": 1524042,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.6037735849056604,
+      "auroc": 0.7569749181136987,
+      "average_precision": 0.8074964432838424,
+      "brier": 0.23462388838365345,
+      "training_records": 136.0,
+      "parameters": 31362.0,
+      "best_epoch": 4.5,
+      "epochs_ran": 6.5
+    },
+    "heavy": {
+      "accuracy": 0.44339622641509435,
+      "auroc": 0.7400278189078835,
+      "average_precision": 0.7978634502805866,
+      "brier": 0.25110254721032965,
+      "training_records": 136.0,
+      "parameters": 1524042.0,
+      "best_epoch": 1.0,
+      "epochs_ran": 5.0
+    }
+  }
+}

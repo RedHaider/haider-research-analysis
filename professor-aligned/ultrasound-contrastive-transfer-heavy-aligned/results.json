@@ -1,0 +1,96 @@
+{
+  "samples": [
+    550,
+    100,
+    150
+  ],
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0000000000000002,
+      "brier": 0.0013575578265209995,
+      "stress_auroc": 1.0,
+      "parameters": 31362.0,
+      "best_epoch": 8.0
+    },
+    "heavy_supervised": {
+      "accuracy": 0.9933333333333333,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.004565968223882744,
+      "stress_auroc": 1.0,
+      "parameters": 1524042.0,
+      "best_epoch": 7.5
+    },
+    "heavy_contrastive": {
+      "accuracy": 0.9966666666666666,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.003305005166551599,
+      "stress_auroc": 1.0,
+      "parameters": 1524042.0,
+      "best_epoch": 3.0
+    }
+  },
+  "runs": {
+    "13": {
+      "compact": {
+        "accuracy": 1.0,
+        "auroc": 1.0,
+        "average_precision": 1.0000000000000002,
+        "brier": 0.0009065662051364413,
+        "stress_auroc": 1.0,
+        "parameters": 31362,
+        "best_epoch": 8
+      },
+      "heavy_supervised": {
+        "accuracy": 0.9933333333333333,
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "brier": 0.00663640148827364,
+        "stress_auroc": 1.0,
+        "parameters": 1524042,
+        "best_epoch": 5
+      },
+      "heavy_contrastive": {
+        "accuracy": 1.0,
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "brier": 2.612807825789026e-05,
+        "stress_auroc": 1.0,
+        "parameters": 1524042,
+        "best_epoch": 3
+      }
+    },
+    "37": {
+      "compact": {
+        "accuracy": 1.0,
+        "auroc": 1.0,
+        "average_precision": 1.0000000000000002,
+        "brier": 0.001808549447905558,
+        "stress_auroc": 1.0,
+        "parameters": 31362,
+        "best_epoch": 8
+      },
+      "heavy_supervised": {
+        "accuracy": 0.9933333333333333,
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "brier": 0.002495534959491847,
+        "stress_auroc": 1.0,
+        "parameters": 1524042,
+        "best_epoch": 10
+      },
+      "heavy_contrastive": {
+        "accuracy": 0.9933333333333333,
+        "auroc": 1.0,
+        "average_precision": 1.0,
+        "brier": 0.006583882254845308,
+        "stress_auroc": 1.0,
+        "parameters": 1524042,
+        "best_epoch": 3
+      }
+    }
+  }
+}

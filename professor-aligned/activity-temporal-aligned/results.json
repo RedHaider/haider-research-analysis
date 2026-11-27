@@ -1,0 +1,100 @@
+{
+  "record": {
+    "prof": "Jiaqi Gong",
+    "id": "activity-temporal",
+    "title": "Human activity recognition",
+    "ref": "https://eng.ua.edu/eng-directory/dr-jiaqi-jackey-gong/",
+    "data": "UCI HAR",
+    "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "real": false,
+    "i": 5,
+    "folder": "professor-aligned/activity-temporal-aligned"
+  },
+  "samples": 1632,
+  "runs": {
+    "13": {
+      "sizes": [
+        952,
+        272,
+        408
+      ],
+      "groups": [
+        28,
+        8,
+        12
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5220588235294118,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.9338235294117647,
+          "parameters": 37614,
+          "epoch": 6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        952,
+        272,
+        408
+      ],
+      "groups": [
+        28,
+        8,
+        12
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5294117647058824,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.9705882352941176,
+          "parameters": 37614,
+          "epoch": 6
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        952,
+        272,
+        408
+      ],
+      "groups": [
+        28,
+        8,
+        12
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6519607843137255,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.8970588235294118,
+          "parameters": 37614,
+          "epoch": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.56781045751634,
+      "parameters": 2118.0,
+      "epoch": 6.0
+    },
+    "residual": {
+      "accuracy": 0.9338235294117646,
+      "parameters": 37614.0,
+      "epoch": 6.0
+    }
+  }
+}

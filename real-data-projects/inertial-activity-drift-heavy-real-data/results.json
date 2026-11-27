@@ -1,0 +1,96 @@
+{
+  "study": {
+    "prof": "Diane J. Cook",
+    "slug": "inertial-activity-drift",
+    "title": "Activity recognition under simulated sensor drift",
+    "ref": "https://eecs.wsu.edu/~cook/",
+    "data": "UCI HAR inertial activity dataset",
+    "real": true,
+    "i": 9,
+    "folder": "real-data-projects/inertial-activity-drift-heavy-real-data"
+  },
+  "input_shape": [
+    6,
+    64
+  ],
+  "observations": 3200,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1663,
+        537,
+        1000
+      ],
+      "elapsed_seconds": 57.96399499999825,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.634,
+          "parameters": 19206,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.421
+        },
+        "heavy": {
+          "accuracy": 0.642,
+          "parameters": 1258366,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy_stress": {
+          "accuracy": 0.627
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1699,
+        501,
+        1000
+      ],
+      "elapsed_seconds": 62.50522340001771,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.628,
+          "parameters": 19206,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.614
+        },
+        "heavy": {
+          "accuracy": 0.776,
+          "parameters": 1258366,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "heavy_stress": {
+          "accuracy": 0.446
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.631,
+      "parameters": 19206.0,
+      "best_epoch": 6.0,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.5175
+    },
+    "heavy": {
+      "accuracy": 0.7090000000000001,
+      "parameters": 1258366.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 10.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.5365
+    }
+  }
+}

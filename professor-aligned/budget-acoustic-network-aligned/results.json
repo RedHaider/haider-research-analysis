@@ -1,0 +1,108 @@
+{
+  "runs": {
+    "13": {
+      "sizes": [
+        1200,
+        340,
+        460
+      ],
+      "groups": [
+        300,
+        85,
+        115
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6282608695652174,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 1.0,
+          "parameters": 260764,
+          "selected_epoch": 8
+        },
+        "cascade": {
+          "accuracy": 1.0,
+          "medium_fraction": 1.0,
+          "threshold": 0.6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1200,
+        340,
+        460
+      ],
+      "groups": [
+        300,
+        85,
+        115
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5934782608695652,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 1.0,
+          "parameters": 260764,
+          "selected_epoch": 8
+        },
+        "cascade": {
+          "accuracy": 1.0,
+          "medium_fraction": 1.0,
+          "threshold": 0.6
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        1200,
+        340,
+        460
+      ],
+      "groups": [
+        300,
+        85,
+        115
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5673913043478261,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 1.0,
+          "parameters": 260764,
+          "selected_epoch": 9
+        },
+        "cascade": {
+          "accuracy": 1.0,
+          "medium_fraction": 1.0,
+          "threshold": 0.6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.5963768115942029,
+      "parameters": 2872.0,
+      "selected_epoch": 7.0
+    },
+    "medium": {
+      "accuracy": 1.0,
+      "parameters": 260764.0,
+      "selected_epoch": 8.333333333333334
+    },
+    "cascade": {
+      "accuracy": 1.0,
+      "medium_fraction": 1.0,
+      "threshold": 0.6
+    }
+  }
+}

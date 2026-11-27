@@ -1,0 +1,85 @@
+{
+  "study": {
+    "prof": "Mingchen Gao",
+    "slug": "polyp-boundary-model",
+    "title": "Medical image segmentation with boundary evaluation",
+    "ref": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/gao-mingchen.html",
+    "data": "Kvasir-SEG",
+    "real": true,
+    "i": 5,
+    "folder": "real-data-projects/polyp-boundary-model-heavy-real-data"
+  },
+  "input_shape": [
+    3,
+    64,
+    64
+  ],
+  "observations": 500,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        300,
+        85,
+        115
+      ],
+      "elapsed_seconds": 46.37728449999122,
+      "metrics": {
+        "compact": {
+          "dice": 0.340680760065166,
+          "boundary_dice": 0.07271165093118488,
+          "parameters": 45120,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.4432146895446537,
+          "boundary_dice": 0.08492820572203656,
+          "parameters": 1550072,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        300,
+        85,
+        115
+      ],
+      "elapsed_seconds": 55.79089030000614,
+      "metrics": {
+        "compact": {
+          "dice": 0.3248104232452634,
+          "boundary_dice": 0.07832856449915364,
+          "parameters": 45120,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.3875707930481369,
+          "boundary_dice": 0.07209654893303147,
+          "parameters": 1550072,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.33274559165521467,
+      "boundary_dice": 0.07552010771516926,
+      "parameters": 45120.0,
+      "best_epoch": 5.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "dice": 0.4153927412963953,
+      "boundary_dice": 0.07851237732753402,
+      "parameters": 1550072.0,
+      "best_epoch": 3.5,
+      "epochs_ran": 7.5
+    }
+  }
+}

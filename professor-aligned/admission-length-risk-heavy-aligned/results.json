@@ -1,0 +1,95 @@
+{
+  "study": {
+    "prof": "Rahmat Beheshti",
+    "slug": "admission-length-risk",
+    "title": "Early hospital stay-length classification",
+    "ref": "https://www.cis.udel.edu/people/faculty/rahmat-beheshti/",
+    "data": "UCI Diabetes 130-US Hospitals",
+    "real": false,
+    "i": 4,
+    "folder": "professor-aligned/admission-length-risk-heavy-aligned"
+  },
+  "input_shape": [
+    15
+  ],
+  "observations": 2600,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 12.767108899948653,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6939799331103679,
+          "auroc": 0.7544644442077608,
+          "average_precision": 0.6518989790404163,
+          "brier": 0.19339827031105994,
+          "parameters": 3362,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.6989966555183946,
+          "auroc": 0.7538727352339027,
+          "average_precision": 0.6602928854688287,
+          "brier": 0.1961033913327648,
+          "parameters": 673282,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 4.58165690000169,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7290969899665551,
+          "auroc": 0.7762883526958594,
+          "average_precision": 0.6547464186759231,
+          "brier": 0.1837562611421541,
+          "parameters": 3362,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7391304347826086,
+          "auroc": 0.7752517128388442,
+          "average_precision": 0.6716679580699141,
+          "brier": 0.1854731567180501,
+          "parameters": 673282,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7115384615384615,
+      "auroc": 0.76537639845181,
+      "average_precision": 0.6533226988581697,
+      "brier": 0.18857726572660702,
+      "parameters": 3362.0,
+      "best_epoch": 4.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.7190635451505016,
+      "auroc": 0.7645622240363734,
+      "average_precision": 0.6659804217693714,
+      "brier": 0.19078827402540743,
+      "parameters": 673282.0,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    }
+  }
+}

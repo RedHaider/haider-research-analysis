@@ -1,0 +1,86 @@
+{
+  "study": {
+    "prof": "Weimin Zhou",
+    "id": "quality-observer",
+    "title": "Observer model for known image degradation",
+    "ref": "https://medicine.arizona.edu/radiology/basic-research",
+    "data": "PneumoniaMNIST+ 64-pixel X-rays with injected artifacts",
+    "mode": "quality",
+    "i": 17,
+    "real": true,
+    "folder": "real-data-projects/quality-observer-heavy-real-data"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 1360,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        702,
+        198,
+        460
+      ],
+      "elapsed_seconds": 100.20723519998137,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9956521739130435,
+          "training_records": 702,
+          "parameters": 31411,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.991304347826087,
+          "training_records": 702,
+          "parameters": 1524395,
+          "best_epoch": 7,
+          "epochs_ran": 11
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        702,
+        198,
+        460
+      ],
+      "elapsed_seconds": 84.60066719999304,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9978260869565218,
+          "training_records": 702,
+          "parameters": 31411,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.9978260869565218,
+          "training_records": 702,
+          "parameters": 1524395,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9967391304347826,
+      "training_records": 702.0,
+      "parameters": 31411.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.9945652173913044,
+      "training_records": 702.0,
+      "parameters": 1524395.0,
+      "best_epoch": 9.0,
+      "epochs_ran": 11.5
+    }
+  }
+}

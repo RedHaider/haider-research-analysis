@@ -1,0 +1,102 @@
+{
+  "study": {
+    "prof": "Qing Wu",
+    "id": "held-hospital-cardiac",
+    "title": "Cardiac risk on a held-out hospital",
+    "ref": "https://medicine.osu.edu/departments/biomedical-informatics/our-people",
+    "data": "UCI Heart Disease",
+    "mode": "heart",
+    "i": 1,
+    "real": true,
+    "folder": "real-data-projects/held-hospital-cardiac-heavy-real-data"
+  },
+  "input_shape": [
+    26
+  ],
+  "observations": 920,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        488,
+        138,
+        294
+      ],
+      "elapsed_seconds": 3.8830174999893643,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7789115646258503,
+          "auroc": 0.8665696507426737,
+          "average_precision": 0.807849994954101,
+          "brier": 0.15780891936284408,
+          "training_records": 488,
+          "parameters": 4066,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7653061224489796,
+          "auroc": 0.8178442392613409,
+          "average_precision": 0.7027357071659364,
+          "brier": 0.1913622211978772,
+          "training_records": 488,
+          "parameters": 681730,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        488,
+        138,
+        294
+      ],
+      "elapsed_seconds": 0.7224279000074603,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.782312925170068,
+          "auroc": 0.8734945804897631,
+          "average_precision": 0.8307501478994987,
+          "brier": 0.15464609618871206,
+          "training_records": 488,
+          "parameters": 4066,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.5714285714285714,
+          "auroc": 0.7990766760337215,
+          "average_precision": 0.6904752114533161,
+          "brier": 0.2491024850148276,
+          "training_records": 488,
+          "parameters": 681730,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7806122448979591,
+      "auroc": 0.8700321156162184,
+      "average_precision": 0.8193000714268,
+      "brier": 0.15622750777577807,
+      "training_records": 488.0,
+      "parameters": 4066.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.6683673469387754,
+      "auroc": 0.8084604576475312,
+      "average_precision": 0.6966054593096263,
+      "brier": 0.22023235310635242,
+      "training_records": 488.0,
+      "parameters": 681730.0,
+      "best_epoch": 2.5,
+      "epochs_ran": 6.5
+    }
+  }
+}

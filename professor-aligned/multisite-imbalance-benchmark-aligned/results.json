@@ -1,0 +1,65 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "pooled": {
+        "auroc": 0.7632942238169246,
+        "average_precision": 0.5972227658070666,
+        "brier": 0.1866556463975877,
+        "worst_site_auroc": 0.7359523809523809
+      },
+      "site_class_weighted": {
+        "auroc": 0.7812859308569349,
+        "average_precision": 0.6128890310939944,
+        "brier": 0.2031581046916291,
+        "worst_site_auroc": 0.7430179883010072
+      }
+    },
+    "37": {
+      "pooled": {
+        "auroc": 0.7141314600808293,
+        "average_precision": 0.543587898121097,
+        "brier": 0.19558310147703,
+        "worst_site_auroc": 0.5943333333333334
+      },
+      "site_class_weighted": {
+        "auroc": 0.7216655686542399,
+        "average_precision": 0.5480974699520095,
+        "brier": 0.22259895842195643,
+        "worst_site_auroc": 0.6333333333333333
+      }
+    },
+    "61": {
+      "pooled": {
+        "auroc": 0.7043258072953305,
+        "average_precision": 0.5268294106633892,
+        "brier": 0.20639401762099704,
+        "worst_site_auroc": 0.666005291005291
+      },
+      "site_class_weighted": {
+        "auroc": 0.7167149591121553,
+        "average_precision": 0.5363830988052216,
+        "brier": 0.22655763616176633,
+        "worst_site_auroc": 0.7119104986543799
+      }
+    }
+  },
+  "means": {
+    "pooled": {
+      "auroc": 0.7272504970643614,
+      "average_precision": 0.555880024863851,
+      "brier": 0.19621092183187158,
+      "worst_site_auroc": 0.6654303350970018
+    },
+    "site_class_weighted": {
+      "auroc": 0.7398888195411101,
+      "average_precision": 0.5657898666170752,
+      "brier": 0.21743823309178398,
+      "worst_site_auroc": 0.6960872734295735
+    }
+  }
+}

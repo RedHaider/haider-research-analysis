@@ -1,0 +1,140 @@
+{
+  "study": {
+    "prof": "Tony Luo",
+    "id": "robust-breast-transfer",
+    "title": "Classification under synthetic acquisition shift",
+    "ref": "https://cs.mst.edu/people/faculty-directory/",
+    "data": "BreastMNIST",
+    "mode": "breast",
+    "i": 15,
+    "real": false,
+    "folder": "professor-aligned/robust-breast-transfer-heavy-aligned"
+  },
+  "input_shape": [
+    1,
+    32,
+    32
+  ],
+  "observations": 1400,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 31.855374500039034,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999999,
+          "brier": 8.021977172924911e-07,
+          "training_records": 840,
+          "parameters": 31362,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.7857142857142857,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.13443406533722363
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 9.399268703671557e-13,
+          "training_records": 840,
+          "parameters": 1524042,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.5279503105590062,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.44330815795572587
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 20.94358999998076,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.8724043816049858e-05,
+          "training_records": 840,
+          "parameters": 31362,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.968944099378882,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.02087183560197071
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.3196493979384299e-09,
+          "training_records": 840,
+          "parameters": 1524042,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.8385093167701864,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.13334987641419335
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 9.763120766671174e-06,
+      "training_records": 840.0,
+      "parameters": 31362.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.8773291925465838,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.07765295046959717
+    },
+    "heavy": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 6.602946624043985e-10,
+      "training_records": 840.0,
+      "parameters": 1524042.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.6832298136645962,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.2883290171849596
+    }
+  }
+}

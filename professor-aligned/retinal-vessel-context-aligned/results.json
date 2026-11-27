@@ -1,0 +1,100 @@
+{
+  "record": {
+    "prof": "Tolga Tasdizen",
+    "id": "retinal-vessel-context",
+    "title": "Segmentation of thin vessels",
+    "ref": "https://www.sci.utah.edu/people/tolga.html",
+    "data": "DRIVE fundus images",
+    "url": "https://drive.grand-challenge.org/",
+    "real": false,
+    "i": 8,
+    "folder": "professor-aligned/retinal-vessel-context-aligned"
+  },
+  "samples": 160,
+  "runs": {
+    "13": {
+      "sizes": [
+        95,
+        28,
+        37
+      ],
+      "groups": [
+        95,
+        28,
+        37
+      ],
+      "metrics": {
+        "compact": {
+          "dice": 0.9195085874555955,
+          "parameters": 5845,
+          "epoch": 10
+        },
+        "residual": {
+          "dice": 0.9763870532208441,
+          "parameters": 109921,
+          "epoch": 9
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        95,
+        28,
+        37
+      ],
+      "groups": [
+        95,
+        28,
+        37
+      ],
+      "metrics": {
+        "compact": {
+          "dice": 0.932778907781274,
+          "parameters": 5845,
+          "epoch": 10
+        },
+        "residual": {
+          "dice": 0.978865671914095,
+          "parameters": 109921,
+          "epoch": 9
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        95,
+        28,
+        37
+      ],
+      "groups": [
+        95,
+        28,
+        37
+      ],
+      "metrics": {
+        "compact": {
+          "dice": 0.9352681833766591,
+          "parameters": 5845,
+          "epoch": 10
+        },
+        "residual": {
+          "dice": 0.9827267468217344,
+          "parameters": 109921,
+          "epoch": 8
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.9291852262045096,
+      "parameters": 5845.0,
+      "epoch": 10.0
+    },
+    "residual": {
+      "dice": 0.9793264906522244,
+      "parameters": 109921.0,
+      "epoch": 8.666666666666666
+    }
+  }
+}

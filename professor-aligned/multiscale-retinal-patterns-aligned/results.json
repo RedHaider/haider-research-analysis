@@ -1,0 +1,81 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "single_scale_clean": {
+        "auroc": 0.8353654633896569,
+        "average_precision": 0.8425291752951023
+      },
+      "single_scale_shifted": {
+        "auroc": 0.8314452124935996,
+        "average_precision": 0.8394569668322645
+      },
+      "multi_scale_clean": {
+        "auroc": 0.8378136200716846,
+        "average_precision": 0.8493023167023166
+      },
+      "multi_scale_shifted": {
+        "auroc": 0.8339573732718895,
+        "average_precision": 0.8402077907853792
+      }
+    },
+    "37": {
+      "single_scale_clean": {
+        "auroc": 0.8269711538461538,
+        "average_precision": 0.8402236283534339
+      },
+      "single_scale_shifted": {
+        "auroc": 0.8054326923076924,
+        "average_precision": 0.8185240090456061
+      },
+      "multi_scale_clean": {
+        "auroc": 0.8189583333333332,
+        "average_precision": 0.839261016952443
+      },
+      "multi_scale_shifted": {
+        "auroc": 0.7999679487179487,
+        "average_precision": 0.816829054819562
+      }
+    },
+    "61": {
+      "single_scale_clean": {
+        "auroc": 0.7678591436574631,
+        "average_precision": 0.7826548680899421
+      },
+      "single_scale_shifted": {
+        "auroc": 0.7471948779511806,
+        "average_precision": 0.7675861951382128
+      },
+      "multi_scale_clean": {
+        "auroc": 0.7711244497799119,
+        "average_precision": 0.7896261722378448
+      },
+      "multi_scale_shifted": {
+        "auroc": 0.7478511404561824,
+        "average_precision": 0.7678842326796762
+      }
+    }
+  },
+  "means": {
+    "single_scale_clean": {
+      "auroc": 0.8100652536310914,
+      "average_precision": 0.8218025572461594
+    },
+    "single_scale_shifted": {
+      "auroc": 0.7946909275841575,
+      "average_precision": 0.8085223903386943
+    },
+    "multi_scale_clean": {
+      "auroc": 0.8092988010616432,
+      "average_precision": 0.8260631686308683
+    },
+    "multi_scale_shifted": {
+      "auroc": 0.7939254874820069,
+      "average_precision": 0.8083070260948725
+    }
+  }
+}

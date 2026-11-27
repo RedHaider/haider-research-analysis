@@ -1,0 +1,124 @@
+{
+  "record": {
+    "prof": "Jens Gregor",
+    "id": "sparse-view-reconstruction",
+    "title": "Sparse-view CT reconstruction",
+    "ref": "https://www.eecs.utk.edu/people/faculty/jens-gregor/",
+    "data": "OrganAMNIST or available CT slices",
+    "url": "https://medmnist.com/",
+    "real": true,
+    "i": 2,
+    "folder": "real-data-projects/sparse-view-reconstruction-real-data"
+  },
+  "samples": 340,
+  "runs": {
+    "13": {
+      "sizes": [
+        203,
+        58,
+        79
+      ],
+      "groups": [
+        203,
+        58,
+        79
+      ],
+      "metrics": {
+        "compact": {
+          "psnr_db": 15.44899845123291,
+          "mae": 0.12725326418876648,
+          "parameters": 5845,
+          "epoch": 6
+        },
+        "residual": {
+          "psnr_db": 14.646750450134277,
+          "mae": 0.13761688768863678,
+          "parameters": 109921,
+          "epoch": 4
+        },
+        "input_baseline": {
+          "psnr_db": 14.074663162231445,
+          "mae": 0.1597183644771576
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        203,
+        58,
+        79
+      ],
+      "groups": [
+        203,
+        58,
+        79
+      ],
+      "metrics": {
+        "compact": {
+          "psnr_db": 14.801139831542969,
+          "mae": 0.14032825827598572,
+          "parameters": 5845,
+          "epoch": 6
+        },
+        "residual": {
+          "psnr_db": 14.8795747756958,
+          "mae": 0.13746041059494019,
+          "parameters": 109921,
+          "epoch": 6
+        },
+        "input_baseline": {
+          "psnr_db": 13.681133270263672,
+          "mae": 0.16892896592617035
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        203,
+        58,
+        79
+      ],
+      "groups": [
+        203,
+        58,
+        79
+      ],
+      "metrics": {
+        "compact": {
+          "psnr_db": 15.385551452636719,
+          "mae": 0.12693771719932556,
+          "parameters": 5845,
+          "epoch": 6
+        },
+        "residual": {
+          "psnr_db": 14.378763198852539,
+          "mae": 0.13925005495548248,
+          "parameters": 109921,
+          "epoch": 5
+        },
+        "input_baseline": {
+          "psnr_db": 13.677961349487305,
+          "mae": 0.16882333159446716
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr_db": 15.211896578470865,
+      "mae": 0.13150641322135925,
+      "parameters": 5845.0,
+      "epoch": 6.0
+    },
+    "residual": {
+      "psnr_db": 14.635029474894205,
+      "mae": 0.13810911774635315,
+      "parameters": 109921.0,
+      "epoch": 5.0
+    },
+    "input_baseline": {
+      "psnr_db": 13.81125259399414,
+      "mae": 0.16582355399926504
+    }
+  }
+}

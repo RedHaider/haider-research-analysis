@@ -1,0 +1,88 @@
+{
+  "runs": {
+    "13": {
+      "sizes": [
+        4982,
+        1504,
+        1974
+      ],
+      "groups": [
+        53,
+        16,
+        21
+      ],
+      "metrics": {
+        "compact": {
+          "mae": 7.410976409912109,
+          "parameters": 145,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "mae": 7.456597328186035,
+          "parameters": 89953,
+          "selected_epoch": 8
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        4982,
+        1504,
+        1974
+      ],
+      "groups": [
+        53,
+        16,
+        21
+      ],
+      "metrics": {
+        "compact": {
+          "mae": 7.514787673950195,
+          "parameters": 145,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "mae": 7.3037543296813965,
+          "parameters": 89953,
+          "selected_epoch": 6
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        4982,
+        1504,
+        1974
+      ],
+      "groups": [
+        53,
+        16,
+        21
+      ],
+      "metrics": {
+        "compact": {
+          "mae": 7.710080623626709,
+          "parameters": 145,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "mae": 7.53076171875,
+          "parameters": 89953,
+          "selected_epoch": 9
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "mae": 7.545281569163005,
+      "parameters": 145.0,
+      "selected_epoch": 7.0
+    },
+    "medium": {
+      "mae": 7.430371125539144,
+      "parameters": 89953.0,
+      "selected_epoch": 7.666666666666667
+    }
+  }
+}

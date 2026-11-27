@@ -1,0 +1,96 @@
+{
+  "samples": [
+    546,
+    78,
+    156
+  ],
+  "means": {
+    "compact": {
+      "accuracy": 0.8205128205128205,
+      "auroc": 0.841687552213868,
+      "average_precision": 0.7458046928275963,
+      "brier": 0.13816996316289,
+      "stress_auroc": 0.8336466165413533,
+      "parameters": 31362.0,
+      "best_epoch": 6.5
+    },
+    "heavy_supervised": {
+      "accuracy": 0.8205128205128205,
+      "auroc": 0.8285296574770259,
+      "average_precision": 0.7194576010032607,
+      "brier": 0.1370846285798158,
+      "stress_auroc": 0.7548036758563074,
+      "parameters": 1524042.0,
+      "best_epoch": 7.5
+    },
+    "heavy_contrastive": {
+      "accuracy": 0.8301282051282051,
+      "auroc": 0.8488930659983291,
+      "average_precision": 0.6671743689322491,
+      "brier": 0.13594606722357727,
+      "stress_auroc": 0.7802840434419381,
+      "parameters": 1524042.0,
+      "best_epoch": 9.5
+    }
+  },
+  "runs": {
+    "13": {
+      "compact": {
+        "accuracy": 0.8205128205128205,
+        "auroc": 0.8274853801169592,
+        "average_precision": 0.7391829266846186,
+        "brier": 0.1412164357710947,
+        "stress_auroc": 0.8322890559732664,
+        "parameters": 31362,
+        "best_epoch": 5
+      },
+      "heavy_supervised": {
+        "accuracy": 0.8205128205128205,
+        "auroc": 0.8358395989974937,
+        "average_precision": 0.7446121534493116,
+        "brier": 0.1364772711940365,
+        "stress_auroc": 0.7698412698412698,
+        "parameters": 1524042,
+        "best_epoch": 7
+      },
+      "heavy_contrastive": {
+        "accuracy": 0.8269230769230769,
+        "auroc": 0.8640350877192983,
+        "average_precision": 0.6774472370071598,
+        "brier": 0.13675519935573774,
+        "stress_auroc": 0.7792397660818713,
+        "parameters": 1524042,
+        "best_epoch": 10
+      }
+    },
+    "37": {
+      "compact": {
+        "accuracy": 0.8205128205128205,
+        "auroc": 0.855889724310777,
+        "average_precision": 0.7524264589705741,
+        "brier": 0.13512349055468534,
+        "stress_auroc": 0.8350041771094402,
+        "parameters": 31362,
+        "best_epoch": 8
+      },
+      "heavy_supervised": {
+        "accuracy": 0.8205128205128205,
+        "auroc": 0.8212197159565581,
+        "average_precision": 0.6943030485572098,
+        "brier": 0.13769198596559507,
+        "stress_auroc": 0.739766081871345,
+        "parameters": 1524042,
+        "best_epoch": 8
+      },
+      "heavy_contrastive": {
+        "accuracy": 0.8333333333333334,
+        "auroc": 0.8337510442773601,
+        "average_precision": 0.6569015008573386,
+        "brier": 0.13513693509141683,
+        "stress_auroc": 0.781328320802005,
+        "parameters": 1524042,
+        "best_epoch": 9
+      }
+    }
+  }
+}

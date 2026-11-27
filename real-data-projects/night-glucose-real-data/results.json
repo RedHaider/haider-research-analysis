@@ -1,0 +1,116 @@
+{
+  "record": {
+    "prof": "Peter G. Jacobs",
+    "id": "night-glucose",
+    "title": "Nocturnal low-glucose risk",
+    "ref": "https://apps.ohsu.edu/research/tech-portal/technology/view/4282492",
+    "data": "UCI Diabetes",
+    "url": "https://archive.ics.uci.edu/dataset/34/diabetes",
+    "real": true,
+    "i": 0,
+    "folder": "real-data-projects/night-glucose-real-data"
+  },
+  "samples": 413,
+  "runs": {
+    "13": {
+      "sizes": [
+        235,
+        62,
+        116
+      ],
+      "groups": [
+        25,
+        8,
+        11
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.33620689655172414,
+          "auroc": 0.5791271347248577,
+          "brier": 0.2533783689279089,
+          "parameters": 1882,
+          "epoch": 2
+        },
+        "residual": {
+          "accuracy": 0.7068965517241379,
+          "auroc": 0.6561669829222012,
+          "brier": 0.23048789882992168,
+          "parameters": 37082,
+          "epoch": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        276,
+        40,
+        97
+      ],
+      "groups": [
+        25,
+        8,
+        11
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.26804123711340205,
+          "auroc": 0.4761646803900325,
+          "brier": 0.2602156397687566,
+          "parameters": 1882,
+          "epoch": 1
+        },
+        "residual": {
+          "accuracy": 0.6597938144329897,
+          "auroc": 0.4626218851570964,
+          "brier": 0.24930242407943137,
+          "parameters": 37082,
+          "epoch": 1
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        276,
+        36,
+        101
+      ],
+      "groups": [
+        25,
+        8,
+        11
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.49504950495049505,
+          "auroc": 0.4688057040998217,
+          "brier": 0.24705770199044805,
+          "parameters": 1882,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.5643564356435643,
+          "auroc": 0.4349376114081996,
+          "brier": 0.24874437120010467,
+          "parameters": 37082,
+          "epoch": 2
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.3664325462052071,
+      "auroc": 0.5080325064049039,
+      "brier": 0.2535505702290379,
+      "parameters": 1882.0,
+      "epoch": 3.0
+    },
+    "residual": {
+      "accuracy": 0.6436822672668973,
+      "auroc": 0.5179088264958324,
+      "brier": 0.2428448980364859,
+      "parameters": 37082.0,
+      "epoch": 2.6666666666666665
+    }
+  }
+}

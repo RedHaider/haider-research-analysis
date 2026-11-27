@@ -1,0 +1,100 @@
+{
+  "record": {
+    "prof": "Nikolaos V. Tsekos",
+    "id": "image-localization",
+    "title": "Image-guided marker localization",
+    "ref": "https://sites.google.com/cougarnet.uh.edu/tsekos-site/home",
+    "data": "Kvasir-SEG endoscopy backgrounds with injected markers",
+    "url": "https://datasets.simula.no/kvasir-seg/",
+    "real": true,
+    "i": 1,
+    "folder": "real-data-projects/image-localization-real-data"
+  },
+  "samples": 1002,
+  "runs": {
+    "13": {
+      "sizes": [
+        600,
+        171,
+        231
+      ],
+      "groups": [
+        200,
+        57,
+        77
+      ],
+      "metrics": {
+        "compact": {
+          "mean_error_px": 10.040740295319866,
+          "parameters": 3502,
+          "epoch": 4
+        },
+        "residual": {
+          "mean_error_px": 6.4470457032324155,
+          "parameters": 99650,
+          "epoch": 4
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        600,
+        171,
+        231
+      ],
+      "groups": [
+        200,
+        57,
+        77
+      ],
+      "metrics": {
+        "compact": {
+          "mean_error_px": 9.889493535218403,
+          "parameters": 3502,
+          "epoch": 6
+        },
+        "residual": {
+          "mean_error_px": 8.310546676407483,
+          "parameters": 99650,
+          "epoch": 5
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        600,
+        171,
+        231
+      ],
+      "groups": [
+        200,
+        57,
+        77
+      ],
+      "metrics": {
+        "compact": {
+          "mean_error_px": 10.340362496090505,
+          "parameters": 3502,
+          "epoch": 5
+        },
+        "residual": {
+          "mean_error_px": 7.512560281558061,
+          "parameters": 99650,
+          "epoch": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "mean_error_px": 10.090198775542925,
+      "parameters": 3502.0,
+      "epoch": 5.0
+    },
+    "residual": {
+      "mean_error_px": 7.4233842203993206,
+      "parameters": 99650.0,
+      "epoch": 5.0
+    }
+  }
+}

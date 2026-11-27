@@ -1,0 +1,96 @@
+{
+  "study": {
+    "prof": "Chen Liang",
+    "slug": "clinical-view-fusion",
+    "title": "Fusion of demographics and early laboratory sequences",
+    "ref": "https://www.washington.edu/",
+    "data": "PhysioNet 2012 ICU records",
+    "real": true,
+    "i": 8,
+    "folder": "real-data-projects/clinical-view-fusion-heavy-real-data"
+  },
+  "input_shape": [
+    18,
+    24
+  ],
+  "observations": 4000,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        2402,
+        678,
+        920
+      ],
+      "elapsed_seconds": 36.63238480000291,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7304347826086957,
+          "auroc": 0.5630839013180453,
+          "average_precision": 0.7764135411898168,
+          "brier": 0.19839069776205404,
+          "parameters": 19970,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.717391304347826,
+          "auroc": 0.541084394607504,
+          "average_precision": 0.7563916673956637,
+          "brier": 0.20148067182647972,
+          "parameters": 1259354,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2402,
+        678,
+        920
+      ],
+      "elapsed_seconds": 28.109493599971756,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6978260869565217,
+          "auroc": 0.6006549900266702,
+          "average_precision": 0.7497114138406782,
+          "brier": 0.2054234998632441,
+          "parameters": 19970,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy": {
+          "accuracy": 0.6978260869565217,
+          "auroc": 0.5924578094533719,
+          "average_precision": 0.7501759349690958,
+          "brier": 0.20799960364178413,
+          "parameters": 1259354,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7141304347826087,
+      "auroc": 0.5818694456723578,
+      "average_precision": 0.7630624775152475,
+      "brier": 0.20190709881264907,
+      "parameters": 19970.0,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    },
+    "heavy": {
+      "accuracy": 0.7076086956521739,
+      "auroc": 0.566771102030438,
+      "average_precision": 0.7532838011823797,
+      "brier": 0.2047401377341319,
+      "parameters": 1259354.0,
+      "best_epoch": 1.0,
+      "epochs_ran": 5.0
+    }
+  }
+}

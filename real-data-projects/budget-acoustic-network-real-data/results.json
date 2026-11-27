@@ -1,0 +1,108 @@
+{
+  "runs": {
+    "13": {
+      "sizes": [
+        2440,
+        653,
+        907
+      ],
+      "groups": [
+        897,
+        253,
+        344
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7905181918412348,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 0.9360529217199559,
+          "parameters": 260764,
+          "selected_epoch": 7
+        },
+        "cascade": {
+          "accuracy": 0.9283351708930541,
+          "medium_fraction": 0.6626240352811467,
+          "threshold": 0.7
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2403,
+        674,
+        923
+      ],
+      "groups": [
+        897,
+        253,
+        344
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7345612134344529,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 0.9479956663055255,
+          "parameters": 260764,
+          "selected_epoch": 8
+        },
+        "cascade": {
+          "accuracy": 0.9404117009750813,
+          "medium_fraction": 0.8591549295774648,
+          "threshold": 0.8
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        2417,
+        687,
+        896
+      ],
+      "groups": [
+        897,
+        253,
+        344
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7600446428571429,
+          "parameters": 2872,
+          "selected_epoch": 7
+        },
+        "medium": {
+          "accuracy": 0.9419642857142857,
+          "parameters": 260764,
+          "selected_epoch": 6
+        },
+        "cascade": {
+          "accuracy": 0.9274553571428571,
+          "medium_fraction": 0.7790178571428571,
+          "threshold": 0.7
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.761708016044277,
+      "parameters": 2872.0,
+      "selected_epoch": 7.0
+    },
+    "medium": {
+      "accuracy": 0.942004291246589,
+      "parameters": 260764.0,
+      "selected_epoch": 7.0
+    },
+    "cascade": {
+      "accuracy": 0.9320674096703309,
+      "medium_fraction": 0.7669322740004896,
+      "threshold": 0.7333333333333334
+    }
+  }
+}

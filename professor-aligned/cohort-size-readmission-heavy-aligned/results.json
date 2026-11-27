@@ -1,0 +1,102 @@
+{
+  "study": {
+    "prof": "Assefaw H. Gebremedhin",
+    "id": "cohort-size-readmission",
+    "title": "Sample-size scaling of health records models",
+    "ref": "https://eecs.wsu.edu/~assefaw/home.html",
+    "data": "UCI Diabetes 130-US Hospitals",
+    "mode": "scale",
+    "i": 14,
+    "real": false,
+    "folder": "professor-aligned/cohort-size-readmission-heavy-aligned"
+  },
+  "input_shape": [
+    15
+  ],
+  "observations": 2600,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 4.71881199994823,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7424749163879598,
+          "auroc": 0.7956000520703898,
+          "average_precision": 0.7025033861950764,
+          "brier": 0.17703633485639986,
+          "training_records": 650,
+          "parameters": 3362,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7608695652173914,
+          "auroc": 0.816806901693471,
+          "average_precision": 0.7297441987818643,
+          "brier": 0.16879240275551932,
+          "training_records": 1560,
+          "parameters": 673282,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 1.8538562000030652,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7290969899665551,
+          "auroc": 0.778138580395944,
+          "average_precision": 0.667125433394895,
+          "brier": 0.1829160059931383,
+          "training_records": 650,
+          "parameters": 3362,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7157190635451505,
+          "auroc": 0.7729357798165137,
+          "average_precision": 0.6407141511906159,
+          "brier": 0.1844028009036852,
+          "training_records": 1560,
+          "parameters": 673282,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7357859531772575,
+      "auroc": 0.7868693162331668,
+      "average_precision": 0.6848144097949858,
+      "brier": 0.17997617042476907,
+      "training_records": 650.0,
+      "parameters": 3362.0,
+      "best_epoch": 6.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.7382943143812709,
+      "auroc": 0.7948713407549923,
+      "average_precision": 0.68522917498624,
+      "brier": 0.17659760182960227,
+      "training_records": 1560.0,
+      "parameters": 673282.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    }
+  }
+}

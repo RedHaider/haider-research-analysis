@@ -1,0 +1,97 @@
+{
+  "study": {
+    "prof": "M. Salman Asif",
+    "slug": "motion-image-restoration",
+    "title": "Image reconstruction under simulated motion blur",
+    "ref": "https://csiplab.github.io/",
+    "data": "PneumoniaMNIST+ 64-pixel X-rays",
+    "real": false,
+    "i": 7,
+    "folder": "professor-aligned/motion-image-restoration-heavy-aligned"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 1050,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        630,
+        178,
+        242
+      ],
+      "elapsed_seconds": 104.51735659997212,
+      "metrics": {
+        "compact": {
+          "psnr": 24.228586196899414,
+          "mae": 0.0477924644947052,
+          "parameters": 44608,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 25.561588287353516,
+          "mae": 0.040869228541851044,
+          "parameters": 1548792,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 23.91202989802528,
+          "mae": 0.0496660012986679
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        630,
+        178,
+        242
+      ],
+      "elapsed_seconds": 94.27244420000352,
+      "metrics": {
+        "compact": {
+          "psnr": 24.395305633544922,
+          "mae": 0.04684639349579811,
+          "parameters": 44608,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 25.49630355834961,
+          "mae": 0.04119275510311127,
+          "parameters": 1548792,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 23.928998902899043,
+          "mae": 0.049555362735292305
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 24.311945915222168,
+      "mae": 0.047319428995251656,
+      "parameters": 44608.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "psnr": 23.92051440046216,
+      "mae": 0.0496106820169801
+    },
+    "heavy": {
+      "psnr": 25.528945922851562,
+      "mae": 0.041030991822481155,
+      "parameters": 1548792.0,
+      "best_epoch": 11.0,
+      "epochs_ran": 12.0
+    }
+  }
+}

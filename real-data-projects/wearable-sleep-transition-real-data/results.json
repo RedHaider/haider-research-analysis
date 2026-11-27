@@ -1,0 +1,116 @@
+{
+  "record": {
+    "prof": "Parisa Rashidi",
+    "id": "wearable-sleep-transition",
+    "title": "Transition detection from wearable heart rate",
+    "ref": "https://www.nature.com/articles/s41598-019-44004-w",
+    "data": "PhysioNet wearable sleep recordings",
+    "url": "https://physionet.org/content/sleep-accel/1.0.0/",
+    "real": true,
+    "i": 4,
+    "folder": "real-data-projects/wearable-sleep-transition-real-data"
+  },
+  "samples": 25726,
+  "runs": {
+    "13": {
+      "sizes": [
+        2200,
+        4772,
+        6050
+      ],
+      "groups": [
+        17,
+        6,
+        8
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9014876033057851,
+          "auroc": 0.5803904684257187,
+          "brier": 0.16326912392985013,
+          "parameters": 1846,
+          "epoch": 4
+        },
+        "residual": {
+          "accuracy": 0.8823140495867768,
+          "auroc": 0.5635154983251245,
+          "brier": 0.18584997585098242,
+          "parameters": 37010,
+          "epoch": 2
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2200,
+        4660,
+        6003
+      ],
+      "groups": [
+        17,
+        6,
+        8
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.742295518907213,
+          "auroc": 0.5448751086267961,
+          "brier": 0.20315878681004507,
+          "parameters": 1846,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.6638347492920207,
+          "auroc": 0.5421614532002911,
+          "brier": 0.2600763228507662,
+          "parameters": 37010,
+          "epoch": 1
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        2200,
+        4935,
+        5731
+      ],
+      "groups": [
+        17,
+        6,
+        8
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7731634967719421,
+          "auroc": 0.5820088327760866,
+          "brier": 0.1755088329338789,
+          "parameters": 1846,
+          "epoch": 6
+        },
+        "residual": {
+          "accuracy": 0.6742278834409353,
+          "auroc": 0.5892402671932588,
+          "brier": 0.242315531857844,
+          "parameters": 37010,
+          "epoch": 2
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.80564887299498,
+      "auroc": 0.5690914699428672,
+      "brier": 0.18064558122459137,
+      "parameters": 1846.0,
+      "epoch": 5.333333333333333
+    },
+    "residual": {
+      "accuracy": 0.7401255607732442,
+      "auroc": 0.5649724062395581,
+      "brier": 0.2294139435198642,
+      "parameters": 37010.0,
+      "epoch": 1.6666666666666667
+    }
+  }
+}

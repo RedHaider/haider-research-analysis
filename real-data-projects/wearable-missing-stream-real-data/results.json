@@ -1,0 +1,124 @@
+{
+  "record": {
+    "prof": "Bobak J. Mortazavi",
+    "id": "wearable-missing-stream",
+    "title": "Wearable classification with missing sensors",
+    "ref": "https://engineering.tamu.edu/cse/profiles/mortazavi-bobak.html",
+    "data": "UCI HAR",
+    "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "real": true,
+    "i": 7,
+    "folder": "real-data-projects/wearable-missing-stream-real-data"
+  },
+  "samples": 3200,
+  "runs": {
+    "13": {
+      "sizes": [
+        1676,
+        524,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.627,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.543
+        },
+        "residual": {
+          "accuracy": 0.648,
+          "parameters": 37614,
+          "epoch": 5
+        },
+        "residual_stress": {
+          "accuracy": 0.592
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1664,
+        536,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.596,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.511
+        },
+        "residual": {
+          "accuracy": 0.639,
+          "parameters": 37614,
+          "epoch": 6
+        },
+        "residual_stress": {
+          "accuracy": 0.606
+        }
+      }
+    },
+    "61": {
+      "sizes": [
+        1680,
+        520,
+        1000
+      ],
+      "groups": [
+        16,
+        5,
+        9
+      ],
+      "metrics": {
+        "compact": {
+          "accuracy": 0.61,
+          "parameters": 2118,
+          "epoch": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.546
+        },
+        "residual": {
+          "accuracy": 0.664,
+          "parameters": 37614,
+          "epoch": 6
+        },
+        "residual_stress": {
+          "accuracy": 0.597
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.6109999999999999,
+      "parameters": 2118.0,
+      "epoch": 6.0
+    },
+    "compact_stress": {
+      "accuracy": 0.5333333333333333
+    },
+    "residual": {
+      "accuracy": 0.6503333333333333,
+      "parameters": 37614.0,
+      "epoch": 5.666666666666667
+    },
+    "residual_stress": {
+      "accuracy": 0.5983333333333333
+    }
+  }
+}

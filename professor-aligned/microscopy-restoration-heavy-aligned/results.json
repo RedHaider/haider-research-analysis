@@ -1,0 +1,97 @@
+{
+  "study": {
+    "prof": "Kimerly Powell",
+    "slug": "microscopy-restoration",
+    "title": "Denoising microscopy images",
+    "ref": "https://medicine.osu.edu/find-a-researcher/kimerly-powell-100004501",
+    "data": "NIH malaria microscopy crops; image restoration",
+    "real": false,
+    "i": 0,
+    "folder": "professor-aligned/microscopy-restoration-heavy-aligned"
+  },
+  "input_shape": [
+    3,
+    64,
+    64
+  ],
+  "observations": 1050,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        630,
+        178,
+        242
+      ],
+      "elapsed_seconds": 112.85604310000781,
+      "metrics": {
+        "compact": {
+          "psnr": 23.518051147460938,
+          "mae": 0.05126288905739784,
+          "parameters": 45664,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 27.25932502746582,
+          "mae": 0.033516064286231995,
+          "parameters": 1551384,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 20.270361204151147,
+          "mae": 0.0773255524278882
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        630,
+        178,
+        242
+      ],
+      "elapsed_seconds": 102.8036358000245,
+      "metrics": {
+        "compact": {
+          "psnr": 22.744657516479492,
+          "mae": 0.056489575654268265,
+          "parameters": 45664,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 26.945396423339844,
+          "mae": 0.034797150641679764,
+          "parameters": 1551384,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 20.274864910892433,
+          "mae": 0.077290083264155
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 23.131354331970215,
+      "mae": 0.053876232355833054,
+      "parameters": 45664.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "psnr": 20.272613057521788,
+      "mae": 0.0773078178460216
+    },
+    "heavy": {
+      "psnr": 27.102360725402832,
+      "mae": 0.03415660746395588,
+      "parameters": 1551384.0,
+      "best_epoch": 11.5,
+      "epochs_ran": 12.0
+    }
+  }
+}

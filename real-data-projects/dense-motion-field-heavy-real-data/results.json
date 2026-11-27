@@ -1,0 +1,95 @@
+{
+  "study": {
+    "prof": "Xin (Shane) Li",
+    "id": "dense-motion-field",
+    "title": "Dense displacement estimation from image pairs",
+    "ref": "https://www.ece.lsu.edu/xinli/",
+    "data": "Kvasir-SEG backgrounds with simulated deformation",
+    "mode": "flow",
+    "i": 7,
+    "real": true,
+    "folder": "real-data-projects/dense-motion-field-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    40,
+    40
+  ],
+  "observations": 1000,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        600,
+        170,
+        230
+      ],
+      "elapsed_seconds": 65.80158420000225,
+      "metrics": {
+        "compact": {
+          "endpoint_error_px": 9.27859129118634,
+          "training_records": 600,
+          "parameters": 45136,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "endpoint_error_px": 8.787365030824983,
+          "training_records": 600,
+          "parameters": 1550088,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "endpoint_error_px": 2.773865389591263
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        600,
+        170,
+        230
+      ],
+      "elapsed_seconds": 43.832264200027566,
+      "metrics": {
+        "compact": {
+          "endpoint_error_px": 9.515494178270684,
+          "training_records": 600,
+          "parameters": 45136,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "endpoint_error_px": 8.727937676143075,
+          "training_records": 600,
+          "parameters": 1550088,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "endpoint_error_px": 2.835615331529968
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "endpoint_error_px": 9.397042734728512,
+      "training_records": 600.0,
+      "parameters": 45136.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "endpoint_error_px": 8.757651353484029,
+      "training_records": 600.0,
+      "parameters": 1550088.0,
+      "best_epoch": 11.5,
+      "epochs_ran": 12.0
+    },
+    "fixed_reference": {
+      "endpoint_error_px": 2.804740360560616
+    }
+  }
+}

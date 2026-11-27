@@ -1,0 +1,139 @@
+{
+  "study": {
+    "prof": "MD Shaad Mahmud",
+    "id": "physio-band-limited",
+    "title": "Sensor classification under bandwidth reduction",
+    "ref": "https://ceps.unh.edu/person/md-shaad-mahmud",
+    "data": "PhysioNet EEG Motor Movement/Imagery",
+    "mode": "eeg",
+    "i": 10,
+    "real": true,
+    "folder": "real-data-projects/physio-band-limited-heavy-real-data"
+  },
+  "input_shape": [
+    8,
+    128
+  ],
+  "observations": 480,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        270,
+        90,
+        120
+      ],
+      "elapsed_seconds": 16.831549300055485,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.49166666666666664,
+          "auroc": 0.505140316754654,
+          "average_precision": 0.5250332384247993,
+          "brier": 0.2511483016780195,
+          "training_records": 270,
+          "parameters": 19170,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "compact_stress": {
+          "accuracy": 0.49166666666666664,
+          "auroc": 0.47652125590441796,
+          "average_precision": 0.48808597119519426,
+          "brier": 0.2509213863904076
+        },
+        "heavy": {
+          "accuracy": 0.5083333333333333,
+          "auroc": 0.4804112253403723,
+          "average_precision": 0.4724397854648248,
+          "brier": 0.2502072559198896,
+          "training_records": 270,
+          "parameters": 1257354,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy_stress": {
+          "accuracy": 0.5083333333333333,
+          "auroc": 0.46235065295915534,
+          "average_precision": 0.4653269555815598,
+          "brier": 0.2502023746308708
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        270,
+        90,
+        120
+      ],
+      "elapsed_seconds": 11.31475900002988,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.5083333333333333,
+          "auroc": 0.4640177827174215,
+          "average_precision": 0.4879914890162324,
+          "brier": 0.2499842777999384,
+          "training_records": 270,
+          "parameters": 19170,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "compact_stress": {
+          "accuracy": 0.5083333333333333,
+          "auroc": 0.4620727979994443,
+          "average_precision": 0.48220844539657204,
+          "brier": 0.24994906435289133
+        },
+        "heavy": {
+          "accuracy": 0.49166666666666664,
+          "auroc": 0.5006946373992776,
+          "average_precision": 0.5021020883903498,
+          "brier": 0.25046184611113603,
+          "training_records": 270,
+          "parameters": 1257354,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.49166666666666664,
+          "auroc": 0.5223673242567379,
+          "average_precision": 0.5337568941998804,
+          "brier": 0.25027102327264905
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.5,
+      "auroc": 0.4845790497360377,
+      "average_precision": 0.5065123637205159,
+      "brier": 0.25056628973897893,
+      "training_records": 270.0,
+      "parameters": 19170.0,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "compact_stress": {
+      "accuracy": 0.5,
+      "auroc": 0.4692970269519311,
+      "average_precision": 0.48514720829588315,
+      "brier": 0.2504352253716495
+    },
+    "heavy": {
+      "accuracy": 0.5,
+      "auroc": 0.4905529313698249,
+      "average_precision": 0.4872709369275873,
+      "brier": 0.25033455101551283,
+      "training_records": 270.0,
+      "parameters": 1257354.0,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.5,
+      "auroc": 0.49235898860794663,
+      "average_precision": 0.4995419248907201,
+      "brier": 0.25023669895175993
+    }
+  }
+}

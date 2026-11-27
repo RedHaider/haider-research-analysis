@@ -1,0 +1,49 @@
+{
+  "seeds": [
+    13,
+    37,
+    61
+  ],
+  "runs": {
+    "13": {
+      "latest_ols": {
+        "mae": 0.013322594397927254,
+        "subjects": 56
+      },
+      "robust_trend": {
+        "mae": 0.013207358335465965,
+        "subjects": 56
+      }
+    },
+    "37": {
+      "latest_ols": {
+        "mae": 0.013166244243059401,
+        "subjects": 56
+      },
+      "robust_trend": {
+        "mae": 0.01299370360616898,
+        "subjects": 56
+      }
+    },
+    "61": {
+      "latest_ols": {
+        "mae": 0.012188745690423405,
+        "subjects": 56
+      },
+      "robust_trend": {
+        "mae": 0.012033234218040268,
+        "subjects": 56
+      }
+    }
+  },
+  "means": {
+    "latest_ols": {
+      "mae": 0.01289252811047002,
+      "subjects": 56.0
+    },
+    "robust_trend": {
+      "mae": 0.012744765386558403,
+      "subjects": 56.0
+    }
+  }
+}

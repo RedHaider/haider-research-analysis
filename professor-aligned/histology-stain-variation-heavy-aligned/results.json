@@ -1,0 +1,104 @@
+{
+  "study": {
+    "prof": "Daiwei (David) Zhang",
+    "id": "histology-stain-variation",
+    "title": "Histology tissue recognition under stain variation",
+    "ref": "https://unclineberger.org/people/daiwei-david-zhang/",
+    "data": "PathMNIST",
+    "mode": "image",
+    "i": 3,
+    "real": false,
+    "folder": "professor-aligned/histology-stain-variation-heavy-aligned"
+  },
+  "input_shape": [
+    3,
+    36,
+    36
+  ],
+  "observations": 1400,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 67.71269469999243,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "training_records": 840,
+          "parameters": 32217,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.6180124223602484
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "training_records": 840,
+          "parameters": 1527793,
+          "best_epoch": 9,
+          "epochs_ran": 12
+        },
+        "heavy_stress": {
+          "accuracy": 0.8167701863354038
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        840,
+        238,
+        322
+      ],
+      "elapsed_seconds": 52.557046599977184,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "training_records": 840,
+          "parameters": 32217,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.860248447204969
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "training_records": 840,
+          "parameters": 1527793,
+          "best_epoch": 7,
+          "epochs_ran": 11
+        },
+        "heavy_stress": {
+          "accuracy": 0.9347826086956522
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "training_records": 840.0,
+      "parameters": 32217.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.7391304347826086
+    },
+    "heavy": {
+      "accuracy": 1.0,
+      "training_records": 840.0,
+      "parameters": 1527793.0,
+      "best_epoch": 8.0,
+      "epochs_ran": 11.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.8757763975155279
+    }
+  }
+}

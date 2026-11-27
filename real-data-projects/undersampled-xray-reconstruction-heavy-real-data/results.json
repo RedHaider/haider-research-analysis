@@ -1,0 +1,97 @@
+{
+  "study": {
+    "prof": "Ali Cafer Gurbuz",
+    "slug": "undersampled-xray-reconstruction",
+    "title": "Reconstruction from sparse image measurements",
+    "ref": "https://www5.msstate.edu/newsroom/article/2021/04/msus-gurbuz-receives-nsf-career-award-research-advance-smart-sensing",
+    "data": "PneumoniaMNIST+ 64-pixel X-rays",
+    "real": true,
+    "i": 6,
+    "folder": "real-data-projects/undersampled-xray-reconstruction-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    64,
+    64
+  ],
+  "observations": 1530,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        975,
+        275,
+        280
+      ],
+      "elapsed_seconds": 128.7017116000061,
+      "metrics": {
+        "compact": {
+          "psnr": 25.75257682800293,
+          "mae": 0.039507750421762466,
+          "parameters": 44864,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 27.498687744140625,
+          "mae": 0.032286494970321655,
+          "parameters": 1549432,
+          "best_epoch": 9,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 28.633913040161133,
+          "mae": 0.022337542846798897
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        975,
+        275,
+        280
+      ],
+      "elapsed_seconds": 65.06847390002804,
+      "metrics": {
+        "compact": {
+          "psnr": 25.45021629333496,
+          "mae": 0.04129306972026825,
+          "parameters": 44864,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 26.62276268005371,
+          "mae": 0.03607314079999924,
+          "parameters": 1549432,
+          "best_epoch": 5,
+          "epochs_ran": 9
+        },
+        "fixed_reference": {
+          "psnr": 28.633913040161133,
+          "mae": 0.022337542846798897
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 25.601396560668945,
+      "mae": 0.04040041007101536,
+      "parameters": 44864.0,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "psnr": 28.633913040161133,
+      "mae": 0.022337542846798897
+    },
+    "heavy": {
+      "psnr": 27.060725212097168,
+      "mae": 0.034179817885160446,
+      "parameters": 1549432.0,
+      "best_epoch": 7.0,
+      "epochs_ran": 10.5
+    }
+  }
+}
