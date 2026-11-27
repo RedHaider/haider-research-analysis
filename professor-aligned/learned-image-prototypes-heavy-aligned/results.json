@@ -1,0 +1,139 @@
+{
+  "study": {
+    "prof": "Chaofan Chen",
+    "id": "learned-image-prototypes",
+    "title": "Prototype-based ultrasound classification",
+    "ref": "https://umaine.edu/scis/people/chaofan-chen/",
+    "data": "BreastMNIST+ 64-pixel ultrasound",
+    "i": 10,
+    "real": false,
+    "folder": "professor-aligned/learned-image-prototypes-heavy-aligned"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 950,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        570,
+        161,
+        219
+      ],
+      "elapsed_seconds": 82.7369958999916,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "brier": 3.345934331900703e-07,
+          "parameters": 31362,
+          "elapsed_seconds": 5.8714164000120945,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999999,
+          "brier": 6.598371250680521e-06
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999997,
+          "brier": 6.492116344354176e-08,
+          "parameters": 1401896,
+          "elapsed_seconds": 66.59918989997823,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "heavy_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.9420261063922132e-07
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        570,
+        161,
+        219
+      ],
+      "elapsed_seconds": 65.85911780002061,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 2.7037796665614295e-06,
+          "parameters": 31362,
+          "elapsed_seconds": 3.8550412000040524,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.00033233253271798834
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.1020733070397039e-07,
+          "parameters": 1401896,
+          "elapsed_seconds": 61.25744230003329,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "heavy_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.543387915975007e-07
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999999,
+      "brier": 1.51918654987575e-06,
+      "parameters": 31362.0,
+      "elapsed_seconds": 4.8632288000080734,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 0.00016946545198433442
+    },
+    "heavy": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999998,
+      "brier": 8.756424707375608e-08,
+      "parameters": 1401896.0,
+      "elapsed_seconds": 63.92831610000576,
+      "best_epoch": 12.0,
+      "epochs_ran": 12.0
+    },
+    "heavy_stress": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 1.74270701118361e-07
+    }
+  }
+}

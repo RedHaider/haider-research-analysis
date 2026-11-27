@@ -1,0 +1,101 @@
+{
+  "study": {
+    "prof": "Arghya Kusum Das",
+    "id": "batched-clinical-learning",
+    "title": "Batch-size trade-offs for large clinical tables",
+    "ref": "https://www.cs.uaf.edu/faculty-detail/",
+    "data": "UCI Diabetes 130-US Hospitals",
+    "i": 8,
+    "real": true,
+    "folder": "real-data-projects/batched-clinical-learning-heavy-real-data"
+  },
+  "input_shape": [
+    13
+  ],
+  "observations": 4200,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        2525,
+        707,
+        968
+      ],
+      "elapsed_seconds": 14.971766599977855,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.878099173553719,
+          "auroc": 0.6065603190428713,
+          "average_precision": 0.22827564642797538,
+          "brier": 0.1048249118242938,
+          "parameters": 671746,
+          "elapsed_seconds": 6.936199699994177,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.878099173553719,
+          "auroc": 0.6090029910269192,
+          "average_precision": 0.24197867426839964,
+          "brier": 0.10340486428487378,
+          "parameters": 671746,
+          "elapsed_seconds": 3.747093499987386,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2519,
+        711,
+        970
+      ],
+      "elapsed_seconds": 10.013349000015296,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.8938144329896908,
+          "auroc": 0.627350197646163,
+          "average_precision": 0.21939800285900546,
+          "brier": 0.09217837733471135,
+          "parameters": 671746,
+          "elapsed_seconds": 7.123754400003236,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.8938144329896908,
+          "auroc": 0.6723776889396536,
+          "average_precision": 0.24019584681271294,
+          "brier": 0.0905487431622618,
+          "parameters": 671746,
+          "elapsed_seconds": 2.858072299975902,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.8859568032717049,
+      "auroc": 0.6169552583445171,
+      "average_precision": 0.22383682464349042,
+      "brier": 0.09850164457950258,
+      "parameters": 671746.0,
+      "elapsed_seconds": 7.029977049998706,
+      "best_epoch": 3.0,
+      "epochs_ran": 7.0
+    },
+    "heavy": {
+      "accuracy": 0.8859568032717049,
+      "auroc": 0.6406903399832864,
+      "average_precision": 0.2410872605405563,
+      "brier": 0.09697680372356779,
+      "parameters": 671746.0,
+      "elapsed_seconds": 3.302582899981644,
+      "best_epoch": 2.5,
+      "epochs_ran": 6.5
+    }
+  }
+}

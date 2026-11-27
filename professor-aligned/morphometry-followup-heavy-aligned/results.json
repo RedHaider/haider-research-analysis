@@ -1,0 +1,92 @@
+{
+  "study": {
+    "prof": "Brent Munsell",
+    "id": "morphometry-followup",
+    "title": "Longitudinal morphometry forecasting",
+    "ref": "https://unc-public.courseleaf.com/graduate/schools-departments/computer-science/",
+    "data": "OASIS-2 MRI-derived brain-volume measurements",
+    "i": 6,
+    "real": false,
+    "folder": "professor-aligned/morphometry-followup-heavy-aligned"
+  },
+  "input_shape": [
+    5
+  ],
+  "observations": 340,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        203,
+        58,
+        79
+      ],
+      "elapsed_seconds": 9.715315700042993,
+      "metrics": {
+        "compact": {
+          "mae": 0.01610191978115543,
+          "parameters": 2689,
+          "elapsed_seconds": 0.5799204999930225,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "mae": 0.015034718170846817,
+          "parameters": 665089,
+          "elapsed_seconds": 1.4073047000565566,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "mae": 0.02428073154610011
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        203,
+        58,
+        79
+      ],
+      "elapsed_seconds": 1.3988018999807537,
+      "metrics": {
+        "compact": {
+          "mae": 0.018978517566811702,
+          "parameters": 2689,
+          "elapsed_seconds": 0.23617640003794804,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "mae": 0.02132360351958402,
+          "parameters": 665089,
+          "elapsed_seconds": 1.1219447000185028,
+          "best_epoch": 6,
+          "epochs_ran": 10
+        },
+        "fixed_reference": {
+          "mae": 0.02460841528757342
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "mae": 0.017540218673983567,
+      "parameters": 2689.0,
+      "elapsed_seconds": 0.4080484500154853,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "mae": 0.018179160845215418,
+      "parameters": 665089.0,
+      "elapsed_seconds": 1.2646247000375297,
+      "best_epoch": 9.0,
+      "epochs_ran": 11.0
+    },
+    "fixed_reference": {
+      "mae": 0.024444573416836764
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "study": {
+    "prof": "Lijun Cheng",
+    "id": "cardiac-feature-occlusion",
+    "title": "Cardiac prediction and feature-occlusion audit",
+    "ref": "https://medicine.osu.edu/find-a-researcher/lijun-cheng-100004477",
+    "data": "UCI Heart Disease",
+    "i": 1,
+    "real": false,
+    "folder": "professor-aligned/cardiac-feature-occlusion-heavy-aligned"
+  },
+  "input_shape": [
+    26
+  ],
+  "observations": 1100,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        643,
+        182,
+        275
+      ],
+      "elapsed_seconds": 8.789491200004704,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7090909090909091,
+          "auroc": 0.7825480304819147,
+          "average_precision": 0.7592291774684607,
+          "brier": 0.18894710921896896,
+          "parameters": 4066,
+          "elapsed_seconds": 0.6302389000193216,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "compact_stress": {
+          "accuracy": 0.6509090909090909,
+          "auroc": 0.7084898572501879,
+          "average_precision": 0.660680299144358,
+          "brier": 0.21501873029318863
+        },
+        "heavy": {
+          "accuracy": 0.7090909090909091,
+          "auroc": 0.7799184286787592,
+          "average_precision": 0.7331093380519998,
+          "brier": 0.19142175681535573,
+          "parameters": 681730,
+          "elapsed_seconds": 2.170973700005561,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.6436363636363637,
+          "auroc": 0.7124074272834603,
+          "average_precision": 0.6335209282516124,
+          "brier": 0.21813924968227727
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        643,
+        182,
+        275
+      ],
+      "elapsed_seconds": 2.763337899988983,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7163636363636363,
+          "auroc": 0.7740689063003112,
+          "average_precision": 0.7287218706343267,
+          "brier": 0.19190894736651626,
+          "parameters": 4066,
+          "elapsed_seconds": 0.6261690999963321,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.6690909090909091,
+          "auroc": 0.7116561124825587,
+          "average_precision": 0.6027476812498768,
+          "brier": 0.21977797557030437
+        },
+        "heavy": {
+          "accuracy": 0.730909090909091,
+          "auroc": 0.7739615756144681,
+          "average_precision": 0.7203120667538596,
+          "brier": 0.1920393265755239,
+          "parameters": 681730,
+          "elapsed_seconds": 2.0465147999930196,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.610909090909091,
+          "auroc": 0.6981861114092519,
+          "average_precision": 0.6108641758999122,
+          "brier": 0.22279607568277493
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7127272727272727,
+      "auroc": 0.778308468391113,
+      "average_precision": 0.7439755240513937,
+      "brier": 0.1904280282927426,
+      "parameters": 4066.0,
+      "elapsed_seconds": 0.6282040000078268,
+      "best_epoch": 5.5,
+      "epochs_ran": 7.5
+    },
+    "compact_stress": {
+      "accuracy": 0.6599999999999999,
+      "auroc": 0.7100729848663733,
+      "average_precision": 0.6317139901971174,
+      "brier": 0.2173983529317465
+    },
+    "heavy": {
+      "accuracy": 0.72,
+      "auroc": 0.7769400021466136,
+      "average_precision": 0.7267107024029298,
+      "brier": 0.1917305416954398,
+      "parameters": 681730.0,
+      "elapsed_seconds": 2.1087442499992903,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.6272727272727273,
+      "auroc": 0.7052967693463561,
+      "average_precision": 0.6221925520757623,
+      "brier": 0.2204676626825261
+    }
+  }
+}

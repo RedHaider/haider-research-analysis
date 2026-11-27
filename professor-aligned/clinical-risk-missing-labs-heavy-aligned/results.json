@@ -1,0 +1,138 @@
+{
+  "study": {
+    "prof": "Xia Ning",
+    "id": "clinical-risk-missing-labs",
+    "title": "Clinical risk estimation from incomplete lab panels",
+    "ref": "https://cancer.osu.edu/find-a-researcher/search-researcher-directory/xia-ning-100003296",
+    "data": "PhysioNet 2012",
+    "i": 0,
+    "real": false,
+    "folder": "professor-aligned/clinical-risk-missing-labs-heavy-aligned"
+  },
+  "input_shape": [
+    16,
+    24
+  ],
+  "observations": 2250,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 29.456768899981398,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7857142857142857,
+          "auroc": 0.8253789014944334,
+          "average_precision": 0.7213729498649064,
+          "brier": 0.1487372233928983,
+          "parameters": 19810,
+          "elapsed_seconds": 3.9590533999726176,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7084942084942085,
+          "auroc": 0.8273726555745717,
+          "average_precision": 0.684778564824897,
+          "brier": 0.19750352189001116
+        },
+        "heavy": {
+          "accuracy": 0.8011583011583011,
+          "auroc": 0.8348007128111932,
+          "average_precision": 0.7251175068433882,
+          "brier": 0.1426895777584719,
+          "parameters": 1258954,
+          "elapsed_seconds": 18.571352099999785,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.7972972972972973,
+          "auroc": 0.8065352788609136,
+          "average_precision": 0.6757976122149316,
+          "brier": 0.15610737332456992
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1350,
+        382,
+        518
+      ],
+      "elapsed_seconds": 23.644107099971734,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7953667953667953,
+          "auroc": 0.8190283916261981,
+          "average_precision": 0.6920515799297998,
+          "brier": 0.1460363429320536,
+          "parameters": 19810,
+          "elapsed_seconds": 3.514488100016024,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.7355212355212355,
+          "auroc": 0.8100616576635565,
+          "average_precision": 0.6257011352361039,
+          "brier": 0.1718161736001985
+        },
+        "heavy": {
+          "accuracy": 0.7683397683397684,
+          "auroc": 0.8195740346665211,
+          "average_precision": 0.696157238333999,
+          "brier": 0.14725958488754862,
+          "parameters": 1258954,
+          "elapsed_seconds": 19.597115699958522,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.7258687258687259,
+          "auroc": 0.8203015587202852,
+          "average_precision": 0.6632284307346569,
+          "brier": 0.17459079855271012
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7905405405405406,
+      "auroc": 0.8222036465603157,
+      "average_precision": 0.7067122648973532,
+      "brier": 0.14738678316247594,
+      "parameters": 19810.0,
+      "elapsed_seconds": 3.736770749994321,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "compact_stress": {
+      "accuracy": 0.722007722007722,
+      "auroc": 0.8187171566190641,
+      "average_precision": 0.6552398500305004,
+      "brier": 0.18465984774510483
+    },
+    "heavy": {
+      "accuracy": 0.7847490347490347,
+      "auroc": 0.8271873737388571,
+      "average_precision": 0.7106373725886936,
+      "brier": 0.14497458132301028,
+      "parameters": 1258954.0,
+      "elapsed_seconds": 19.084233899979154,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy_stress": {
+      "accuracy": 0.7615830115830116,
+      "auroc": 0.8134184187905994,
+      "average_precision": 0.6695130214747942,
+      "brier": 0.16534908593864
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "study": {
+    "prof": "Yung-Hsiang Lu",
+    "id": "edge-resolution-gating",
+    "title": "Resolution-gated image inference",
+    "ref": "https://www.cs.purdue.edu/people/faculty/yunglu.html",
+    "data": "RetinaMNIST",
+    "i": 9,
+    "real": true,
+    "folder": "real-data-projects/edge-resolution-gating-heavy-real-data"
+  },
+  "input_shape": [
+    3,
+    32,
+    32
+  ],
+  "observations": 1450,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        819,
+        231,
+        400
+      ],
+      "elapsed_seconds": 27.16557539999485,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.73,
+          "auroc": 0.8203787878787878,
+          "average_precision": 0.7507497170773163,
+          "brier": 0.16952598217698336,
+          "parameters": 31874,
+          "elapsed_seconds": 3.073510600021109,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.6675,
+          "auroc": 0.7905050505050505,
+          "average_precision": 0.6985947127976333,
+          "brier": 0.18975805373491256,
+          "parameters": 1525322,
+          "elapsed_seconds": 18.797775999992155,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "gated": {
+          "accuracy": 0.7075,
+          "auroc": 0.8129040404040404,
+          "average_precision": 0.7416933146614599,
+          "brier": 0.17813555371686063,
+          "large_fraction": 0.1975,
+          "threshold": 0.6
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        819,
+        231,
+        400
+      ],
+      "elapsed_seconds": 23.452188699971884,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7075,
+          "auroc": 0.7951010101010102,
+          "average_precision": 0.7064427433248903,
+          "brier": 0.18189863242922255,
+          "parameters": 31874,
+          "elapsed_seconds": 3.1570774000138044,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7325,
+          "auroc": 0.7885858585858585,
+          "average_precision": 0.7050957078616265,
+          "brier": 0.18635301678563276,
+          "parameters": 1525322,
+          "elapsed_seconds": 20.12275320000481,
+          "best_epoch": 5,
+          "epochs_ran": 9
+        },
+        "gated": {
+          "accuracy": 0.725,
+          "auroc": 0.7981313131313131,
+          "average_precision": 0.7124693819984443,
+          "brier": 0.1795083546187029,
+          "large_fraction": 0.22,
+          "threshold": 0.6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.71875,
+      "auroc": 0.807739898989899,
+      "average_precision": 0.7285962302011033,
+      "brier": 0.17571230730310294,
+      "parameters": 31874.0,
+      "elapsed_seconds": 3.1152940000174567,
+      "best_epoch": 5.0,
+      "epochs_ran": 8.0
+    },
+    "gated": {
+      "accuracy": 0.71625,
+      "auroc": 0.8055176767676768,
+      "average_precision": 0.7270813483299521,
+      "brier": 0.17882195416778177,
+      "large_fraction": 0.20875,
+      "threshold": 0.6
+    },
+    "heavy": {
+      "accuracy": 0.7,
+      "auroc": 0.7895454545454546,
+      "average_precision": 0.7018452103296299,
+      "brier": 0.18805553526027266,
+      "parameters": 1525322.0,
+      "elapsed_seconds": 19.46026459999848,
+      "best_epoch": 4.0,
+      "epochs_ran": 8.0
+    }
+  }
+}

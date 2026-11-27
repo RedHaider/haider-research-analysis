@@ -1,0 +1,120 @@
+{
+  "study": {
+    "prof": "Shuai Huang",
+    "id": "short-horizon-glucose-risk",
+    "title": "Longitudinal prediction of elevated glucose",
+    "ref": "https://bime.uw.edu/faculty/",
+    "data": "UCI Diabetes glucose logs",
+    "i": 4,
+    "real": true,
+    "folder": "real-data-projects/short-horizon-glucose-risk-heavy-real-data"
+  },
+  "input_shape": [
+    4,
+    8
+  ],
+  "observations": 3797,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        2244,
+        645,
+        908
+      ],
+      "elapsed_seconds": 13.91015900002094,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6145374449339207,
+          "auroc": 0.5654733590101633,
+          "average_precision": 0.45122315098749727,
+          "brier": 0.23689257539184305,
+          "parameters": 18850,
+          "elapsed_seconds": 1.8876953999861144,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "heavy": {
+          "accuracy": 0.6167400881057269,
+          "auroc": 0.5791915378988988,
+          "average_precision": 0.4664174037505735,
+          "brier": 0.23851705078198124,
+          "parameters": 1256554,
+          "elapsed_seconds": 8.72304409998469,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        },
+        "fixed_reference": {
+          "accuracy": 0.5407488986784141,
+          "auroc": 0.4893967990915926,
+          "average_precision": 0.4172241096632404,
+          "brier": 0.41282977512099894
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2244,
+        660,
+        893
+      ],
+      "elapsed_seconds": 11.0691414999892,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.6259798432250839,
+          "auroc": 0.5943753700414447,
+          "average_precision": 0.45488338744261647,
+          "brier": 0.23176438381409734,
+          "parameters": 18850,
+          "elapsed_seconds": 1.8870192000176758,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.593505039193729,
+          "auroc": 0.5817428279240002,
+          "average_precision": 0.4480001017442635,
+          "brier": 0.2374655853624614,
+          "parameters": 1256554,
+          "elapsed_seconds": 9.14804290002212,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "fixed_reference": {
+          "accuracy": 0.5543113101903695,
+          "auroc": 0.5319958017116099,
+          "average_precision": 0.41755471892095297,
+          "brier": 0.38118813128947887
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.6202586440795024,
+      "auroc": 0.579924364525804,
+      "average_precision": 0.45305326921505684,
+      "brier": 0.2343284796029702,
+      "parameters": 18850.0,
+      "elapsed_seconds": 1.887357300001895,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    },
+    "heavy": {
+      "accuracy": 0.6051225636497279,
+      "auroc": 0.5804671829114495,
+      "average_precision": 0.4572087527474185,
+      "brier": 0.23799131807222132,
+      "parameters": 1256554.0,
+      "elapsed_seconds": 8.935543500003405,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    },
+    "fixed_reference": {
+      "accuracy": 0.5475301044343919,
+      "auroc": 0.5106963004016012,
+      "average_precision": 0.4173894142920967,
+      "brier": 0.3970089532052389
+    }
+  }
+}

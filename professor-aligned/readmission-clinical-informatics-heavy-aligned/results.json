@@ -1,0 +1,173 @@
+{
+  "study": {
+    "prof": "Neil Abernethy",
+    "id": "readmission-clinical-informatics",
+    "title": "Clinical readmission prediction with measurement availability",
+    "ref": "https://bime.uw.edu/faculty/",
+    "data": "UCI Diabetes 130-US Hospitals",
+    "i": 3,
+    "real": false,
+    "folder": "professor-aligned/readmission-clinical-informatics-heavy-aligned"
+  },
+  "input_shape": [
+    30
+  ],
+  "observations": 2600,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 10.553118799987715,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7341137123745819,
+          "auroc": 0.7941326138152213,
+          "average_precision": 0.715841521620529,
+          "brier": 0.17720520521077923,
+          "parameters": 4322,
+          "elapsed_seconds": 1.6910571999615058,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "compact_under_70": {
+          "accuracy": 0.7511737089201878,
+          "auroc": 0.7716277890466532,
+          "average_precision": 0.6593105451908498,
+          "brier": 0.17129825844461222
+        },
+        "compact_age_70_plus": {
+          "accuracy": 0.6918604651162791,
+          "auroc": 0.7784129576697971,
+          "average_precision": 0.7723906230726014,
+          "brier": 0.19183520127116968
+        },
+        "heavy": {
+          "accuracy": 0.7474916387959866,
+          "auroc": 0.8034461130637507,
+          "average_precision": 0.7227874073182253,
+          "brier": 0.1727090287998902,
+          "parameters": 684802,
+          "elapsed_seconds": 3.9881425999919884,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_under_70": {
+          "accuracy": 0.7605633802816901,
+          "auroc": 0.7791582150101419,
+          "average_precision": 0.6471950832175881,
+          "brier": 0.1675876577428275
+        },
+        "heavy_age_70_plus": {
+          "accuracy": 0.7151162790697675,
+          "auroc": 0.7956989247311828,
+          "average_precision": 0.8075951581857285,
+          "brier": 0.1853933547900572
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1560,
+        442,
+        598
+      ],
+      "elapsed_seconds": 4.959413000033237,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7123745819397993,
+          "auroc": 0.7620473201352004,
+          "average_precision": 0.6330293492071297,
+          "brier": 0.19085484580936413,
+          "parameters": 4322,
+          "elapsed_seconds": 1.3044964000000618,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "compact_under_70": {
+          "accuracy": 0.7274881516587678,
+          "auroc": 0.7485792349726776,
+          "average_precision": 0.5156831303158,
+          "brier": 0.17870232292863
+        },
+        "compact_age_70_plus": {
+          "accuracy": 0.6761363636363636,
+          "auroc": 0.7304687500000001,
+          "average_precision": 0.7714578630685415,
+          "brier": 0.21999328135294255
+        },
+        "heavy": {
+          "accuracy": 0.7023411371237458,
+          "auroc": 0.7681675519072912,
+          "average_precision": 0.6561140832399895,
+          "brier": 0.18591371564184742,
+          "parameters": 684802,
+          "elapsed_seconds": 3.558641700015869,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_under_70": {
+          "accuracy": 0.7180094786729858,
+          "auroc": 0.754672131147541,
+          "average_precision": 0.5434854147712045,
+          "brier": 0.17589886543986052
+        },
+        "heavy_age_70_plus": {
+          "accuracy": 0.6647727272727273,
+          "auroc": 0.74296875,
+          "average_precision": 0.7904431185399916,
+          "brier": 0.20992659510342965
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.7232441471571907,
+      "auroc": 0.7780899669752108,
+      "average_precision": 0.6744354354138293,
+      "brier": 0.1840300255100717,
+      "parameters": 4322.0,
+      "elapsed_seconds": 1.4977767999807838,
+      "best_epoch": 5.5,
+      "epochs_ran": 8.0
+    },
+    "compact_age_70_plus": {
+      "accuracy": 0.6839984143763214,
+      "auroc": 0.7544408538348986,
+      "average_precision": 0.7719242430705715,
+      "brier": 0.2059142413120561
+    },
+    "compact_under_70": {
+      "accuracy": 0.7393309302894777,
+      "auroc": 0.7601035120096654,
+      "average_precision": 0.587496837753325,
+      "brier": 0.1750002906866211
+    },
+    "heavy": {
+      "accuracy": 0.7249163879598661,
+      "auroc": 0.785806832485521,
+      "average_precision": 0.6894507452791074,
+      "brier": 0.1793113722208688,
+      "parameters": 684802.0,
+      "elapsed_seconds": 3.7733921500039287,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy_age_70_plus": {
+      "accuracy": 0.6899445031712474,
+      "auroc": 0.7693338373655914,
+      "average_precision": 0.79901913836286,
+      "brier": 0.19765997494674342
+    },
+    "heavy_under_70": {
+      "accuracy": 0.739286429477338,
+      "auroc": 0.7669151730788415,
+      "average_precision": 0.5953402489943963,
+      "brier": 0.171743261591344
+    }
+  }
+}

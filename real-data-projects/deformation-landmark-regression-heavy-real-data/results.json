@@ -1,0 +1,94 @@
+{
+  "study": {
+    "prof": "Xiaohu Guo",
+    "id": "deformation-landmark-regression",
+    "title": "Geometry-aware landmark displacement estimation",
+    "ref": "https://personal.utdallas.edu/~xguo/",
+    "data": "Kvasir backgrounds with synthetic deformation",
+    "i": 14,
+    "real": true,
+    "folder": "real-data-projects/deformation-landmark-regression-heavy-real-data"
+  },
+  "input_shape": [
+    4,
+    64,
+    64
+  ],
+  "observations": 750,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        447,
+        129,
+        174
+      ],
+      "elapsed_seconds": 56.320476299966685,
+      "metrics": {
+        "compact": {
+          "landmark_error_px": 1.2525567551505015,
+          "parameters": 32424,
+          "elapsed_seconds": 3.916586500010453,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "landmark_error_px": 0.9063279156555916,
+          "parameters": 1528080,
+          "elapsed_seconds": 46.1140538000036,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "landmark_error_px": 3.5135607146257453
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        447,
+        129,
+        174
+      ],
+      "elapsed_seconds": 50.04433199996129,
+      "metrics": {
+        "compact": {
+          "landmark_error_px": 1.2341747608837057,
+          "parameters": 32424,
+          "elapsed_seconds": 2.772078900015913,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "landmark_error_px": 0.9866163587234332,
+          "parameters": 1528080,
+          "elapsed_seconds": 46.88274019997334,
+          "best_epoch": 10,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "landmark_error_px": 3.4966570562166077
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "landmark_error_px": 1.2433657580171036,
+      "parameters": 32424.0,
+      "elapsed_seconds": 3.344332700013183,
+      "best_epoch": 7.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "landmark_error_px": 0.9464721371895124,
+      "parameters": 1528080.0,
+      "elapsed_seconds": 46.49839699998847,
+      "best_epoch": 11.0,
+      "epochs_ran": 12.0
+    },
+    "fixed_reference": {
+      "landmark_error_px": 3.5051088854211763
+    }
+  }
+}

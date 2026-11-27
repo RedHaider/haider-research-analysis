@@ -1,0 +1,91 @@
+{
+  "study": {
+    "prof": "Suresh S. Muknahallipatna",
+    "id": "vessel-segmentation-multiscale",
+    "title": "Thin-vessel segmentation with residual context",
+    "ref": "https://www.uwyo.edu/eecs/faculty-staff/faculty/Suresh-Muknahallipatna/index.html",
+    "data": "DRIVE retinal fundus images",
+    "i": 15,
+    "real": true,
+    "folder": "real-data-projects/vessel-segmentation-multiscale-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    64,
+    64
+  ],
+  "observations": 40,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        15,
+        5,
+        20
+      ],
+      "elapsed_seconds": 9.532255799975246,
+      "metrics": {
+        "compact": {
+          "dice": 0.17820483830115116,
+          "boundary_dice": 0.1755281339151274,
+          "parameters": 44864,
+          "elapsed_seconds": 0.8165523000061512,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.2389421986006645,
+          "boundary_dice": 0.1293879116323276,
+          "parameters": 1549432,
+          "elapsed_seconds": 2.9390481000300497,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        15,
+        5,
+        20
+      ],
+      "elapsed_seconds": 3.635576300031971,
+      "metrics": {
+        "compact": {
+          "dice": 0.1751518179916755,
+          "boundary_dice": 0.1746848856210416,
+          "parameters": 44864,
+          "elapsed_seconds": 0.4189460999914445,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.23997466882252355,
+          "boundary_dice": 0.13034909436650322,
+          "parameters": 1549432,
+          "elapsed_seconds": 3.1128736999817193,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.17667832814641332,
+      "boundary_dice": 0.1751065097680845,
+      "parameters": 44864.0,
+      "elapsed_seconds": 0.6177491999987978,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "dice": 0.23945843371159403,
+      "boundary_dice": 0.1298685029994154,
+      "parameters": 1549432.0,
+      "elapsed_seconds": 3.0259609000058845,
+      "best_epoch": 12.0,
+      "epochs_ran": 12.0
+    }
+  }
+}

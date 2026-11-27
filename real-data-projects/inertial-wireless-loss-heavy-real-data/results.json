@@ -1,0 +1,138 @@
+{
+  "study": {
+    "prof": "Sayeed Ghani",
+    "id": "inertial-wireless-loss",
+    "title": "Movement recognition with simulated telemetry gaps",
+    "ref": "https://unc-public.courseleaf.com/graduate/schools-departments/computer-science/",
+    "data": "UCI HAR",
+    "i": 7,
+    "real": true,
+    "folder": "real-data-projects/inertial-wireless-loss-heavy-real-data"
+  },
+  "input_shape": [
+    6,
+    64
+  ],
+  "observations": 3200,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1663,
+        537,
+        1000
+      ],
+      "elapsed_seconds": 76.74741499999072,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.999,
+          "auroc": 0.9999276849958418,
+          "average_precision": 0.9999387094247882,
+          "brier": 0.0010505013596721167,
+          "parameters": 19010,
+          "elapsed_seconds": 7.3995356999803334,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.996,
+          "auroc": 0.9999357199963038,
+          "average_precision": 0.9999453210168923,
+          "brier": 0.0035965463626211336
+        },
+        "heavy": {
+          "accuracy": 0.999,
+          "auroc": 0.999947772496997,
+          "average_precision": 0.9999553292236221,
+          "brier": 0.0009995882009329099,
+          "parameters": 1256954,
+          "elapsed_seconds": 58.55277870001737,
+          "best_epoch": 5,
+          "epochs_ran": 9
+        },
+        "heavy_stress": {
+          "accuracy": 0.998,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.0012116592379364786
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1699,
+        501,
+        1000
+      ],
+      "elapsed_seconds": 54.78002770000603,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0000000000000004,
+          "brier": 3.4547218013273524e-05,
+          "parameters": 19010,
+          "elapsed_seconds": 7.050303599971812,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.999,
+          "auroc": 1.0,
+          "average_precision": 1.0000000000000004,
+          "brier": 0.0010415580394710056
+        },
+        "heavy": {
+          "accuracy": 0.999,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 0.0007048941131000228,
+          "parameters": 1256954,
+          "elapsed_seconds": 46.799513300007675,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "heavy_stress": {
+          "accuracy": 0.999,
+          "auroc": 0.999995982499769,
+          "average_precision": 0.9999964865681501,
+          "brier": 0.0015006696315347302
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9995,
+      "auroc": 0.9999638424979209,
+      "average_precision": 0.9999693547123943,
+      "brier": 0.000542524288842695,
+      "parameters": 19010.0,
+      "elapsed_seconds": 7.224919649976073,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 0.9975,
+      "auroc": 0.9999678599981519,
+      "average_precision": 0.9999726605084464,
+      "brier": 0.00231905220104607
+    },
+    "heavy": {
+      "accuracy": 0.999,
+      "auroc": 0.9999738862484985,
+      "average_precision": 0.999977664611811,
+      "brier": 0.0008522411570164663,
+      "parameters": 1256954.0,
+      "elapsed_seconds": 52.67614600001252,
+      "best_epoch": 4.5,
+      "epochs_ran": 8.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.9984999999999999,
+      "auroc": 0.9999979912498844,
+      "average_precision": 0.999998243284075,
+      "brier": 0.0013561644347356043
+    }
+  }
+}

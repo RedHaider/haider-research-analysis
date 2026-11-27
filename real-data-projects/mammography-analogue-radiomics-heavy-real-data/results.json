@@ -1,0 +1,103 @@
+{
+  "study": {
+    "prof": "Lubomir Hadjiyski",
+    "id": "mammography-analogue-radiomics",
+    "title": "Breast imaging classification from image and texture cues",
+    "ref": "https://midas.umich.edu/directory/lubomir-hadjiyski/",
+    "data": "BreastMNIST+ 64-pixel ultrasound",
+    "i": 2,
+    "real": true,
+    "folder": "real-data-projects/mammography-analogue-radiomics-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    64,
+    64
+  ],
+  "observations": 702,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        425,
+        121,
+        156
+      ],
+      "elapsed_seconds": 40.98683429998346,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.7884615384615384,
+          "auroc": 0.834795321637427,
+          "average_precision": 0.9052312133919411,
+          "brier": 0.1516993790861992,
+          "parameters": 31618,
+          "elapsed_seconds": 3.094511000032071,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.7564102564102564,
+          "auroc": 0.8362573099415204,
+          "average_precision": 0.9227817819442586,
+          "brier": 0.17485029621937812,
+          "parameters": 1524682,
+          "elapsed_seconds": 31.014987599977758,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        425,
+        121,
+        156
+      ],
+      "elapsed_seconds": 21.157449599995743,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.8269230769230769,
+          "auroc": 0.827485380116959,
+          "average_precision": 0.9134545331707906,
+          "brier": 0.1385740333518534,
+          "parameters": 31618,
+          "elapsed_seconds": 2.8799160000053234,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "accuracy": 0.2692307692307692,
+          "auroc": 0.8145363408521303,
+          "average_precision": 0.9063525539136539,
+          "brier": 0.2981163582107178,
+          "parameters": 1524682,
+          "elapsed_seconds": 18.02653539995663,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.8076923076923077,
+      "auroc": 0.8311403508771931,
+      "average_precision": 0.9093428732813659,
+      "brier": 0.1451367062190263,
+      "parameters": 31618.0,
+      "elapsed_seconds": 2.9872135000186972,
+      "best_epoch": 6.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "accuracy": 0.5128205128205128,
+      "auroc": 0.8253968253968254,
+      "average_precision": 0.9145671679289562,
+      "brier": 0.23648332721504794,
+      "parameters": 1524682.0,
+      "elapsed_seconds": 24.520761499967193,
+      "best_epoch": 2.5,
+      "epochs_ran": 6.5
+    }
+  }
+}

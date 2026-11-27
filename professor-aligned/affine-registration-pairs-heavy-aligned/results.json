@@ -1,0 +1,103 @@
+{
+  "study": {
+    "prof": "Marc Niethammer",
+    "id": "affine-registration-pairs",
+    "title": "Affine registration of image pairs",
+    "ref": "https://cseweb.ucsd.edu/~mniethammer/",
+    "data": "Public 2D brain MRI with synthetic transforms",
+    "i": 5,
+    "real": false,
+    "folder": "professor-aligned/affine-registration-pairs-heavy-aligned"
+  },
+  "input_shape": [
+    4,
+    64,
+    64
+  ],
+  "observations": 1110,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        663,
+        189,
+        258
+      ],
+      "elapsed_seconds": 96.47344710002653,
+      "metrics": {
+        "compact": {
+          "localization_mae_px": 0.8409937086723419,
+          "rotation_mae_deg": 0.8204088790176869,
+          "parameters": 32179,
+          "elapsed_seconds": 7.020622399984859,
+          "best_epoch": 6,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "localization_mae_px": 0.5335507955484051,
+          "rotation_mae_deg": 0.7081948892738129,
+          "parameters": 1526315,
+          "elapsed_seconds": 79.71328500000527,
+          "best_epoch": 9,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "localization_mae_px": 2.944788580194587,
+          "rotation_mae_deg": 4.513489949306014
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        663,
+        189,
+        258
+      ],
+      "elapsed_seconds": 70.69984840002144,
+      "metrics": {
+        "compact": {
+          "localization_mae_px": 0.9766220336681907,
+          "rotation_mae_deg": 1.048991939023936,
+          "parameters": 32179,
+          "elapsed_seconds": 4.832924799993634,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "localization_mae_px": 0.8071716370786443,
+          "rotation_mae_deg": 0.7219516637706422,
+          "parameters": 1526315,
+          "elapsed_seconds": 65.08569360000547,
+          "best_epoch": 7,
+          "epochs_ran": 11
+        },
+        "fixed_reference": {
+          "localization_mae_px": 2.978547737708601,
+          "rotation_mae_deg": 4.459813931449772
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "localization_mae_px": 0.9088078711702663,
+      "rotation_mae_deg": 0.9347004090208114,
+      "parameters": 32179.0,
+      "elapsed_seconds": 5.926773599989247,
+      "best_epoch": 5.5,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "localization_mae_px": 0.6703612163135246,
+      "rotation_mae_deg": 0.7150732765222276,
+      "parameters": 1526315.0,
+      "elapsed_seconds": 72.39948930000537,
+      "best_epoch": 8.0,
+      "epochs_ran": 11.5
+    },
+    "fixed_reference": {
+      "localization_mae_px": 2.961668158951594,
+      "rotation_mae_deg": 4.486651940377893
+    }
+  }
+}

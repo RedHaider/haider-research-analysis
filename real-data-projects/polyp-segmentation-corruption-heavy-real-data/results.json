@@ -1,0 +1,115 @@
+{
+  "study": {
+    "prof": "Sharon Xiaolei Huang",
+    "id": "polyp-segmentation-corruption",
+    "title": "Segmentation robustness to changing image quality",
+    "ref": "https://faculty.ist.psu.edu/suh972/",
+    "data": "Kvasir-SEG",
+    "i": 13,
+    "real": true,
+    "folder": "real-data-projects/polyp-segmentation-corruption-heavy-real-data"
+  },
+  "input_shape": [
+    3,
+    64,
+    64
+  ],
+  "observations": 500,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        300,
+        85,
+        115
+      ],
+      "elapsed_seconds": 50.80577999999514,
+      "metrics": {
+        "compact": {
+          "dice": 0.3773948205310084,
+          "boundary_dice": 0.056221364010901304,
+          "parameters": 45120,
+          "elapsed_seconds": 6.111132099991664,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "dice": 0.24160125735263796,
+          "boundary_dice": 0.05092564283537865
+        },
+        "heavy": {
+          "dice": 0.4356916665852124,
+          "boundary_dice": 0.06619316156587608,
+          "parameters": 1550072,
+          "elapsed_seconds": 33.04137890000129,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "dice": 0.459800681046873,
+          "boundary_dice": 0.07233430019255442
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        300,
+        85,
+        115
+      ],
+      "elapsed_seconds": 42.86655730003258,
+      "metrics": {
+        "compact": {
+          "dice": 0.4233624255428524,
+          "boundary_dice": 0.06865863168025313,
+          "parameters": 45120,
+          "elapsed_seconds": 6.3386194000486284,
+          "best_epoch": 5,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "dice": 0.31456913724392804,
+          "boundary_dice": 0.0565377314569713
+        },
+        "heavy": {
+          "dice": 0.43408723180846176,
+          "boundary_dice": 0.07494221041297282,
+          "parameters": 1550072,
+          "elapsed_seconds": 35.194751500035636,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "dice": 0.43312802802314826,
+          "boundary_dice": 0.08567833993669934
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.4003786230369304,
+      "boundary_dice": 0.062439997845577216,
+      "parameters": 45120.0,
+      "elapsed_seconds": 6.224875750020146,
+      "best_epoch": 4.5,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "dice": 0.278085197298283,
+      "boundary_dice": 0.053731687146174975
+    },
+    "heavy": {
+      "dice": 0.4348894491968371,
+      "boundary_dice": 0.07056768598942445,
+      "parameters": 1550072.0,
+      "elapsed_seconds": 34.118065200018464,
+      "best_epoch": 3.0,
+      "epochs_ran": 7.0
+    },
+    "heavy_stress": {
+      "dice": 0.44646435453501065,
+      "boundary_dice": 0.07900632006462688
+    }
+  }
+}

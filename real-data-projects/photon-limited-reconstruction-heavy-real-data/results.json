@@ -1,0 +1,103 @@
+{
+  "study": {
+    "prof": "Changqing Li",
+    "id": "photon-limited-reconstruction",
+    "title": "CT-like reconstruction under simulated count noise",
+    "ref": "https://eecs.ucmerced.edu/content/changqing-li",
+    "data": "OrganAMNIST with simulated projections",
+    "i": 18,
+    "real": true,
+    "folder": "real-data-projects/photon-limited-reconstruction-heavy-real-data"
+  },
+  "input_shape": [
+    1,
+    32,
+    32
+  ],
+  "observations": 440,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        263,
+        75,
+        102
+      ],
+      "elapsed_seconds": 23.363449900003616,
+      "metrics": {
+        "compact": {
+          "psnr": 14.419551849365234,
+          "mae": 0.1523440182209015,
+          "parameters": 44608,
+          "elapsed_seconds": 2.1802866000216454,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 15.419230461120605,
+          "mae": 0.13210035860538483,
+          "parameters": 1548792,
+          "elapsed_seconds": 13.776930099993479,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 10.564783096313477,
+          "mae": 0.245486319065094
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        263,
+        75,
+        102
+      ],
+      "elapsed_seconds": 14.946455700031947,
+      "metrics": {
+        "compact": {
+          "psnr": 14.318105697631836,
+          "mae": 0.1555381417274475,
+          "parameters": 44608,
+          "elapsed_seconds": 2.023337199992966,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "psnr": 15.413703918457031,
+          "mae": 0.13410326838493347,
+          "parameters": 1548792,
+          "elapsed_seconds": 12.853952699981164,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 10.485812187194824,
+          "mae": 0.2486366629600525
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 14.368828773498535,
+      "mae": 0.1539410799741745,
+      "parameters": 44608.0,
+      "elapsed_seconds": 2.1018119000073057,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "fixed_reference": {
+      "psnr": 10.52529764175415,
+      "mae": 0.24706149101257324
+    },
+    "heavy": {
+      "psnr": 15.416467189788818,
+      "mae": 0.13310181349515915,
+      "parameters": 1548792.0,
+      "elapsed_seconds": 13.315441399987321,
+      "best_epoch": 11.5,
+      "epochs_ran": 12.0
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "study": {
+    "prof": "Dimitris N. Metaxas",
+    "id": "masked-fourier-image-recovery",
+    "title": "Image reconstruction from sparse Fourier samples",
+    "ref": "https://people.cs.rutgers.edu/~dnm/",
+    "data": "Public 2D brain MRI with simulated Fourier sampling",
+    "i": 12,
+    "real": true,
+    "folder": "real-data-projects/masked-fourier-image-recovery-heavy-real-data"
+  },
+  "input_shape": [
+    2,
+    64,
+    64
+  ],
+  "observations": 228,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 38.871817900042515,
+      "metrics": {
+        "compact_consistent": {
+          "psnr": 20.069292068481445,
+          "mae": 0.07011296600103378
+        },
+        "compact": {
+          "psnr": 16.056791305541992,
+          "mae": 0.10464708507061005,
+          "parameters": 44864,
+          "elapsed_seconds": 5.249966499977745,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy_consistent": {
+          "psnr": 21.154651641845703,
+          "mae": 0.06137308105826378
+        },
+        "heavy": {
+          "psnr": 19.362117767333984,
+          "mae": 0.06865911930799484,
+          "parameters": 1549432,
+          "elapsed_seconds": 24.13841760001378,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 21.201507568359375,
+          "mae": 0.060205671936273575
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        136,
+        39,
+        53
+      ],
+      "elapsed_seconds": 27.256377000012435,
+      "metrics": {
+        "compact_consistent": {
+          "psnr": 21.171871185302734,
+          "mae": 0.06130578741431236
+        },
+        "compact": {
+          "psnr": 17.57125473022461,
+          "mae": 0.08913242816925049,
+          "parameters": 44864,
+          "elapsed_seconds": 2.6349999000085518,
+          "best_epoch": 7,
+          "epochs_ran": 8
+        },
+        "heavy_consistent": {
+          "psnr": 21.68061065673828,
+          "mae": 0.05677620694041252
+        },
+        "heavy": {
+          "psnr": 19.799203872680664,
+          "mae": 0.06415337324142456,
+          "parameters": 1549432,
+          "elapsed_seconds": 24.420691600011196,
+          "best_epoch": 11,
+          "epochs_ran": 12
+        },
+        "fixed_reference": {
+          "psnr": 21.786243438720703,
+          "mae": 0.055030759423971176
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "psnr": 16.8140230178833,
+      "mae": 0.09688975661993027,
+      "parameters": 44864.0,
+      "elapsed_seconds": 3.9424831999931484,
+      "best_epoch": 7.5,
+      "epochs_ran": 8.0
+    },
+    "compact_consistent": {
+      "psnr": 20.62058162689209,
+      "mae": 0.06570937670767307
+    },
+    "fixed_reference": {
+      "psnr": 21.49387550354004,
+      "mae": 0.057618215680122375
+    },
+    "heavy": {
+      "psnr": 19.580660820007324,
+      "mae": 0.0664062462747097,
+      "parameters": 1549432.0,
+      "elapsed_seconds": 24.27955460001249,
+      "best_epoch": 11.0,
+      "epochs_ran": 12.0
+    },
+    "heavy_consistent": {
+      "psnr": 21.417631149291992,
+      "mae": 0.05907464399933815
+    }
+  }
+}

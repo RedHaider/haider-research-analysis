@@ -1,0 +1,138 @@
+{
+  "study": {
+    "prof": "Hong Xiao",
+    "id": "temporal-signal-artifacts",
+    "title": "Artifact-robust biosignal classification",
+    "ref": "https://olemiss.edu/profiles/hxiao1",
+    "data": "PhysioNet EEG Motor Movement/Imagery",
+    "i": 11,
+    "real": false,
+    "folder": "professor-aligned/temporal-signal-artifacts-heavy-aligned"
+  },
+  "input_shape": [
+    8,
+    128
+  ],
+  "observations": 1200,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        700,
+        220,
+        280
+      ],
+      "elapsed_seconds": 33.32928700000048,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "brier": 5.4436187524273374e-08,
+          "parameters": 19170,
+          "elapsed_seconds": 3.0227377000264823,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999998,
+          "brier": 3.843337916557633e-07
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.5755646872714727e-11,
+          "parameters": 1257354,
+          "elapsed_seconds": 24.47963499999605,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 3.600203750014887e-11
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        700,
+        220,
+        280
+      ],
+      "elapsed_seconds": 33.115555299969856,
+      "metrics": {
+        "compact": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 2.8841204670765433e-08,
+          "parameters": 19170,
+          "elapsed_seconds": 3.0770643000141717,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0000000000000002,
+          "brier": 1.0538214406719196e-07
+        },
+        "heavy": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 1.0,
+          "brier": 1.2959183044071188e-11,
+          "parameters": 1257354,
+          "elapsed_seconds": 29.47217379999347,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "accuracy": 1.0,
+          "auroc": 1.0,
+          "average_precision": 0.9999999999999999,
+          "brier": 1.9410956200088638e-11
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 0.9999999999999999,
+      "brier": 4.16386960975194e-08,
+      "parameters": 19170.0,
+      "elapsed_seconds": 3.049901000020327,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "compact_stress": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 2.4485796786147763e-07
+    },
+    "heavy": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 1.4357414958392957e-11,
+      "parameters": 1257354.0,
+      "elapsed_seconds": 26.97590439999476,
+      "best_epoch": 2.5,
+      "epochs_ran": 6.5
+    },
+    "heavy_stress": {
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "average_precision": 1.0,
+      "brier": 2.770649685011875e-11
+    }
+  }
+}

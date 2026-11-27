@@ -1,0 +1,91 @@
+{
+  "study": {
+    "prof": "Xin Zhang",
+    "id": "distance-field-segmentation",
+    "title": "Anatomical contour learning through distance fields",
+    "ref": "https://usm.maine.edu/college-science-technology/faculty-expertise/",
+    "data": "DRIVE retinal fundus images",
+    "i": 19,
+    "real": false,
+    "folder": "professor-aligned/distance-field-segmentation-heavy-aligned"
+  },
+  "input_shape": [
+    1,
+    64,
+    64
+  ],
+  "observations": 160,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        95,
+        28,
+        37
+      ],
+      "elapsed_seconds": 31.051236899977084,
+      "metrics": {
+        "compact": {
+          "dice": 0.3744430898271924,
+          "boundary_dice": 0.32627610819305297,
+          "parameters": 44608,
+          "elapsed_seconds": 2.1576776999863796,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.8255676836316459,
+          "boundary_dice": 0.7610462164002442,
+          "parameters": 1548792,
+          "elapsed_seconds": 23.98991050000768,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        95,
+        28,
+        37
+      ],
+      "elapsed_seconds": 26.302206399966963,
+      "metrics": {
+        "compact": {
+          "dice": 0.22110415365402977,
+          "boundary_dice": 0.20983212014940852,
+          "parameters": 44608,
+          "elapsed_seconds": 1.8999552999739535,
+          "best_epoch": 8,
+          "epochs_ran": 8
+        },
+        "heavy": {
+          "dice": 0.8318340642126967,
+          "boundary_dice": 0.7526235978881691,
+          "parameters": 1548792,
+          "elapsed_seconds": 24.319822399993427,
+          "best_epoch": 12,
+          "epochs_ran": 12
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "dice": 0.29777362174061106,
+      "boundary_dice": 0.26805411417123076,
+      "parameters": 44608.0,
+      "elapsed_seconds": 2.0288164999801666,
+      "best_epoch": 8.0,
+      "epochs_ran": 8.0
+    },
+    "heavy": {
+      "dice": 0.8287008739221713,
+      "boundary_dice": 0.7568349071442066,
+      "parameters": 1548792.0,
+      "elapsed_seconds": 24.154866450000554,
+      "best_epoch": 12.0,
+      "epochs_ran": 12.0
+    }
+  }
+}

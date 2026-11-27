@@ -1,0 +1,155 @@
+{
+  "study": {
+    "prof": "Ngan Le",
+    "id": "caption-noise-crossmodal",
+    "title": "Image\u00e2\u20ac\u201ctext matching with degraded captions",
+    "ref": "https://engineering.uark.edu/electrical-engineering-computer-science/",
+    "data": "ROCO-derived radiology embeddings",
+    "i": 16,
+    "real": false,
+    "folder": "professor-aligned/caption-noise-crossmodal-heavy-aligned"
+  },
+  "input_shape": [
+    2048
+  ],
+  "observations": 3520,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        2240,
+        640,
+        640
+      ],
+      "elapsed_seconds": 21.398567700001877,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.984375,
+          "auroc": 0.99953125,
+          "average_precision": 0.9986019914028239,
+          "brier": 0.009317047170506697,
+          "parameters": 133474,
+          "elapsed_seconds": 2.652841700008139,
+          "best_epoch": 4,
+          "epochs_ran": 8
+        },
+        "compact_stress": {
+          "accuracy": 0.9796875,
+          "auroc": 0.9981249999999999,
+          "average_precision": 0.9949955730996816,
+          "brier": 0.015519484414251761
+        },
+        "heavy": {
+          "accuracy": 0.9890625,
+          "auroc": 0.9992838541666667,
+          "average_precision": 0.9979508365670323,
+          "brier": 0.008559577474882101,
+          "parameters": 2234626,
+          "elapsed_seconds": 12.870833499997389,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy_stress": {
+          "accuracy": 0.978125,
+          "auroc": 0.9938020833333333,
+          "average_precision": 0.9878399492856735,
+          "brier": 0.02079400544901718
+        },
+        "fixed_reference": {
+          "accuracy": 0.2734375,
+          "auroc": 0.9999348958333334,
+          "average_precision": 0.9998058915785194,
+          "brier": 0.24118118439196304
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        2240,
+        640,
+        640
+      ],
+      "elapsed_seconds": 15.46046779997414,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9890625,
+          "auroc": 0.9994921875,
+          "average_precision": 0.9985690887210968,
+          "brier": 0.0076172170461391185,
+          "parameters": 133474,
+          "elapsed_seconds": 1.8393820999772288,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "compact_stress": {
+          "accuracy": 0.9890625,
+          "auroc": 0.9966145833333333,
+          "average_precision": 0.9930754625022679,
+          "brier": 0.011641219999696684
+        },
+        "heavy": {
+          "accuracy": 0.9875,
+          "auroc": 0.9988932291666666,
+          "average_precision": 0.9968418341027402,
+          "brier": 0.011716486966006686,
+          "parameters": 2234626,
+          "elapsed_seconds": 13.245444700005464,
+          "best_epoch": 3,
+          "epochs_ran": 7
+        },
+        "heavy_stress": {
+          "accuracy": 0.978125,
+          "auroc": 0.9964713541666667,
+          "average_precision": 0.9906919416291396,
+          "brier": 0.02093863583572691
+        },
+        "fixed_reference": {
+          "accuracy": 0.2734375,
+          "auroc": 0.9999348958333334,
+          "average_precision": 0.9998058915785194,
+          "brier": 0.24118118439196304
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.98671875,
+      "auroc": 0.99951171875,
+      "average_precision": 0.9985855400619603,
+      "brier": 0.008467132108322908,
+      "parameters": 133474.0,
+      "elapsed_seconds": 2.246111899992684,
+      "best_epoch": 3.0,
+      "epochs_ran": 7.0
+    },
+    "compact_stress": {
+      "accuracy": 0.984375,
+      "auroc": 0.9973697916666666,
+      "average_precision": 0.9940355178009748,
+      "brier": 0.013580352206974223
+    },
+    "fixed_reference": {
+      "accuracy": 0.2734375,
+      "auroc": 0.9999348958333334,
+      "average_precision": 0.9998058915785194,
+      "brier": 0.24118118439196304
+    },
+    "heavy": {
+      "accuracy": 0.98828125,
+      "auroc": 0.9990885416666666,
+      "average_precision": 0.9973963353348863,
+      "brier": 0.010138032220444394,
+      "parameters": 2234626.0,
+      "elapsed_seconds": 13.058139100001426,
+      "best_epoch": 2.5,
+      "epochs_ran": 6.5
+    },
+    "heavy_stress": {
+      "accuracy": 0.978125,
+      "auroc": 0.99513671875,
+      "average_precision": 0.9892659454574066,
+      "brier": 0.020866320642372045
+    }
+  }
+}

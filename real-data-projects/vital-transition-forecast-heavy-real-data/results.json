@@ -1,0 +1,102 @@
+{
+  "study": {
+    "prof": "Dongming Peng",
+    "id": "vital-transition-forecast",
+    "title": "Anticipating elevated heart rate from early ICU vitals",
+    "ref": "https://engineering.unl.edu/ece/",
+    "data": "PhysioNet 2012",
+    "i": 17,
+    "real": true,
+    "folder": "real-data-projects/vital-transition-forecast-heavy-real-data"
+  },
+  "input_shape": [
+    8,
+    24
+  ],
+  "observations": 3045,
+  "device": "cpu",
+  "runs": {
+    "13": {
+      "sizes": [
+        1828,
+        516,
+        701
+      ],
+      "elapsed_seconds": 27.014477899996564,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9372325249643366,
+          "auroc": 0.7450878649508788,
+          "average_precision": 0.18154898999631913,
+          "brier": 0.055703296844971315,
+          "parameters": 19170,
+          "elapsed_seconds": 4.014212199952453,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.9372325249643366,
+          "auroc": 0.7401411374014114,
+          "average_precision": 0.17991802475344645,
+          "brier": 0.05631547287431408,
+          "parameters": 1257354,
+          "elapsed_seconds": 17.920434099971317,
+          "best_epoch": 1,
+          "epochs_ran": 5
+        }
+      }
+    },
+    "37": {
+      "sizes": [
+        1828,
+        516,
+        701
+      ],
+      "elapsed_seconds": 26.502166800026316,
+      "metrics": {
+        "compact": {
+          "accuracy": 0.9286733238231099,
+          "auroc": 0.7110599078341014,
+          "average_precision": 0.15763331093975533,
+          "brier": 0.0637188277711071,
+          "parameters": 19170,
+          "elapsed_seconds": 3.953082100022584,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        },
+        "heavy": {
+          "accuracy": 0.9286733238231099,
+          "auroc": 0.6934869431643625,
+          "average_precision": 0.1856128384810301,
+          "brier": 0.06385745681319116,
+          "parameters": 1257354,
+          "elapsed_seconds": 22.44800569996005,
+          "best_epoch": 2,
+          "epochs_ran": 6
+        }
+      }
+    }
+  },
+  "means": {
+    "compact": {
+      "accuracy": 0.9329529243937232,
+      "auroc": 0.72807388639249,
+      "average_precision": 0.16959115046803724,
+      "brier": 0.05971106230803921,
+      "parameters": 19170.0,
+      "elapsed_seconds": 3.983647149987519,
+      "best_epoch": 2.0,
+      "epochs_ran": 6.0
+    },
+    "heavy": {
+      "accuracy": 0.9329529243937232,
+      "auroc": 0.716814040282887,
+      "average_precision": 0.1827654316172383,
+      "brier": 0.060086464843752616,
+      "parameters": 1257354.0,
+      "elapsed_seconds": 20.184219899965683,
+      "best_epoch": 1.5,
+      "epochs_ran": 5.5
+    }
+  }
+}
