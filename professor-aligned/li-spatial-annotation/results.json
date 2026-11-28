@@ -1,0 +1,19 @@
+{
+  "source": "synthetic spatial palettes",
+  "training_images": 12480,
+  "test_images": 3520,
+  "arms": {
+    "global": {
+      "accuracy": 0.20738636363636365,
+      "macro_f1": 0.19734307215543703,
+      "top_5": 0.8616477272727273,
+      "parameters": 30536
+    },
+    "spatial_region": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "top_5": 1.0,
+      "parameters": 67400
+    }
+  }
+}

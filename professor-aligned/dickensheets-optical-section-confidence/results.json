@@ -1,0 +1,15 @@
+{
+  "rows": 22100,
+  "held_out_groups": 143,
+  "source": "simulated defocus profiles",
+  "metrics": {
+    "single_channel_focus": {
+      "auroc": 0.7570693606196565,
+      "ap": 0.6565783681559185
+    },
+    "widefield_focus_fusion": {
+      "auroc": 0.9840904120086477,
+      "ap": 0.9775903167580741
+    }
+  }
+}

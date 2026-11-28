@@ -1,0 +1,19 @@
+{
+  "source": "CIFAR-100 coarse labels",
+  "training_images": 50000,
+  "test_images": 10000,
+  "arms": {
+    "global": {
+      "accuracy": 0.3221,
+      "macro_f1": 0.31821868739917,
+      "top_5": 0.7063,
+      "parameters": 32084
+    },
+    "spatial_region": {
+      "accuracy": 0.459,
+      "macro_f1": 0.456367955533538,
+      "top_5": 0.8091,
+      "parameters": 68948
+    }
+  }
+}

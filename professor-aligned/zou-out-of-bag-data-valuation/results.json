@@ -1,0 +1,100 @@
+{
+  "source_records": 36000,
+  "features": 48,
+  "configuration": {
+    "real": false,
+    "trees": 96,
+    "threads": 1,
+    "seed": 27
+  },
+  "training_flip_rate": 0.11996527777777778,
+  "split_counts": {
+    "train": 23040,
+    "validation": 5760,
+    "test": 7200
+  },
+  "valuation": {
+    "data_oob": {
+      "flip_average_precision": 0.6819769003246196,
+      "flip_precision_at_pruning_budget": 0.6248191027496383,
+      "pruned_per_observed_class": [
+        577,
+        1464,
+        723
+      ]
+    },
+    "class_normalized_oob_probability": {
+      "flip_average_precision": 0.7061286560238909,
+      "flip_precision_at_pruning_budget": 0.6327785817655571,
+      "pruned_per_observed_class": [
+        1011,
+        730,
+        1023
+      ]
+    },
+    "random": {
+      "flip_average_precision": 0.11982273927897985,
+      "flip_precision_at_pruning_budget": 0.12264833574529667,
+      "pruned_per_observed_class": [
+        1047,
+        704,
+        1013
+      ]
+    }
+  },
+  "retraining": {
+    "all_noisy": {
+      "size": 23040,
+      "validation": {
+        "balanced_accuracy": 0.8558328083910604,
+        "log_loss": 0.3959678287679782,
+        "macro_auroc": 0.9676835508680255
+      },
+      "test": {
+        "balanced_accuracy": 0.8610613250290958,
+        "log_loss": 0.39461235578907156,
+        "macro_auroc": 0.9674259005401323
+      }
+    },
+    "data_oob": {
+      "size": 20276,
+      "validation": {
+        "balanced_accuracy": 0.8511893289085105,
+        "log_loss": 0.3438027663524381,
+        "macro_auroc": 0.968115842558734
+      },
+      "test": {
+        "balanced_accuracy": 0.8575792402025207,
+        "log_loss": 0.3387852281354388,
+        "macro_auroc": 0.9680589495365348
+      }
+    },
+    "class_normalized_oob_probability": {
+      "size": 20276,
+      "validation": {
+        "balanced_accuracy": 0.8510916026253449,
+        "log_loss": 0.36050472137188827,
+        "macro_auroc": 0.9655700113361515
+      },
+      "test": {
+        "balanced_accuracy": 0.8584700941618376,
+        "log_loss": 0.35664708274074264,
+        "macro_auroc": 0.9657655606540608
+      }
+    },
+    "random": {
+      "size": 20276,
+      "validation": {
+        "balanced_accuracy": 0.8533876325045595,
+        "log_loss": 0.3960712128681178,
+        "macro_auroc": 0.9666260894567419
+      },
+      "test": {
+        "balanced_accuracy": 0.8571454354833982,
+        "log_loss": 0.39651757990476677,
+        "macro_auroc": 0.9651825393163597
+      }
+    }
+  },
+  "valuation_seconds": 5.48499999998603
+}

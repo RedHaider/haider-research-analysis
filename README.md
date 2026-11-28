@@ -1,6 +1,10 @@
 # Haider Research Analysis
 
-A portfolio of reproducible healthcare AI, medical imaging, sensing, causal inference, and trustworthy machine-learning prototypes. All projects use synthetic data and are for research demonstration only—not clinical use.
+A research portfolio covering healthcare AI, medical imaging, sensing, causal inference, and trustworthy machine learning. The experiments use controlled simulations and public data.
+
+## Full training portfolio
+
+Browse [64 trained experiments for 32 professor pairs](training-logs/full-scale/README.md), including training source and held-out comparisons.
 
 ## Projects
 

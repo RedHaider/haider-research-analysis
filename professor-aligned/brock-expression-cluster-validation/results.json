@@ -1,0 +1,181 @@
+{
+  "configuration": {
+    "real": false,
+    "seed": 31,
+    "perturbations": 5
+  },
+  "cells": 16000,
+  "source_genes": 600,
+  "selected_genes": 600,
+  "splits": {
+    "train": 10240,
+    "validation": 2560,
+    "test": 3200
+  },
+  "candidates": {
+    "kmeans-4": {
+      "algorithm": "kmeans",
+      "clusters": 4,
+      "validation_silhouette": 0.1466742604970932,
+      "stability": [
+        0.5196290805343212,
+        0.47475306397542616,
+        0.5819421443295103,
+        0.6023775961982786,
+        0.5023929141157876
+      ],
+      "stability_lower_quartile": 0.5023929141157876
+    },
+    "kmeans-6": {
+      "algorithm": "kmeans",
+      "clusters": 6,
+      "validation_silhouette": 0.17756567895412445,
+      "stability": [
+        0.6514107313036034,
+        0.6093093731591167,
+        0.5432732136749203,
+        0.606928072441539,
+        0.7422226486509023
+      ],
+      "stability_lower_quartile": 0.606928072441539
+    },
+    "kmeans-8": {
+      "algorithm": "kmeans",
+      "clusters": 8,
+      "validation_silhouette": 0.15286114811897278,
+      "stability": [
+        0.662345052293851,
+        0.6412397063409782,
+        0.6316217134573856,
+        0.5229991404969405,
+        0.6256474234273108
+      ],
+      "stability_lower_quartile": 0.6256474234273108
+    },
+    "kmeans-10": {
+      "algorithm": "kmeans",
+      "clusters": 10,
+      "validation_silhouette": 0.11897450685501099,
+      "stability": [
+        0.710396077271719,
+        0.6433013787862119,
+        0.5561060478017148,
+        0.634857045432626,
+        0.6411243288520012
+      ],
+      "stability_lower_quartile": 0.634857045432626
+    },
+    "kmeans-12": {
+      "algorithm": "kmeans",
+      "clusters": 12,
+      "validation_silhouette": 0.11314760148525238,
+      "stability": [
+        0.5273168554347344,
+        0.6099577120162801,
+        0.5381319611916987,
+        0.6796231170812946,
+        0.6017316719807841
+      ],
+      "stability_lower_quartile": 0.5381319611916987
+    },
+    "mixture-4": {
+      "algorithm": "mixture",
+      "clusters": 4,
+      "validation_silhouette": 0.14572268724441528,
+      "stability": [
+        0.49729443317165906,
+        0.5213228184962678,
+        0.35416359273172343,
+        0.4714696963271,
+        0.23951477070336766
+      ],
+      "stability_lower_quartile": 0.35416359273172343
+    },
+    "mixture-6": {
+      "algorithm": "mixture",
+      "clusters": 6,
+      "validation_silhouette": 0.17445126175880432,
+      "stability": [
+        0.7288442165478305,
+        0.745092181572079,
+        0.7163330880761111,
+        0.7278464334089023,
+        0.5509971158588415
+      ],
+      "stability_lower_quartile": 0.7163330880761111
+    },
+    "mixture-8": {
+      "algorithm": "mixture",
+      "clusters": 8,
+      "validation_silhouette": 0.19094079732894897,
+      "stability": [
+        0.9025884640954686,
+        0.7712424141878563,
+        0.7805900093491952,
+        0.7202573991356167,
+        0.9141059364929014
+      ],
+      "stability_lower_quartile": 0.7712424141878563
+    },
+    "mixture-10": {
+      "algorithm": "mixture",
+      "clusters": 10,
+      "validation_silhouette": 0.12819023430347443,
+      "stability": [
+        0.7343448318349103,
+        0.6448423610310793,
+        0.6957449174322896,
+        0.6659688040808567,
+        0.8314836308174142
+      ],
+      "stability_lower_quartile": 0.6659688040808567
+    },
+    "mixture-12": {
+      "algorithm": "mixture",
+      "clusters": 12,
+      "validation_silhouette": 0.12295781075954437,
+      "stability": [
+        0.7788840192955472,
+        0.6563745601116304,
+        0.6691742088557655,
+        0.6047073601092753,
+        0.6679647317169832
+      ],
+      "stability_lower_quartile": 0.6563745601116304
+    }
+  },
+  "selected_test": {
+    "silhouette": {
+      "selected": "mixture-8",
+      "test_silhouette": 0.1770629733800888,
+      "test_dropout_agreement_ari": 0.6679116442158555,
+      "test_cluster_sizes": [
+        585,
+        262,
+        332,
+        399,
+        623,
+        476,
+        165,
+        358
+      ],
+      "test_truth_ari": 0.9082508311715878
+    },
+    "stability": {
+      "selected": "mixture-8",
+      "test_silhouette": 0.1770629733800888,
+      "test_dropout_agreement_ari": 0.6679116442158555,
+      "test_cluster_sizes": [
+        585,
+        262,
+        332,
+        399,
+        623,
+        476,
+        165,
+        358
+      ],
+      "test_truth_ari": 0.9082508311715878
+    }
+  }
+}

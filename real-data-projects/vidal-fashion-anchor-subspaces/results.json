@@ -1,0 +1,65 @@
+{
+  "train_records": 60000,
+  "test_records": 10000,
+  "configuration": {
+    "real": true,
+    "anchors": 2048,
+    "threads": 1,
+    "seed": 24
+  },
+  "arms": {
+    "pca_kmeans": {
+      "training": {
+        "ari": 0.3625931308845396,
+        "nmi": 0.5038656035970148,
+        "training_mapped_accuracy": 0.5602333333333334
+      },
+      "clean_test": {
+        "ari": 0.35550630324996624,
+        "nmi": 0.4968270425803765,
+        "training_mapped_accuracy": 0.5567
+      },
+      "perturbed_test": {
+        "ari": 0.1579711321733333,
+        "nmi": 0.33611883866466136,
+        "training_mapped_accuracy": 0.4182
+      }
+    },
+    "cosine_knn": {
+      "training": {
+        "ari": 0.40472032517330464,
+        "nmi": 0.5824829814037406,
+        "training_mapped_accuracy": 0.5304166666666666
+      },
+      "clean_test": {
+        "ari": 0.3964054401311804,
+        "nmi": 0.573039224774965,
+        "training_mapped_accuracy": 0.5271
+      },
+      "perturbed_test": {
+        "ari": 0.18704805691262166,
+        "nmi": 0.32304046376061346,
+        "training_mapped_accuracy": 0.3973
+      },
+      "fit_and_evaluation_seconds": 8.094000000040978
+    },
+    "sparse_omp": {
+      "training": {
+        "ari": 0.41980700761654655,
+        "nmi": 0.5881676455623649,
+        "training_mapped_accuracy": 0.5225833333333333
+      },
+      "clean_test": {
+        "ari": 0.41373282209555845,
+        "nmi": 0.585426865611705,
+        "training_mapped_accuracy": 0.5202
+      },
+      "perturbed_test": {
+        "ari": 0.17962786053522822,
+        "nmi": 0.32413458784545895,
+        "training_mapped_accuracy": 0.3735
+      },
+      "fit_and_evaluation_seconds": 10.484000000054948
+    }
+  }
+}

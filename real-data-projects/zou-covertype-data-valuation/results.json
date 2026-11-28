@@ -1,0 +1,112 @@
+{
+  "source_records": 581012,
+  "features": 54,
+  "configuration": {
+    "real": true,
+    "trees": 96,
+    "threads": 2,
+    "seed": 27
+  },
+  "training_flip_rate": 0.11999827886200508,
+  "split_counts": {
+    "train": 371847,
+    "validation": 92962,
+    "test": 116203
+  },
+  "valuation": {
+    "data_oob": {
+      "flip_average_precision": 0.7984163291135958,
+      "flip_precision_at_pruning_budget": 0.8338002285919186,
+      "pruned_per_observed_class": [
+        4629,
+        986,
+        7210,
+        7473,
+        9475,
+        7570,
+        7278
+      ]
+    },
+    "class_normalized_oob_probability": {
+      "flip_average_precision": 0.3748568628036908,
+      "flip_precision_at_pruning_budget": 0.3559086528764483,
+      "pruned_per_observed_class": [
+        14170,
+        20085,
+        3437,
+        1086,
+        1579,
+        2110,
+        2154
+      ]
+    },
+    "random": {
+      "flip_average_precision": 0.12137541808512868,
+      "flip_precision_at_pruning_budget": 0.125120458976715,
+      "pruned_per_observed_class": [
+        14131,
+        19931,
+        3461,
+        1065,
+        1547,
+        2236,
+        2250
+      ]
+    }
+  },
+  "retraining": {
+    "all_noisy": {
+      "size": 371847,
+      "validation": {
+        "balanced_accuracy": 0.8385012399482495,
+        "log_loss": 0.42774748136582674,
+        "macro_auroc": 0.9856203928414545
+      },
+      "test": {
+        "balanced_accuracy": 0.8375604903845647,
+        "log_loss": 0.4296876299949986,
+        "macro_auroc": 0.9860345518935653
+      }
+    },
+    "data_oob": {
+      "size": 327226,
+      "validation": {
+        "balanced_accuracy": 0.8399399223710091,
+        "log_loss": 0.3083901197039033,
+        "macro_auroc": 0.9868827307423161
+      },
+      "test": {
+        "balanced_accuracy": 0.840694473549865,
+        "log_loss": 0.311914951335035,
+        "macro_auroc": 0.9866934979766825
+      }
+    },
+    "class_normalized_oob_probability": {
+      "size": 327226,
+      "validation": {
+        "balanced_accuracy": 0.8397301816726027,
+        "log_loss": 0.5369247012549135,
+        "macro_auroc": 0.9753500427322029
+      },
+      "test": {
+        "balanced_accuracy": 0.8374620915746795,
+        "log_loss": 0.5431870009005122,
+        "macro_auroc": 0.9752419608000695
+      }
+    },
+    "random": {
+      "size": 327226,
+      "validation": {
+        "balanced_accuracy": 0.833626607028796,
+        "log_loss": 0.4310024242167278,
+        "macro_auroc": 0.9849353808217475
+      },
+      "test": {
+        "balanced_accuracy": 0.8321099688569875,
+        "log_loss": 0.4328904505651308,
+        "macro_auroc": 0.9857965862042884
+      }
+    }
+  },
+  "valuation_seconds": 81.375
+}

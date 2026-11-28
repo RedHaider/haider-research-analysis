@@ -1,0 +1,23 @@
+{
+  "reference": "TUD-L camera intrinsics and measured object poses",
+  "observation_noise": "injected anisotropic Gaussian error",
+  "training_instances": 1856,
+  "test_instances": 544,
+  "held_out_corner_error_px": {
+    "unweighted": {
+      "median": 1.2032627989200277,
+      "mean": 1.2903721079093984,
+      "p90": 1.9097723405085887
+    },
+    "learned_precision": {
+      "median": 0.9511226881911066,
+      "mean": 1.0113075010219736,
+      "p90": 1.5534844937827674
+    },
+    "robust_precision": {
+      "median": 0.95887379937641,
+      "mean": 1.0365759720330465,
+      "p90": 1.574156232897396
+    }
+  }
+}

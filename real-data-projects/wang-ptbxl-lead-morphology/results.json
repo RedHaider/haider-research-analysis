@@ -1,0 +1,25 @@
+{
+  "source": "PTB-XL+ GE 12SL measurements",
+  "training_records": 17418,
+  "test_records": 2198,
+  "metrics": {
+    "ridge": {
+      "robust_scaled_rmse": 0.7083335518836975,
+      "per_lead_rmse": {
+        "V3": 0.5905382633209229,
+        "V4": 0.6487953662872314,
+        "V5": 0.8137070536613464,
+        "V6": 0.7583905458450317
+      }
+    },
+    "nonlinear_latent": {
+      "robust_scaled_rmse": 0.6853245496749878,
+      "per_lead_rmse": {
+        "V3": 0.5841560959815979,
+        "V4": 0.6387923955917358,
+        "V5": 0.7708945274353027,
+        "V6": 0.7315098643302917
+      }
+    }
+  }
+}

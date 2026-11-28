@@ -1,0 +1,12 @@
+{
+  "input": "MSD heart MRI",
+  "motion": "injected displacement and anisotropic blur",
+  "source_images": 140,
+  "training_volumes": 15,
+  "held_out_volumes": 5,
+  "test_pairs": 280,
+  "mean_endpoint_error_px": {
+    "farneback": 0.30983335852090804,
+    "psf_conditioned": 0.33262585486684526
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "simulated nonlinear source and torso variation",
+  "training_records": 18000,
+  "test_records": 6000,
+  "metrics": {
+    "ridge": {
+      "robust_scaled_rmse": 0.13137246668338776,
+      "per_lead_rmse": {
+        "V3": 0.125242218375206,
+        "V4": 0.1428256630897522,
+        "V5": 0.12457317113876343,
+        "V6": 0.1320289671421051
+      }
+    },
+    "nonlinear_latent": {
+      "robust_scaled_rmse": 0.11507242918014526,
+      "per_lead_rmse": {
+        "V3": 0.1106644719839096,
+        "V4": 0.12540946900844574,
+        "V5": 0.10646028071641922,
+        "V6": 0.11687055975198746
+      }
+    }
+  }
+}

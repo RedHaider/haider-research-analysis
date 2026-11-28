@@ -1,0 +1,15 @@
+{
+  "windows": 10288,
+  "subjects": 36,
+  "test_subjects": 8,
+  "metrics": {
+    "time_only": {
+      "accuracy": 0.8302469135802469,
+      "macro_f1": 0.8305549373771601
+    },
+    "time_frequency": {
+      "accuracy": 0.8368606701940036,
+      "macro_f1": 0.8378617239034686
+    }
+  }
+}

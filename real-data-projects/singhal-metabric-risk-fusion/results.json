@@ -1,0 +1,27 @@
+{
+  "label": "death within five years, excluding early-censored records",
+  "training_records": 1166,
+  "test_records": 750,
+  "test_cohort": 3,
+  "event_fraction": 0.224,
+  "metrics": {
+    "clinical": {
+      "accuracy": 0.7853333333333333,
+      "macro_f1": 0.503648134826842,
+      "auroc": 0.6741224840451645,
+      "ap": 0.38276495573442126
+    },
+    "expression": {
+      "accuracy": 0.7546666666666667,
+      "macro_f1": 0.4600600976586954,
+      "auroc": 0.5665193912616593,
+      "ap": 0.2610903029899486
+    },
+    "fused": {
+      "accuracy": 0.7733333333333333,
+      "macro_f1": 0.43609022556390975,
+      "auroc": 0.5786082474226804,
+      "ap": 0.29610293339349436
+    }
+  }
+}

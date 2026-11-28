@@ -1,0 +1,15 @@
+{
+  "rows": 26112,
+  "held_out_groups": 85,
+  "source": "BBBC006 measured image quality features",
+  "metrics": {
+    "single_channel_focus": {
+      "auroc": 0.784543899007567,
+      "ap": 0.6665099830406791
+    },
+    "widefield_focus_fusion": {
+      "auroc": 0.9814181147572152,
+      "ap": 0.972881073532468
+    }
+  }
+}

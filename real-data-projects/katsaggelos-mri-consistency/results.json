@@ -1,0 +1,12 @@
+{
+  "source": "MSD hippocampus MRI slices",
+  "measurement": "simulated missing cosine-transform coefficients",
+  "train_images": 1414,
+  "test_images": 406,
+  "train_patches": 70700,
+  "mean_psnr_db": {
+    "zero_filled": 18.06670665443759,
+    "median_consistency": 18.15685681115273,
+    "learned_consistency": 18.355083851632994
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "configuration": {
+    "real": false,
+    "seed": 64,
+    "updates": 3000
+  },
+  "total_days": 520,
+  "steps_per_day": 144,
+  "methods": {
+    "equal_weight": {
+      "held_out": {
+        "0.0": {
+          "demand_charge_proxy": 4.1107263014635205,
+          "battery_throughput_kwh": 0.08722604051805459,
+          "actions": [
+            553,
+            14423,
+            0
+          ]
+        },
+        "0.15": {
+          "demand_charge_proxy": 4.091277383833113,
+          "battery_throughput_kwh": 0.15972800294044787,
+          "actions": [
+            789,
+            14187,
+            0
+          ]
+        },
+        "0.35": {
+          "demand_charge_proxy": 4.047400755452951,
+          "battery_throughput_kwh": 0.5520000132197255,
+          "actions": [
+            4931,
+            10045,
+            0
+          ]
+        },
+        "0.55": {
+          "demand_charge_proxy": 4.047400751049408,
+          "battery_throughput_kwh": 0.5520000323503225,
+          "actions": [
+            4661,
+            10315,
+            0
+          ]
+        },
+        "0.75": {
+          "demand_charge_proxy": 4.0474007504830025,
+          "battery_throughput_kwh": 0.552000034879826,
+          "actions": [
+            4784,
+            10192,
+            0
+          ]
+        },
+        "0.9": {
+          "demand_charge_proxy": 3.820548385662431,
+          "battery_throughput_kwh": 1.4981721139875634,
+          "actions": [
+            3653,
+            7437,
+            3886
+          ]
+        },
+        "1.0": {
+          "demand_charge_proxy": 3.753818082504795,
+          "battery_throughput_kwh": 1.8546356802861779,
+          "actions": [
+            3393,
+            3963,
+            7620
+          ]
+        }
+      },
+      "validation": [
+        {
+          "update": 250,
+          "validation_preference_cost": 2.17422798526727,
+          "losses": [
+            0.004395191557705402,
+            0.022336632013320923
+          ]
+        },
+        {
+          "update": 500,
+          "validation_preference_cost": 2.1850315578005013,
+          "losses": [
+            0.005753927864134312,
+            0.018415387719869614
+          ]
+        },
+        {
+          "update": 750,
+          "validation_preference_cost": 2.15880038396017,
+          "losses": [
+            0.004385623149573803,
+            0.013431750237941742
+          ]
+        },
+        {
+          "update": 1000,
+          "validation_preference_cost": 2.1360978770504473,
+          "losses": [
+            0.0036338171921670437,
+            0.014485734514892101
+          ]
+        },
+        {
+          "update": 1250,
+          "validation_preference_cost": 2.152438979400531,
+          "losses": [
+            0.0031788505148142576,
+            0.007530315313488245
+          ]
+        },
+        {
+          "update": 1500,
+          "validation_preference_cost": 2.1332508063616733,
+          "losses": [
+            0.004482885356992483,
+            0.0088579710572958
+          ]
+        },
+        {
+          "update": 1750,
+          "validation_preference_cost": 2.065369757761087,
+          "losses": [
+            0.019565241411328316,
+            0.018273595720529556
+          ]
+        },
+        {
+          "update": 2000,
+          "validation_preference_cost": 2.1406031201320848,
+          "losses": [
+            0.004696774296462536,
+            0.01210709847509861
+          ]
+        },
+        {
+          "update": 2250,
+          "validation_preference_cost": 2.115990123123955,
+          "losses": [
+            0.0069651491940021515,
+            0.016574643552303314
+          ]
+        },
+        {
+          "update": 2500,
+          "validation_preference_cost": 2.1515631192372413,
+          "losses": [
+            0.006405085325241089,
+            0.00874965451657772
+          ]
+        },
+        {
+          "update": 2750,
+          "validation_preference_cost": 2.1024097777780284,
+          "losses": [
+            0.007896111346781254,
+            0.01756211929023266
+          ]
+        },
+        {
+          "update": 3000,
+          "validation_preference_cost": 2.1260673343455005,
+          "losses": [
+            0.005644688382744789,
+            0.01158628799021244
+          ]
+        }
+      ]
+    },
+    "adaptive_gradient": {
+      "held_out": {
+        "0.0": {
+          "demand_charge_proxy": 4.109143364598814,
+          "battery_throughput_kwh": 0.0,
+          "actions": [
+            0,
+            14976,
+            0
+          ]
+        },
+        "0.15": {
+          "demand_charge_proxy": 4.109143364598814,
+          "battery_throughput_kwh": 0.0,
+          "actions": [
+            0,
+            14976,
+            0
+          ]
+        },
+        "0.35": {
+          "demand_charge_proxy": 4.031041972995869,
+          "battery_throughput_kwh": 0.5441893251567783,
+          "actions": [
+            1474,
+            13502,
+            0
+          ]
+        },
+        "0.55": {
+          "demand_charge_proxy": 4.0680612644052525,
+          "battery_throughput_kwh": 0.5520000229137412,
+          "actions": [
+            4204,
+            10772,
+            0
+          ]
+        },
+        "0.75": {
+          "demand_charge_proxy": 4.057787301396997,
+          "battery_throughput_kwh": 0.552000031278294,
+          "actions": [
+            6462,
+            8514,
+            0
+          ]
+        },
+        "0.9": {
+          "demand_charge_proxy": 3.985658146371215,
+          "battery_throughput_kwh": 1.756174018064563,
+          "actions": [
+            7346,
+            3524,
+            4106
+          ]
+        },
+        "1.0": {
+          "demand_charge_proxy": 3.9818603668272274,
+          "battery_throughput_kwh": 1.756977612962588,
+          "actions": [
+            6900,
+            3522,
+            4554
+          ]
+        }
+      },
+      "validation": [
+        {
+          "update": 250,
+          "validation_preference_cost": 2.180886189949485,
+          "losses": [
+            0.0044370368123054504,
+            0.0177496075630188
+          ]
+        },
+        {
+          "update": 500,
+          "validation_preference_cost": 2.1741674276142757,
+          "losses": [
+            0.023598095402121544,
+            0.020513813942670822
+          ]
+        },
+        {
+          "update": 750,
+          "validation_preference_cost": 2.1555741405474094,
+          "losses": [
+            0.005055517889559269,
+            0.013608661480247974
+          ]
+        },
+        {
+          "update": 1000,
+          "validation_preference_cost": 2.1502092317781494,
+          "losses": [
+            0.0032963305711746216,
+            0.01119947712868452
+          ]
+        },
+        {
+          "update": 1250,
+          "validation_preference_cost": 2.1710438647072787,
+          "losses": [
+            0.00357794389128685,
+            0.009149194695055485
+          ]
+        },
+        {
+          "update": 1500,
+          "validation_preference_cost": 2.1301629598395713,
+          "losses": [
+            0.0038569383323192596,
+            0.01768789067864418
+          ]
+        },
+        {
+          "update": 1750,
+          "validation_preference_cost": 2.141191263547726,
+          "losses": [
+            0.006193759851157665,
+            0.008134041912853718
+          ]
+        },
+        {
+          "update": 2000,
+          "validation_preference_cost": 2.1712659672263124,
+          "losses": [
+            0.004413900896906853,
+            0.006580334156751633
+          ]
+        },
+        {
+          "update": 2250,
+          "validation_preference_cost": 2.111723614892164,
+          "losses": [
+            0.004542007111012936,
+            0.021125178784132004
+          ]
+        },
+        {
+          "update": 2500,
+          "validation_preference_cost": 2.130009851886553,
+          "losses": [
+            0.005197539925575256,
+            0.016908735036849976
+          ]
+        },
+        {
+          "update": 2750,
+          "validation_preference_cost": 2.1440326584206417,
+          "losses": [
+            0.005012028850615025,
+            0.011063958518207073
+          ]
+        },
+        {
+          "update": 3000,
+          "validation_preference_cost": 2.13546225262942,
+          "losses": [
+            0.003731893841177225,
+            0.015505795367062092
+          ]
+        }
+      ]
+    }
+  },
+  "rules": {
+    "hold": {
+      "held_out_mean_objectives": [
+        4.109143364598816,
+        0.0
+      ],
+      "actions": [
+        0,
+        14976,
+        0
+      ]
+    },
+    "tariff": {
+      "held_out_mean_objectives": [
+        3.7538180806404755,
+        2.7161741225677547
+      ],
+      "actions": [
+        2496,
+        8112,
+        4368
+      ]
+    }
+  }
+}

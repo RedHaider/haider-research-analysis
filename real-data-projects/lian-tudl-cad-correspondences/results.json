@@ -1,0 +1,166 @@
+{
+  "configuration": {
+    "real": true,
+    "epochs": 18,
+    "threads": 1,
+    "seed": 68
+  },
+  "records": 600,
+  "held_out_frames": 120,
+  "models": {
+    "regression": {
+      "validation": [
+        {
+          "mean_keypoint_error_px": 13.76129739709715,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 102.25855216235382,
+          "median_translation_error_mm_for_solved": 238168.85081174638
+        },
+        {
+          "mean_keypoint_error_px": 14.060520891056093,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 104.10587904413795,
+          "median_translation_error_mm_for_solved": 148732.94378749066
+        },
+        {
+          "mean_keypoint_error_px": 13.778151828531001,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 98.92321892637432,
+          "median_translation_error_mm_for_solved": 111315.58756751423
+        },
+        {
+          "mean_keypoint_error_px": 13.714414210438614,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 93.48214137780944,
+          "median_translation_error_mm_for_solved": 83047.30709985193
+        },
+        {
+          "mean_keypoint_error_px": 13.751119405382632,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 110.3550868072983,
+          "median_translation_error_mm_for_solved": 43986.26880605113
+        },
+        {
+          "mean_keypoint_error_px": 12.915086787660425,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 112.14976600408153,
+          "median_translation_error_mm_for_solved": 8326.077223497141
+        },
+        {
+          "mean_keypoint_error_px": 13.609749501502453,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 106.72849124945401,
+          "median_translation_error_mm_for_solved": 756.2155641357087
+        },
+        {
+          "mean_keypoint_error_px": 12.925109628513873,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 107.43624006729294,
+          "median_translation_error_mm_for_solved": 7366.398571769518
+        },
+        {
+          "mean_keypoint_error_px": 12.361367802510037,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 107.6816536483378,
+          "median_translation_error_mm_for_solved": 3455.841484046191
+        },
+        {
+          "mean_keypoint_error_px": 11.834883579513537,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 111.85391428268778,
+          "median_translation_error_mm_for_solved": 795.4535445584795
+        },
+        {
+          "mean_keypoint_error_px": 11.78205497793955,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 104.25823889071702,
+          "median_translation_error_mm_for_solved": 1070.1228580068523
+        },
+        {
+          "mean_keypoint_error_px": 11.76910135405309,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 110.6257873579794,
+          "median_translation_error_mm_for_solved": 1218.807209533517
+        },
+        {
+          "mean_keypoint_error_px": 11.792539193459083,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 111.10379471115002,
+          "median_translation_error_mm_for_solved": 1091.7966645449603
+        },
+        {
+          "mean_keypoint_error_px": 11.793514901604835,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 109.7815874843353,
+          "median_translation_error_mm_for_solved": 1057.7197186886897
+        },
+        {
+          "mean_keypoint_error_px": 11.787847633171008,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 112.6179325839945,
+          "median_translation_error_mm_for_solved": 1045.7834786904937
+        },
+        {
+          "mean_keypoint_error_px": 11.802863024884395,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 111.51460042689489,
+          "median_translation_error_mm_for_solved": 1070.1096261509585
+        }
+      ],
+      "selected_epoch": 12,
+      "test": {
+        "mean_keypoint_error_px": 11.097377539133115,
+        "pnp_solved_fraction": 1.0,
+        "median_rotation_error_deg_for_solved": 118.56514839624367,
+        "median_translation_error_mm_for_solved": 1342.8852263319964
+      }
+    },
+    "progressive_codes": {
+      "validation": [
+        {
+          "mean_keypoint_error_px": 19.84761272814354,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 146.0786351447606,
+          "median_translation_error_mm_for_solved": 2560117137410030.0
+        },
+        {
+          "mean_keypoint_error_px": 18.99176299273126,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 130.6461899751394,
+          "median_translation_error_mm_for_solved": 1.236810107199552e+16
+        },
+        {
+          "mean_keypoint_error_px": 21.392165671412787,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 129.7257258144864,
+          "median_translation_error_mm_for_solved": 31706.658994036283
+        },
+        {
+          "mean_keypoint_error_px": 21.705497658686287,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 132.1288614313379,
+          "median_translation_error_mm_for_solved": 19959.25855683715
+        },
+        {
+          "mean_keypoint_error_px": 19.740189414598316,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 121.7219256447091,
+          "median_translation_error_mm_for_solved": 1842.8830067065778
+        },
+        {
+          "mean_keypoint_error_px": 22.41839854196713,
+          "pnp_solved_fraction": 1.0,
+          "median_rotation_error_deg_for_solved": 128.63177672958554,
+          "median_translation_error_mm_for_solved": 1000.1927391393117
+        }
+      ],
+      "selected_epoch": 2,
+      "test": {
+        "mean_keypoint_error_px": 18.67041898112315,
+        "pnp_solved_fraction": 1.0,
+        "median_rotation_error_deg_for_solved": 128.13807094294287,
+        "median_translation_error_mm_for_solved": 1.17953250060198e+16
+      }
+    }
+  }
+}

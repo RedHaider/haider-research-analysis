@@ -1,0 +1,64 @@
+{
+  "configuration": {
+    "real": true,
+    "epochs": 12,
+    "threads": 2,
+    "batch_size": 24,
+    "seed": 19,
+    "device": "cpu"
+  },
+  "cohort": {
+    "train": {
+      "images": 1195,
+      "groups": 680
+    },
+    "val": {
+      "images": 301,
+      "groups": 171
+    },
+    "test": {
+      "images": 379,
+      "groups": 213
+    }
+  },
+  "models": {
+    "fixed_tversky": {
+      "parameters": 1284945,
+      "alphas": [
+        0.5
+      ],
+      "best_validation_dice": 0.7958883428540391,
+      "mean_dice": 0.8119444796378091,
+      "brier": 0.023789631202816963,
+      "boundary_brier": 0.19122032821178436,
+      "foreground_fraction_by_alpha": [
+        0.0775123222661976
+      ]
+    },
+    "loss_conditioned": {
+      "parameters": 1301713,
+      "alphas": [
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75
+      ],
+      "best_validation_dice": 0.7862545537263088,
+      "mean_dice": 0.8104989325840329,
+      "brier": 0.023293999955058098,
+      "boundary_brier": 0.18899418413639069,
+      "foreground_fraction_by_alpha": [
+        0.08451832078202873,
+        0.08066131403913808,
+        0.07621825527704486,
+        0.07179838665347406,
+        0.06806391545734389
+      ]
+    }
+  },
+  "dice_difference_paired_group_bootstrap_95_ci": [
+    -0.010909359095582763,
+    0.008032143808866259
+  ]
+}

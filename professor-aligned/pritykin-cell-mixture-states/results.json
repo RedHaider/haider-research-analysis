@@ -1,0 +1,18 @@
+{
+  "profiled_cells": 17920,
+  "analysed_baseline_cells": 17920,
+  "patients": 160,
+  "held_out_method": "patient-stratified out-of-fold",
+  "metrics": {
+    "mean": {
+      "accuracy": 0.88125,
+      "macro_f1": 0.8812082372709156,
+      "auroc": 0.94046875
+    },
+    "state_distributions": {
+      "accuracy": 0.99375,
+      "macro_f1": 0.9937497558498378,
+      "auroc": 1.0
+    }
+  }
+}

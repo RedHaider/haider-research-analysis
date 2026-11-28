@@ -1,0 +1,30 @@
+{
+  "nodes": 18362,
+  "networks": 3,
+  "training_nodes": 14322,
+  "test_nodes": 4040,
+  "annotation_terms": [
+    729,
+    199,
+    214,
+    160,
+    110,
+    156,
+    244,
+    322,
+    123,
+    113,
+    806,
+    159
+  ],
+  "metrics": {
+    "pooled": {
+      "macro_ap": 0.12890538073573418,
+      "micro_ap": 0.12238336052655396
+    },
+    "network_specific": {
+      "macro_ap": 0.12116411454351206,
+      "micro_ap": 0.1164489603791582
+    }
+  }
+}

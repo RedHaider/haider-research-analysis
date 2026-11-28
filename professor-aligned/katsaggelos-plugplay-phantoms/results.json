@@ -1,0 +1,12 @@
+{
+  "source": "simulated phantoms",
+  "measurement": "simulated missing cosine-transform coefficients",
+  "train_images": 2028,
+  "test_images": 572,
+  "train_patches": 101400,
+  "mean_psnr_db": {
+    "zero_filled": 23.889265715579047,
+    "median_consistency": 24.304592763288795,
+    "learned_consistency": 26.320482825387582
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "samples": 5600,
+  "training": 3024,
+  "unlabelled_adaptation": 1159,
+  "test": 1417,
+  "shift": "artificial affine noise on distinct target rows",
+  "pseudo_labels": 708,
+  "metrics": {
+    "source_only": {
+      "accuracy": 0.5271700776287932,
+      "macro_f1": 0.5105154000338478
+    },
+    "moment_alignment": {
+      "accuracy": 0.7290049400141143,
+      "macro_f1": 0.7282344852183038
+    },
+    "semi_supervised": {
+      "accuracy": 0.7304163726182075,
+      "macro_f1": 0.7296610157501198
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "reference": "simulated cameras and poses",
+  "observation_noise": "injected anisotropic Gaussian error",
+  "training_instances": 3744,
+  "test_instances": 1056,
+  "held_out_corner_error_px": {
+    "unweighted": {
+      "median": 1.2201124083620407,
+      "mean": 1.2778320237015086,
+      "p90": 1.8796656389942168
+    },
+    "learned_precision": {
+      "median": 0.8898445455544733,
+      "mean": 0.93575695936109,
+      "p90": 1.4156561244598231
+    },
+    "robust_precision": {
+      "median": 0.9061120732769516,
+      "mean": 0.9622502820812583,
+      "p90": 1.4494729959090966
+    }
+  }
+}

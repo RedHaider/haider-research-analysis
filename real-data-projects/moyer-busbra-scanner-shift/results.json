@@ -1,0 +1,265 @@
+{
+  "held_out_device": "GE Logiq 7 @10-14MHz",
+  "train_images": 750,
+  "validation_images": 223,
+  "test_images": 902,
+  "test_patients": 488,
+  "metrics": {
+    "task_only": {
+      "accuracy": 0.6651884700665188,
+      "macro_f1": 0.6358566333541871,
+      "auroc": 0.703130597969803,
+      "parameters": 101717,
+      "validation_history": [
+        {
+          "validation_auroc": 0.6873851294903927,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.735923141186299,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7428571428571429,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7576441102756892,
+          "scanner_accuracy": 0.8385650515556335
+        },
+        {
+          "validation_auroc": 0.764578111946533,
+          "scanner_accuracy": 0.9103139042854309
+        },
+        {
+          "validation_auroc": 0.7526315789473684,
+          "scanner_accuracy": 0.9282511472702026
+        },
+        {
+          "validation_auroc": 0.7571428571428572,
+          "scanner_accuracy": 0.9372197389602661
+        },
+        {
+          "validation_auroc": 0.7623224728487886,
+          "scanner_accuracy": 0.9417040348052979
+        },
+        {
+          "validation_auroc": 0.764327485380117,
+          "scanner_accuracy": 0.9506726264953613
+        },
+        {
+          "validation_auroc": 0.7504594820384295,
+          "scanner_accuracy": 0.9506726264953613
+        },
+        {
+          "validation_auroc": 0.7512113617376776,
+          "scanner_accuracy": 0.9730941653251648
+        },
+        {
+          "validation_auroc": 0.7482038429406851,
+          "scanner_accuracy": 0.9641255736351013
+        },
+        {
+          "validation_auroc": 0.7490392648287385,
+          "scanner_accuracy": 0.9730941653251648
+        },
+        {
+          "validation_auroc": 0.7639097744360902,
+          "scanner_accuracy": 0.9775784611701965
+        },
+        {
+          "validation_auroc": 0.7620718462823726,
+          "scanner_accuracy": 0.9730941653251648
+        },
+        {
+          "validation_auroc": 0.741436925647452,
+          "scanner_accuracy": 0.9596412777900696
+        },
+        {
+          "validation_auroc": 0.7396825396825397,
+          "scanner_accuracy": 0.9417040348052979
+        },
+        {
+          "validation_auroc": 0.7548872180451127,
+          "scanner_accuracy": 0.9596412777900696
+        },
+        {
+          "validation_auroc": 0.7517126148705096,
+          "scanner_accuracy": 0.9596412777900696
+        },
+        {
+          "validation_auroc": 0.739515455304929,
+          "scanner_accuracy": 0.9641255736351013
+        },
+        {
+          "validation_auroc": 0.7499582289055973,
+          "scanner_accuracy": 0.9730941653251648
+        },
+        {
+          "validation_auroc": 0.7621553884711779,
+          "scanner_accuracy": 0.9641255736351013
+        },
+        {
+          "validation_auroc": 0.7606516290726817,
+          "scanner_accuracy": 0.9506726264953613
+        },
+        {
+          "validation_auroc": 0.747702589807853,
+          "scanner_accuracy": 0.9596412777900696
+        },
+        {
+          "validation_auroc": 0.7428571428571428,
+          "scanner_accuracy": 0.9686098694801331
+        },
+        {
+          "validation_auroc": 0.7477861319966583,
+          "scanner_accuracy": 0.9730941653251648
+        },
+        {
+          "validation_auroc": 0.7527986633249792,
+          "scanner_accuracy": 0.9775784611701965
+        },
+        {
+          "validation_auroc": 0.7553049289891395,
+          "scanner_accuracy": 0.9596412777900696
+        },
+        {
+          "validation_auroc": 0.7568086883876358,
+          "scanner_accuracy": 0.9551569223403931
+        },
+        {
+          "validation_auroc": 0.7557226399331662,
+          "scanner_accuracy": 0.9641255736351013
+        }
+      ]
+    },
+    "scanner_invariant": {
+      "accuracy": 0.6906873614190687,
+      "macro_f1": 0.6405065461012663,
+      "auroc": 0.7063322812704371,
+      "parameters": 101717,
+      "validation_history": [
+        {
+          "validation_auroc": 0.6870509607351712,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7362573099415204,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.743859649122807,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7581453634085213,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7635756056808688,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7552213868003343,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7519632414369256,
+          "scanner_accuracy": 0.7443946003913879
+        },
+        {
+          "validation_auroc": 0.7573099415204679,
+          "scanner_accuracy": 0.5874439477920532
+        },
+        {
+          "validation_auroc": 0.7528822055137844,
+          "scanner_accuracy": 0.5426008701324463
+        },
+        {
+          "validation_auroc": 0.7407685881370091,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7417710944026733,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7403508771929824,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7432748538011696,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7409356725146199,
+          "scanner_accuracy": 0.8161435127258301
+        },
+        {
+          "validation_auroc": 0.7369256474519633,
+          "scanner_accuracy": 0.5695067048072815
+        },
+        {
+          "validation_auroc": 0.7302422723475356,
+          "scanner_accuracy": 0.37219730019569397
+        },
+        {
+          "validation_auroc": 0.7421888053467001,
+          "scanner_accuracy": 0.34529146552085876
+        },
+        {
+          "validation_auroc": 0.7477025898078531,
+          "scanner_accuracy": 0.40807175636291504
+        },
+        {
+          "validation_auroc": 0.7363408521303259,
+          "scanner_accuracy": 0.6008968353271484
+        },
+        {
+          "validation_auroc": 0.7255639097744361,
+          "scanner_accuracy": 0.6591928005218506
+        },
+        {
+          "validation_auroc": 0.7257309941520468,
+          "scanner_accuracy": 0.6771300435066223
+        },
+        {
+          "validation_auroc": 0.7344193817878027,
+          "scanner_accuracy": 0.7713004350662231
+        },
+        {
+          "validation_auroc": 0.727736006683375,
+          "scanner_accuracy": 0.7982062697410583
+        },
+        {
+          "validation_auroc": 0.722639933166249,
+          "scanner_accuracy": 0.9192824959754944
+        },
+        {
+          "validation_auroc": 0.7209690893901419,
+          "scanner_accuracy": 0.8206278085708618
+        },
+        {
+          "validation_auroc": 0.7245614035087719,
+          "scanner_accuracy": 0.7802690863609314
+        },
+        {
+          "validation_auroc": 0.727234753550543,
+          "scanner_accuracy": 0.7309417128562927
+        },
+        {
+          "validation_auroc": 0.7284043441938179,
+          "scanner_accuracy": 0.6412556171417236
+        },
+        {
+          "validation_auroc": 0.7319966583124478,
+          "scanner_accuracy": 0.6905829310417175
+        },
+        {
+          "validation_auroc": 0.7390977443609023,
+          "scanner_accuracy": 0.7623318433761597
+        }
+      ]
+    }
+  }
+}

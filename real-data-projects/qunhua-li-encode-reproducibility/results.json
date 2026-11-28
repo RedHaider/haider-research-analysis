@@ -1,0 +1,165 @@
+{
+  "configuration": {
+    "real": true,
+    "seed": 32
+  },
+  "total_candidates": 72811,
+  "folds": {
+    "0": {
+      "test_chromosomes": [
+        "chr1",
+        "chr5",
+        "chr9",
+        "chr13",
+        "chr17",
+        "chr21"
+      ],
+      "test_count": 20735,
+      "reference_rate": 0.6833855799373041,
+      "metrics": {
+        "minimum_percentile": {
+          "average_precision": 0.9048319580423727,
+          "auroc": 0.8275383131929175,
+          "precision_at_top_10_percent": 0.9889049686444766
+        },
+        "geometric_mean_percentile": {
+          "average_precision": 0.9362512889465044,
+          "auroc": 0.8721804698791362,
+          "precision_at_top_10_percent": 0.9879401833092137
+        },
+        "concordance_mixture": {
+          "average_precision": 0.8384479907718086,
+          "auroc": 0.6597691614338135,
+          "precision_at_top_10_percent": 0.9908345393150024
+        },
+        "empirical_null_mixture": {
+          "average_precision": 0.8908910588064827,
+          "auroc": 0.7469064955461402,
+          "precision_at_top_10_percent": 0.9884225759768451
+        }
+      }
+    },
+    "1": {
+      "test_chromosomes": [
+        "chr2",
+        "chr6",
+        "chr10",
+        "chr14",
+        "chr18",
+        "chr22"
+      ],
+      "test_count": 18539,
+      "reference_rate": 0.6982037866120071,
+      "metrics": {
+        "minimum_percentile": {
+          "average_precision": 0.9049888176353666,
+          "auroc": 0.8257435894886723,
+          "precision_at_top_10_percent": 0.9832703723691312
+        },
+        "geometric_mean_percentile": {
+          "average_precision": 0.9366291675980887,
+          "auroc": 0.8719547033429768,
+          "precision_at_top_10_percent": 0.9827307069616837
+        },
+        "concordance_mixture": {
+          "average_precision": 0.8357075088965402,
+          "auroc": 0.6480466277501433,
+          "precision_at_top_10_percent": 0.9865083648138154
+        },
+        "empirical_null_mixture": {
+          "average_precision": 0.8908354706671564,
+          "auroc": 0.741093695976122,
+          "precision_at_top_10_percent": 0.9832703723691312
+        }
+      }
+    },
+    "2": {
+      "test_chromosomes": [
+        "chr3",
+        "chr7",
+        "chr11",
+        "chr15",
+        "chr19"
+      ],
+      "test_count": 18580,
+      "reference_rate": 0.6906889128094725,
+      "metrics": {
+        "minimum_percentile": {
+          "average_precision": 0.9164846346679733,
+          "auroc": 0.8372393100152296,
+          "precision_at_top_10_percent": 1.0
+        },
+        "geometric_mean_percentile": {
+          "average_precision": 0.9493754736015322,
+          "auroc": 0.8841456397804018,
+          "precision_at_top_10_percent": 1.0
+        },
+        "concordance_mixture": {
+          "average_precision": 0.8475014422278364,
+          "auroc": 0.6610367056688977,
+          "precision_at_top_10_percent": 1.0
+        },
+        "empirical_null_mixture": {
+          "average_precision": 0.9013470820354751,
+          "auroc": 0.7510111658987317,
+          "precision_at_top_10_percent": 1.0
+        }
+      }
+    },
+    "3": {
+      "test_chromosomes": [
+        "chr4",
+        "chr8",
+        "chr12",
+        "chr16",
+        "chr20"
+      ],
+      "test_count": 14957,
+      "reference_rate": 0.6945243030019389,
+      "metrics": {
+        "minimum_percentile": {
+          "average_precision": 0.9081365543151223,
+          "auroc": 0.8215770246204751,
+          "precision_at_top_10_percent": 0.9933110367892977
+        },
+        "geometric_mean_percentile": {
+          "average_precision": 0.9399576555564121,
+          "auroc": 0.868508027723286,
+          "precision_at_top_10_percent": 0.9933110367892977
+        },
+        "concordance_mixture": {
+          "average_precision": 0.8407571981987227,
+          "auroc": 0.6492084469908331,
+          "precision_at_top_10_percent": 0.9926421404682274
+        },
+        "empirical_null_mixture": {
+          "average_precision": 0.8939124000680435,
+          "auroc": 0.7378297563404008,
+          "precision_at_top_10_percent": 0.9939799331103679
+        }
+      }
+    }
+  },
+  "mean_test": {
+    "minimum_percentile": {
+      "average_precision": 0.9086104911652086,
+      "auroc": 0.8280245593293236,
+      "precision_at_top_10_percent": 0.9913715944507263
+    },
+    "geometric_mean_percentile": {
+      "average_precision": 0.9405533964256343,
+      "auroc": 0.8741972101814501,
+      "precision_at_top_10_percent": 0.9909954817650488
+    },
+    "concordance_mixture": {
+      "average_precision": 0.840603535023727,
+      "auroc": 0.6545152354609219,
+      "precision_at_top_10_percent": 0.9924962611492613
+    },
+    "empirical_null_mixture": {
+      "average_precision": 0.8942465028942894,
+      "auroc": 0.7442102784403486,
+      "precision_at_top_10_percent": 0.9914182203640861
+    }
+  }
+}

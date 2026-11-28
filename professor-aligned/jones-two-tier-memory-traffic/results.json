@@ -1,0 +1,163 @@
+{
+  "configuration": {
+    "real": false,
+    "records": 600000,
+    "seed": 63
+  },
+  "source_trace_records": 600000,
+  "target_trace_records": 600000,
+  "training_eviction_examples": 316188,
+  "validation_eviction_examples": 141881,
+  "validation_ap": 0.9337266395871427,
+  "validation_threshold_scores": {
+    "0.18": {
+      "capacity_bytes": 1146880,
+      "requests": 180000,
+      "l1_hit_rate": 0.19351666666666667,
+      "l2_hit_rate": 0.31485555555555556,
+      "miss_rate": 0.4916277777777778,
+      "backend_bytes": 169268123,
+      "l2_write_bytes": 186445181,
+      "traffic_proxy_per_request": 1354.7010855555557
+    },
+    "0.28": {
+      "capacity_bytes": 1146880,
+      "requests": 180000,
+      "l1_hit_rate": 0.19351666666666667,
+      "l2_hit_rate": 0.3257888888888889,
+      "miss_rate": 0.4806944444444444,
+      "backend_bytes": 164499260,
+      "l2_write_bytes": 167873175,
+      "traffic_proxy_per_request": 1286.9362777777778
+    },
+    "0.4": {
+      "capacity_bytes": 1146880,
+      "requests": 180000,
+      "l1_hit_rate": 0.19351666666666667,
+      "l2_hit_rate": 0.32471666666666665,
+      "miss_rate": 0.4817666666666667,
+      "backend_bytes": 162696508,
+      "l2_write_bytes": 149742754,
+      "traffic_proxy_per_request": 1236.6311644444445
+    },
+    "0.54": {
+      "capacity_bytes": 1146880,
+      "requests": 180000,
+      "l1_hit_rate": 0.19351666666666667,
+      "l2_hit_rate": 0.30625555555555556,
+      "miss_rate": 0.5002277777777778,
+      "backend_bytes": 167623300,
+      "l2_write_bytes": 131601960,
+      "traffic_proxy_per_request": 1223.6893555555555
+    },
+    "0.66": {
+      "capacity_bytes": 1146880,
+      "requests": 180000,
+      "l1_hit_rate": 0.19351666666666667,
+      "l2_hit_rate": 0.27445555555555556,
+      "miss_rate": 0.5320277777777778,
+      "backend_bytes": 176675867,
+      "l2_write_bytes": 118556929,
+      "traffic_proxy_per_request": 1244.9924366666667
+    }
+  },
+  "threshold": 0.54,
+  "held_out": {
+    "64KiB+512KiB": {
+      "lru": {
+        "capacity_bytes": 589824,
+        "requests": 588000,
+        "l1_hit_rate": 0.16780272108843539,
+        "l2_hit_rate": 0.208406462585034,
+        "miss_rate": 0.6237908163265307,
+        "backend_bytes": 678740574,
+        "l2_write_bytes": 925229725,
+        "traffic_proxy_per_request": 1783.728680272109
+      },
+      "second_touch": {
+        "capacity_bytes": 589824,
+        "requests": 588000,
+        "l1_hit_rate": 0.16780272108843539,
+        "l2_hit_rate": 0.21509353741496598,
+        "miss_rate": 0.6171037414965986,
+        "backend_bytes": 670998301,
+        "l2_write_bytes": 876270645,
+        "traffic_proxy_per_request": 1737.2560527210885
+      },
+      "learned": {
+        "capacity_bytes": 589824,
+        "requests": 588000,
+        "l1_hit_rate": 0.16780272108843539,
+        "l2_hit_rate": 0.2887108843537415,
+        "miss_rate": 0.5434863945578231,
+        "backend_bytes": 588480850,
+        "l2_write_bytes": 484358531,
+        "traffic_proxy_per_request": 1330.3133714285714
+      }
+    },
+    "96KiB+1024KiB": {
+      "lru": {
+        "capacity_bytes": 1146880,
+        "requests": 588000,
+        "l1_hit_rate": 0.2035357142857143,
+        "l2_hit_rate": 0.24457993197278913,
+        "miss_rate": 0.5518843537414966,
+        "backend_bytes": 600042309,
+        "l2_write_bytes": 884914818,
+        "traffic_proxy_per_request": 1622.462986734694
+      },
+      "second_touch": {
+        "capacity_bytes": 1146880,
+        "requests": 588000,
+        "l1_hit_rate": 0.2035357142857143,
+        "l2_hit_rate": 0.25262074829931974,
+        "miss_rate": 0.5438435374149659,
+        "backend_bytes": 591163685,
+        "l2_write_bytes": 835961110,
+        "traffic_proxy_per_request": 1574.061443877551
+      },
+      "learned": {
+        "capacity_bytes": 1146880,
+        "requests": 588000,
+        "l1_hit_rate": 0.2035357142857143,
+        "l2_hit_rate": 0.32395408163265305,
+        "miss_rate": 0.47251020408163263,
+        "backend_bytes": 507757688,
+        "l2_write_bytes": 442410149,
+        "traffic_proxy_per_request": 1164.492768027211
+      }
+    },
+    "128KiB+2048KiB": {
+      "lru": {
+        "capacity_bytes": 2228224,
+        "requests": 588000,
+        "l1_hit_rate": 0.22989115646258504,
+        "l2_hit_rate": 0.2941700680272109,
+        "miss_rate": 0.4759387755102041,
+        "backend_bytes": 517777148,
+        "l2_write_bytes": 854028907,
+        "traffic_proxy_per_request": 1461.545426530612
+      },
+      "second_touch": {
+        "capacity_bytes": 2228224,
+        "requests": 588000,
+        "l1_hit_rate": 0.22989115646258504,
+        "l2_hit_rate": 0.30389285714285713,
+        "miss_rate": 0.4662159863945578,
+        "backend_bytes": 506725014,
+        "l2_write_bytes": 805075908,
+        "traffic_proxy_per_request": 1409.4479204081633
+      },
+      "learned": {
+        "capacity_bytes": 2228224,
+        "requests": 588000,
+        "l1_hit_rate": 0.22989115646258504,
+        "l2_hit_rate": 0.34672278911564625,
+        "miss_rate": 0.4233860544217687,
+        "backend_bytes": 450232721,
+        "l2_write_bytes": 415434741,
+        "traffic_proxy_per_request": 1048.3105738095237
+      }
+    }
+  }
+}

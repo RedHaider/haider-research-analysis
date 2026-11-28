@@ -1,0 +1,14 @@
+{
+  "records": 177,
+  "test_records": 39,
+  "metrics": {
+    "ridge": {
+      "rmse": 0.797821044921875,
+      "mean_target_correlation": 0.6556404863067553
+    },
+    "shared_latent_pls": {
+      "rmse": 0.7962411286563519,
+      "mean_target_correlation": 0.6473318413799489
+    }
+  }
+}

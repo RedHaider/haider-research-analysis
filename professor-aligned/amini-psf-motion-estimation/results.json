@@ -1,0 +1,12 @@
+{
+  "input": "cardiac-like phantoms",
+  "motion": "injected displacement and anisotropic blur",
+  "source_images": 1600,
+  "training_volumes": 1248,
+  "held_out_volumes": 352,
+  "test_pairs": 704,
+  "mean_endpoint_error_px": {
+    "farneback": 0.36879182574127545,
+    "psf_conditioned": 0.4131170021772215
+  }
+}

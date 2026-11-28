@@ -1,0 +1,194 @@
+[
+  {
+    "professor": "Saeed Amal",
+    "trainer": "training-logs/full-scale/pathology/train.py",
+    "aligned": "professor-aligned/amal-pathology-mil-aligned/results.json",
+    "public_data": "real-data-projects/amal-pathology-mil-real-data/results.json"
+  },
+  {
+    "professor": "Polina Golland",
+    "trainer": "training-logs/full-scale/segmentation/train.py",
+    "aligned": "professor-aligned/golland-loss-conditioned-segmentation/results-19.json",
+    "public_data": "real-data-projects/golland-busbra-contour-probability/results-19.json"
+  },
+  {
+    "professor": "Jeff Leek",
+    "trainer": "training-logs/full-scale/surrogate/train.py",
+    "aligned": "professor-aligned/leek-frozen-surrogate-shift/results.json",
+    "public_data": "real-data-projects/leek-metabric-frozen-correction/results.json"
+  },
+  {
+    "professor": "James Zou",
+    "trainer": "training-logs/full-scale/valuation/train.py",
+    "aligned": "professor-aligned/zou-out-of-bag-data-valuation/results.json",
+    "public_data": "real-data-projects/zou-covertype-data-valuation/results.json"
+  },
+  {
+    "professor": "René Vidal",
+    "trainer": "training-logs/full-scale/subspaces/train.py",
+    "aligned": "professor-aligned/vidal-sparse-subspace-recovery/results.json",
+    "public_data": "real-data-projects/vidal-fashion-anchor-subspaces/results.json"
+  },
+  {
+    "professor": "Qingyun Wu",
+    "trainer": "training-logs/full-scale/automl/train.py",
+    "aligned": "professor-aligned/wu-fidelity-automl/results.json",
+    "public_data": "real-data-projects/wu-electricity-frugal-search/results.json"
+  },
+  {
+    "professor": "Guy Brock",
+    "trainer": "training-logs/full-scale/stability/train.py",
+    "aligned": "professor-aligned/brock-expression-cluster-validation/results.json",
+    "public_data": "real-data-projects/brock-pbmc-cluster-stability/results.json"
+  },
+  {
+    "professor": "Suhang Wang",
+    "trainer": "training-logs/full-scale/graphs/train.py",
+    "aligned": "professor-aligned/wang-label-wise-graph/results.json",
+    "public_data": "real-data-projects/wang-amazon-heterophilic-graph/results.json"
+  },
+  {
+    "professor": "Qunhua Li",
+    "trainer": "training-logs/full-scale/reproducibility/train.py",
+    "aligned": "professor-aligned/qunhua-li-replicate-mixture/results.json",
+    "public_data": "real-data-projects/qunhua-li-encode-reproducibility/results.json"
+  },
+  {
+    "professor": "Walter Scheirer",
+    "trainer": "training-logs/full-scale/open-set/train.py",
+    "aligned": "professor-aligned/scheirer-extreme-tail-recognition/results.json",
+    "public_data": "real-data-projects/scheirer-cifar-open-set/results.json"
+  },
+  {
+    "professor": "Paul Bogdan",
+    "trainer": "training-logs/full-scale/fractional/train.py",
+    "aligned": "professor-aligned/bogdan-eeg-fractional-forecast/results.json",
+    "public_data": "real-data-projects/bogdan-wisdm-fractional-forecast/results.json"
+  },
+  {
+    "professor": "Mehak Gupta",
+    "trainer": "training-logs/full-scale/flexible-windows/train.py",
+    "aligned": "professor-aligned/mehak-consistent-window-forecast/results.json",
+    "public_data": "real-data-projects/mehak-icu-flexible-horizons/results.json"
+  },
+  {
+    "professor": "Jihun Hamm",
+    "trainer": "training-logs/full-scale/stream-adaptation/train.py",
+    "aligned": "professor-aligned/hamm-frozen-output-adaptation/results.json",
+    "public_data": "real-data-projects/hamm-sensor-stream-adaptation/results.json"
+  },
+  {
+    "professor": "Guha Balakrishnan",
+    "trainer": "training-logs/full-scale/registration/train.py",
+    "aligned": "professor-aligned/balakrishnan-deformation-integration/results.json",
+    "public_data": "real-data-projects/balakrishnan-hippocampus-registration/results.json"
+  },
+  {
+    "professor": "Alex K. Jones",
+    "trainer": "training-logs/full-scale/cache-replay/train.py",
+    "aligned": "professor-aligned/jones-two-tier-memory-traffic/results.json",
+    "public_data": "real-data-projects/jones-twitter-cache-admission/results.json"
+  },
+  {
+    "professor": "Huixin Zhan",
+    "trainer": "training-logs/full-scale/multiobjective/train.py",
+    "aligned": "professor-aligned/zhan-multiobjective-dispatch/results.json",
+    "public_data": "real-data-projects/zhan-battery-measured-load-policy/results.json"
+  },
+  {
+    "professor": "Ruyi Lian",
+    "trainer": "training-logs/full-scale/pose/train.py",
+    "aligned": "professor-aligned/lian-progressive-pose-codes/results.json",
+    "public_data": "real-data-projects/lian-tudl-cad-correspondences/results.json"
+  },
+  {
+    "professor": "Jia Li",
+    "trainer": "training-logs/full-scale/remaining/spatial_tags.py",
+    "aligned": "professor-aligned/li-spatial-annotation/results.json",
+    "public_data": "real-data-projects/li-cifar-semantic-regions/results.json"
+  },
+  {
+    "professor": "Ehsan Azimi",
+    "trainer": "training-logs/full-scale/remaining/overlay.py",
+    "aligned": "professor-aligned/azimi-anisotropic-hmd-calibration/results.json",
+    "public_data": "real-data-projects/azimi-tudl-overlay-calibration/results.json"
+  },
+  {
+    "professor": "Aggelos Katsaggelos",
+    "trainer": "training-logs/full-scale/remaining/plugplay.py",
+    "aligned": "professor-aligned/katsaggelos-plugplay-phantoms/results.json",
+    "public_data": "real-data-projects/katsaggelos-mri-consistency/results.json"
+  },
+  {
+    "professor": "Jian Peng",
+    "trainer": "training-logs/full-scale/remaining/network_diffusion.py",
+    "aligned": "professor-aligned/peng-multiplex-diffusion/results.json",
+    "public_data": "real-data-projects/peng-human-network-integration/results.json"
+  },
+  {
+    "professor": "Juan Cui",
+    "trainer": "training-logs/full-scale/remaining/cross_omics.py",
+    "aligned": "professor-aligned/cui-mirna-integrative-network/results.json",
+    "public_data": "real-data-projects/cui-paad-cross-omics/results.json"
+  },
+  {
+    "professor": "Liqing Zhang",
+    "trainer": "training-logs/full-scale/remaining/assay_transfer.py",
+    "aligned": "professor-aligned/zhang-semi-supervised-assay-transfer/results.json",
+    "public_data": "real-data-projects/zhang-tcga-assay-shift/results.json"
+  },
+  {
+    "professor": "Yuri Pritykin",
+    "trainer": "training-logs/full-scale/remaining/tumor_states.py",
+    "aligned": "professor-aligned/pritykin-cell-mixture-states/results.json",
+    "public_data": "real-data-projects/pritykin-melanoma-cell-states/results.json"
+  },
+  {
+    "professor": "Linwei Wang",
+    "trainer": "training-logs/full-scale/remaining/lead_recovery.py",
+    "aligned": "professor-aligned/wang-latent-inverse-leads/results.json",
+    "public_data": "real-data-projects/wang-ptbxl-lead-morphology/results.json"
+  },
+  {
+    "professor": "Daniel Moyer",
+    "trainer": "training-logs/full-scale/remaining/scanner_invariance.py",
+    "aligned": "professor-aligned/moyer-scanner-invariant-encoding/results.json",
+    "public_data": "real-data-projects/moyer-busbra-scanner-shift/results.json"
+  },
+  {
+    "professor": "Ajita Rattani",
+    "trainer": "training-logs/full-scale/remaining/gesture.py",
+    "aligned": "professor-aligned/rattani-emg-time-frequency/results.json",
+    "public_data": "real-data-projects/rattani-uci-emg-gestures/results.json"
+  },
+  {
+    "professor": "Jun Bai",
+    "trainer": "training-logs/full-scale/remaining/tissue_graph.py",
+    "aligned": "professor-aligned/bai-weak-label-region-graph/results.json",
+    "public_data": "real-data-projects/bai-pathmnist-region-graph/results.json"
+  },
+  {
+    "professor": "Amir A. Amini",
+    "trainer": "training-logs/full-scale/remaining/motion_field.py",
+    "aligned": "professor-aligned/amini-psf-motion-estimation/results.json",
+    "public_data": "real-data-projects/amini-cardiac-mri-motion/results.json"
+  },
+  {
+    "professor": "Xiaobai Liu",
+    "trainer": "training-logs/full-scale/remaining/trajectory.py",
+    "aligned": "professor-aligned/liu-trajectory-context-graph/results.json",
+    "public_data": "real-data-projects/liu-har-contextual-decoding/results.json"
+  },
+  {
+    "professor": "David Dickensheets",
+    "trainer": "training-logs/full-scale/remaining/focus.py",
+    "aligned": "professor-aligned/dickensheets-optical-section-confidence/results.json",
+    "public_data": "real-data-projects/dickensheets-bbbc-microscope-focus/results.json"
+  },
+  {
+    "professor": "Sandeep Singhal",
+    "trainer": "training-logs/full-scale/remaining/oncology_fusion.py",
+    "aligned": "professor-aligned/singhal-multimodal-risk-fusion/results.json",
+    "public_data": "real-data-projects/singhal-metabric-risk-fusion/results.json"
+  }
+]

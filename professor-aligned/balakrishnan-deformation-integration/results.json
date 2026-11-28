@@ -1,0 +1,278 @@
+{
+  "configuration": {
+    "real": false,
+    "seed": 56,
+    "device": "cpu",
+    "threads": 1,
+    "batch_size": 8,
+    "epochs": 12,
+    "pairs_per_epoch": 640
+  },
+  "volumes": 900,
+  "volume_shape": [
+    24,
+    26,
+    30
+  ],
+  "validation_pairs": 120,
+  "test_pairs": 240,
+  "metrics": {
+    "identity": {
+      "test": {
+        "mean_dice": 0.4408635199069977,
+        "dice_by_class": [
+          0.4665643274784088,
+          0.4151628613471985
+        ],
+        "local_ncc": 0.2109518920381864,
+        "nonpositive_jacobian_fraction": 0.0
+      }
+    },
+    "direct": {
+      "model_parameters": 178235,
+      "validation": [
+        {
+          "mean_dice": 0.5249680876731873,
+          "dice_by_class": [
+            0.5745697021484375,
+            0.4753664433956146
+          ],
+          "local_ncc": 0.3363945444424947,
+          "nonpositive_jacobian_fraction": 0.005450498561064402
+        },
+        {
+          "mean_dice": 0.5944287180900574,
+          "dice_by_class": [
+            0.6073803305625916,
+            0.5814770460128784
+          ],
+          "local_ncc": 0.466415011882782,
+          "nonpositive_jacobian_fraction": 0.04631321181853612
+        },
+        {
+          "mean_dice": 0.662413477897644,
+          "dice_by_class": [
+            0.6740742921829224,
+            0.6507523655891418
+          ],
+          "local_ncc": 0.5538932045300802,
+          "nonpositive_jacobian_fraction": 0.037467058499654135
+        },
+        {
+          "mean_dice": 0.6625515818595886,
+          "dice_by_class": [
+            0.670882523059845,
+            0.6542207598686218
+          ],
+          "local_ncc": 0.5915873328844706,
+          "nonpositive_jacobian_fraction": 0.04120058789849281
+        },
+        {
+          "mean_dice": 0.6824278235435486,
+          "dice_by_class": [
+            0.697426974773407,
+            0.6674287915229797
+          ],
+          "local_ncc": 0.6084393382072448,
+          "nonpositive_jacobian_fraction": 0.03373620063066483
+        },
+        {
+          "mean_dice": 0.6953504085540771,
+          "dice_by_class": [
+            0.6977118253707886,
+            0.6929891705513
+          ],
+          "local_ncc": 0.627935787041982,
+          "nonpositive_jacobian_fraction": 0.03105368601779143
+        },
+        {
+          "mean_dice": 0.6725674867630005,
+          "dice_by_class": [
+            0.6776736974716187,
+            0.6674612164497375
+          ],
+          "local_ncc": 0.6395018339157105,
+          "nonpositive_jacobian_fraction": 0.02526798422137896
+        },
+        {
+          "mean_dice": 0.6816453337669373,
+          "dice_by_class": [
+            0.6877276301383972,
+            0.6755627393722534
+          ],
+          "local_ncc": 0.6477456132570902,
+          "nonpositive_jacobian_fraction": 0.02398548796772957
+        },
+        {
+          "mean_dice": 0.6894699335098267,
+          "dice_by_class": [
+            0.6987161040306091,
+            0.680223286151886
+          ],
+          "local_ncc": 0.6524390618006388,
+          "nonpositive_jacobian_fraction": 0.02256632832189401
+        },
+        {
+          "mean_dice": 0.6940288543701172,
+          "dice_by_class": [
+            0.7035905122756958,
+            0.6844673156738281
+          ],
+          "local_ncc": 0.6564598878224691,
+          "nonpositive_jacobian_fraction": 0.024606926490863164
+        },
+        {
+          "mean_dice": 0.692456841468811,
+          "dice_by_class": [
+            0.697860062122345,
+            0.6870536208152771
+          ],
+          "local_ncc": 0.6580193758010864,
+          "nonpositive_jacobian_fraction": 0.02363158812125524
+        },
+        {
+          "mean_dice": 0.6950023770332336,
+          "dice_by_class": [
+            0.7026623487472534,
+            0.6873424053192139
+          ],
+          "local_ncc": 0.6585126876831054,
+          "nonpositive_jacobian_fraction": 0.023471776892741523
+        }
+      ],
+      "selected_epoch": 12,
+      "test": {
+        "mean_dice": 0.7027609348297119,
+        "dice_by_class": [
+          0.7119905948638916,
+          0.6935311555862427
+        ],
+        "local_ncc": 0.6581437885761261,
+        "nonpositive_jacobian_fraction": 0.022940482509632907
+      }
+    },
+    "velocity": {
+      "model_parameters": 178235,
+      "validation": [
+        {
+          "mean_dice": 0.5421821475028992,
+          "dice_by_class": [
+            0.5826091170310974,
+            0.50175541639328
+          ],
+          "local_ncc": 0.33137037555376686,
+          "nonpositive_jacobian_fraction": 0.0
+        },
+        {
+          "mean_dice": 0.6296603083610535,
+          "dice_by_class": [
+            0.6361983418464661,
+            0.6231222748756409
+          ],
+          "local_ncc": 0.3859181563059489,
+          "nonpositive_jacobian_fraction": 0.0
+        },
+        {
+          "mean_dice": 0.6611311435699463,
+          "dice_by_class": [
+            0.6613168716430664,
+            0.66094571352005
+          ],
+          "local_ncc": 0.4541052003701528,
+          "nonpositive_jacobian_fraction": 4.4515669893977854e-07
+        },
+        {
+          "mean_dice": 0.684784471988678,
+          "dice_by_class": [
+            0.6929569840431213,
+            0.6766119599342346
+          ],
+          "local_ncc": 0.5082796573638916,
+          "nonpositive_jacobian_fraction": 0.0
+        },
+        {
+          "mean_dice": 0.682085394859314,
+          "dice_by_class": [
+            0.6916488409042358,
+            0.6725221276283264
+          ],
+          "local_ncc": 0.5572845737139384,
+          "nonpositive_jacobian_fraction": 0.0
+        },
+        {
+          "mean_dice": 0.6915493011474609,
+          "dice_by_class": [
+            0.6921067833900452,
+            0.6909922957420349
+          ],
+          "local_ncc": 0.5843343138694763,
+          "nonpositive_jacobian_fraction": 0.0
+        },
+        {
+          "mean_dice": 0.703575849533081,
+          "dice_by_class": [
+            0.7137869596481323,
+            0.6933649182319641
+          ],
+          "local_ncc": 0.5958884795506795,
+          "nonpositive_jacobian_fraction": 8.903133978795571e-07
+        },
+        {
+          "mean_dice": 0.6935681700706482,
+          "dice_by_class": [
+            0.701274573802948,
+            0.6858615279197693
+          ],
+          "local_ncc": 0.60312739610672,
+          "nonpositive_jacobian_fraction": 2.225783494698893e-06
+        },
+        {
+          "mean_dice": 0.7005895972251892,
+          "dice_by_class": [
+            0.7066860795021057,
+            0.694493293762207
+          ],
+          "local_ncc": 0.6064024766286215,
+          "nonpositive_jacobian_fraction": 1.3354700968193355e-06
+        },
+        {
+          "mean_dice": 0.7035742402076721,
+          "dice_by_class": [
+            0.7102559208869934,
+            0.6968927979469299
+          ],
+          "local_ncc": 0.6092216690381368,
+          "nonpositive_jacobian_fraction": 1.3354700968193355e-06
+        },
+        {
+          "mean_dice": 0.7032800316810608,
+          "dice_by_class": [
+            0.7091692090034485,
+            0.6973904371261597
+          ],
+          "local_ncc": 0.6104144732157389,
+          "nonpositive_jacobian_fraction": 2.225783494698893e-06
+        },
+        {
+          "mean_dice": 0.7021121382713318,
+          "dice_by_class": [
+            0.7085321545600891,
+            0.6956920623779297
+          ],
+          "local_ncc": 0.6106406092643738,
+          "nonpositive_jacobian_fraction": 1.7806267957591142e-06
+        }
+      ],
+      "selected_epoch": 12,
+      "test": {
+        "mean_dice": 0.7072572708129883,
+        "dice_by_class": [
+          0.7164488434791565,
+          0.6980658769607544
+        ],
+        "local_ncc": 0.6111501932144165,
+        "nonpositive_jacobian_fraction": 1.5580484462892248e-06
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "train_windows": 7352,
+  "test_windows": 2947,
+  "test_subjects": 9,
+  "metrics": {
+    "local": {
+      "accuracy": 0.9402782490668476,
+      "macro_f1": 0.9402086754845346
+    },
+    "trajectory": {
+      "accuracy": 0.9528333898880217,
+      "macro_f1": 0.9527985125208497
+    }
+  },
+  "transition_strength": 0.4
+}
